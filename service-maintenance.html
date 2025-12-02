@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HELI Maintenance & Repair</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="service-item.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- ONLY this page → hide forklift field -->
+  <style>
+    #selectedForkliftGroup { display: none !important; }
+  </style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div id="navbar-placeholder"></div>
+<script>
+fetch("navbar.html")
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("navbar-placeholder").innerHTML = html;
+
+    if (window.initSharedUI) initSharedUI();
+  });
+</script>
+
+<!-- MODAL -->
+<div id="modal-placeholder"></div>
+<script>
+fetch("modal.html")
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("modal-placeholder").innerHTML = html;
+
+    // Re-init because modal is now in DOM
+    if (window.initSharedUI) initSharedUI();
+
+    // Now modal exists → open it
+    openMaintenanceModal();
+  });
+</script>
+
+
+<!-- MAIN CONTENT -->
+<section class="service-item-section">
+  <div class="container py-5">
+    <div class="row g-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-7">
+        <img src="assets/service-maintenance.jpg" class="img-fluid rounded shadow mb-4" alt="Maintenance">
+
+        <h1 class="fw-bold mb-3">Maintenance & Repair</h1>
+
+        <p class="lead text-muted">
+          Keep your HELI forklifts running at peak performance with certified maintenance and repair services.
+          Our specialists perform diagnostics, scheduled service, and emergency repair using original parts.
+        </p>
+
+        <hr class="my-4">
+
+        <h4 class="fw-semibold mb-3">What We Offer</h4>
+
+        <ul class="feature-list">
+          <li><i class="bi bi-check-circle-fill"></i> Full technical diagnostics</li>
+          <li><i class="bi bi-check-circle-fill"></i> Engine & transmission service</li>
+          <li><i class="bi bi-check-circle-fill"></i> Electrical troubleshooting</li>
+          <li><i class="bi bi-check-circle-fill"></i> Hydraulic system repair</li>
+          <li><i class="bi bi-check-circle-fill"></i> Tire replacement & adjustment</li>
+        </ul>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-lg-5">
+        <div class="service-banner-card">
+          <h3 class="text-white mb-3">Need Maintenance?</h3>
+          <p class="text-light small">Our certified technicians will contact you shortly.</p>
+
+          <button 
+            class="btn btn-light w-100 mt-3 request-quote-btn"
+            data-product="Service: Maintenance & Repair"
+          >
+            Request Service
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<div id="footer-placeholder"></div>
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(html => document.getElementById("footer-placeholder").innerHTML = html);
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+
+<!-- AUTO-OPEN MAINTENANCE MODAL -->
+<script>
+function openMaintenanceModal() {
+
+  let wait = setInterval(() => {
+    const modalEl = document.getElementById("quoteModal");
+    const productInput = document.getElementById("qProduct");
+
+    if (modalEl && productInput) {
+      clearInterval(wait);
+
+      productInput.value = "Service: Maintenance & Repair";
+
+      new bootstrap.Modal(modalEl).show();
+    }
+  }, 100);
+}
+</script>
+
+</body>
+</html>

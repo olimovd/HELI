@@ -1,0 +1,74 @@
+<!-- modal.html -->
+<div class="modal fade" id="quoteModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content premium-modal">
+
+      <div class="modal-header">
+        <h4 class="modal-title fw-bold">Request a Quote</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- Selected Forklift -->
+        <div id="selectedForkliftGroup" class="premium-input mb-3">
+          <input type="text" id="qProduct" required placeholder=" " readonly>
+          <label>Selected Forklift *</label>
+        </div>
+
+        <!-- Full Name -->
+        <div class="premium-input mb-3">
+          <input type="text" id="qName" required placeholder=" ">
+          <label>Full Name *</label>
+        </div>
+
+        <!-- Company -->
+        <div class="premium-input mb-3">
+          <input type="text" id="qCompany" placeholder=" ">
+          <label>Company (optional)</label>
+        </div>
+
+        <!-- Phone -->
+        <div class="premium-input mb-3">
+          <input type="text" id="qPhone" required placeholder=" ">
+          <label>Phone Number *</label>
+        </div>
+
+        <!-- City -->
+        <div class="premium-input mb-3">
+          <input type="text" id="qCity" required placeholder=" ">
+          <label>City *</label>
+        </div>
+
+        <!-- Email -->
+        <div class="premium-input mb-3">
+          <input type="email" id="qEmail" required placeholder=" ">
+          <label>Email *</label>
+        </div>
+
+        <!-- Question (Service only) -->
+        <div class="premium-input mb-3">
+          <input type="email" id="qQuestion" placeholder=" ">
+          <label>Your Question (optional)</label>
+        </div>
+
+
+
+        <!-- Privacy -->
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" id="privacyCheck">
+          <label class="form-check-label" for="privacyCheck">
+            I agree to the <span class="text-danger">Privacy Policy.</span>
+          </label>
+        </div>
+
+        <button class="btn btn-danger w-100 py-3" type="submit" form="quoteForm">
+          Send Request
+        </button>
+
+        <form id="quoteForm" class="d-none"></form>
+
+      </div>
+    </div>
+  </div>
+</div>

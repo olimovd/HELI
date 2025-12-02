@@ -1,0 +1,1313 @@
+{
+  "101": {
+    "id": 101,
+    "slug": "heli-cpd15",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD15", "en": "HELI CPD15", "ru": "HELI CPD15" },
+    "shortDesc": {
+      "uz": "1.5 tonnalik ixcham elektr forklift.",
+      "en": "Compact 1.5t electric forklift.",
+      "ru": "Компактный электрический погрузчик 1.5т."
+    },
+    "fullDesc": {
+      "uz": "Kichik omborlar uchun energiya tejamkor va ovozsiz ishlaydigan elektr forklift.",
+      "en": "An energy-efficient and silent electric forklift designed for small warehouses.",
+      "ru": "Энергоэффективный и тихий погрузчик, предназначенный для небольших складов."
+    },
+    "images": [
+      "assets/products/heli-cpd15-1.webp",
+      "assets/products/heli-cpd15-2.webp"
+    ],
+    "features": {
+      "uz": ["Ovozsiz ishlash", "Past xizmat xarajatlari", "Ichki ombor uchun ideal"],
+      "en": ["Silent operation", "Low maintenance", "Ideal for indoor storage"],
+      "ru": ["Тихая работа", "Низкие затраты на обслуживание", "Идеален для закрытых складов"]
+    },
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric",
+      "battery": "48V / 400Ah",
+      "liftingHeight": "3000–6000 mm",
+      "weight": "2900 kg",
+      "dimensions": "3220 × 1080 × 2100 mm"
+    }
+  },
+
+  "102": {
+    "id": 102,
+    "slug": "heli-cpd20",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD20", "en": "HELI CPD20", "ru": "HELI CPD20" },
+    "shortDesc": {
+      "uz": "2.0 tonnalik kuchli elektr forklift.",
+      "en": "2.0t powerful electric forklift.",
+      "ru": "Электрический погрузчик 2.0т."
+    },
+    "fullDesc": {
+      "uz": "O'rta va kichik omborlar uchun barqaror ishlash va uzoq batareya muddati.",
+      "en": "Reliable performance and extended battery life for medium warehouses.",
+      "ru": "Надежная работа и увеличенное время работы батареи для средних складов."
+    },
+    "images": [
+      "assets/products/heli-cpd20-1.webp",
+      "assets/products/heli-cpd20-2.webp"
+    ],
+    "features": {
+      "uz": ["Yuqori samaradorlik", "Uzun batareya muddati", "Ergonomik boshqaruv"],
+      "en": ["High efficiency", "Long battery life", "Ergonomic controls"],
+      "ru": ["Высокая эффективность", "Длительное время работы батареи", "Эргономичное управление"]
+    },
+    "specs": {
+      "capacity": "2000 kg",
+      "engine": "Electric",
+      "battery": "48V / 600Ah",
+      "liftingHeight": "3000–6000 mm",
+      "weight": "3300 kg",
+      "dimensions": "3340 × 1150 × 2160 mm"
+    }
+  },
+
+  "103": {
+    "id": 103,
+    "slug": "heli-cpd25",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD25", "en": "HELI CPD25", "ru": "HELI CPD25" },
+    "shortDesc": {
+      "uz": "2.5t elektr forklift — yuqori unumdorlik.",
+      "en": "2.5t electric forklift — high productivity.",
+      "ru": "Электрический погрузчик 2.5т — высокая производительность."
+    },
+    "fullDesc": {
+      "uz": "Yuk ko'tarish tezligi va ishonchliligi bilan o'rta o'lchamli operatsiyalar uchun.",
+      "en": "Balanced speed and reliability for medium-duty operations.",
+      "ru": "Баланс скорости и надежности для средних нагрузок."
+    },
+    "images": [
+      "assets/products/heli-cpd25-1.webp",
+      "assets/products/heli-cpd25-2.webp"
+    ],
+    "features": {
+      "uz": ["Barqaror tashish", "Oson parvarishlash", "Qulay ishlash"],
+      "en": ["Stable hauling", "Easy maintenance", "Comfortable operation"],
+      "ru": ["Стабильная перевозка", "Простой уход", "Комфортное управление"]
+    },
+    "specs": {
+      "capacity": "2500 kg",
+      "engine": "Electric",
+      "battery": "48V / 700Ah",
+      "liftingHeight": "3000–6000 mm",
+      "weight": "3800 kg",
+      "dimensions": "3450 × 1200 × 2200 mm"
+    }
+  },
+
+  "104": {
+    "id": 104,
+    "slug": "heli-cpd30",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD30", "en": "HELI CPD30", "ru": "HELI CPD30" },
+    "shortDesc": {
+      "uz": "3.0t elektr forklift — ishonchli va kuchli.",
+      "en": "3.0t electric forklift — reliable and strong.",
+      "ru": "Электрический погрузчик 3.0т — надежный и мощный."
+    },
+    "fullDesc": {
+      "uz": "Og'irroq yuklar bilan ishlash uchun kuchli elektr platforma.",
+      "en": "Powerful electric platform for handling heavier loads.",
+      "ru": "Мощная электрическая платформа для более тяжелых нагрузок."
+    },
+    "images": [
+      "assets/products/heli-cpd30-1.webp",
+      "assets/products/heli-cpd30-2.webp"
+    ],
+    "features": {
+      "uz": ["Kuchli motor", "Terminal samaradorligi", "Xavfsiz boshqaruv"],
+      "en": ["Powerful motor", "Operational efficiency", "Safe control"],
+      "ru": ["Мощный мотор", "Оперативная эффективность", "Безопасное управление"]
+    },
+    "specs": {
+      "capacity": "3000 kg",
+      "engine": "Electric",
+      "battery": "48V / 800Ah",
+      "liftingHeight": "3000–6000 mm",
+      "weight": "4200 kg",
+      "dimensions": "3580 × 1250 × 2250 mm"
+    }
+  },
+
+  "105": {
+    "id": 105,
+    "slug": "heli-cpd35",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD35", "en": "HELI CPD35", "ru": "HELI CPD35" },
+    "shortDesc": {
+      "uz": "3.5t elektr forklift — sanoat samaradorligi.",
+      "en": "3.5t electric forklift — industrial productivity.",
+      "ru": "Электрический погрузчик 3.5т — промышленная производительность."
+    },
+    "fullDesc": {
+      "uz": "Doimiy ishlatiladigan omborlar va logistika markazlari uchun mo'ljallangan.",
+      "en": "Designed for continuous operation in warehouses and logistics centers.",
+      "ru": "Разработан для непрерывной работы на складах и логистических центрах."
+    },
+    "images": [
+      "assets/products/heli-cpd35-1.webp",
+      "assets/products/heli-cpd35-2.webp"
+    ],
+    "features": {
+      "uz": ["Sanoat darajadagi chidamlilik", "Quvvatli batareya", "Oson servis"],
+      "en": ["Industrial durability", "High-capacity battery", "Easy servicing"],
+      "ru": ["Промышленная прочность", "Высокая емкость батареи", "Простое обслуживание"]
+    },
+    "specs": {
+      "capacity": "3500 kg",
+      "engine": "Electric",
+      "battery": "48V / 1000Ah",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "4800 kg",
+      "dimensions": "3720 × 1300 × 2300 mm"
+    }
+  },
+
+  "106": {
+    "id": 106,
+    "slug": "heli-cpd50",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD50", "en": "HELI CPD50", "ru": "HELI CPD50" },
+    "shortDesc": {
+      "uz": "5.0t elektr forklift — katta yuklar uchun optimallashtirilgan.",
+      "en": "5.0t electric forklift — optimized for large loads.",
+      "ru": "Электрический погрузчик 5.0т — оптимизирован для больших грузов."
+    },
+    "fullDesc": {
+      "uz": "Yuqori samaradorlik va bardoshli konstruktsiya bilan katta hajmli yuklar uchun.",
+      "en": "High performance and robust construction for heavy-duty applications.",
+      "ru": "Высокая производительность и прочная конструкция для тяжелых условий."
+    },
+    "images": [
+      "assets/products/heli-cpd50-1.webp",
+      "assets/products/heli-cpd50-2.webp"
+    ],
+    "features": {
+      "uz": ["Yuqori yuk ko'tarish", "Mustahkam ramka", "Iqtisodiy boshqaruv"],
+      "en": ["High load capacity", "Robust frame", "Efficient controls"],
+      "ru": ["Высокая грузоподъемность", "Прочная рама", "Эффективное управление"]
+    },
+    "specs": {
+      "capacity": "5000 kg",
+      "engine": "Electric",
+      "battery": "80V / 800Ah",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "6200 kg",
+      "dimensions": "4100 × 1600 × 2500 mm"
+    }
+  },
+
+  "201": {
+    "id": 201,
+    "slug": "heli-cpcd20",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD20", "en": "HELI CPCD20", "ru": "HELI CPCD20" },
+    "shortDesc": {
+      "uz": "2.0t dizel forklift — qayta yuklanadigan kuch.",
+      "en": "2.0t diesel forklift — dependable power.",
+      "ru": "Дизельный погрузчик 2.0т — надежная мощность."
+    },
+    "fullDesc": {
+      "uz": "Tashqi muhit va ochiq ish joylari uchun ishonchli dizel dvigatel bilan jihozlangan.",
+      "en": "Equipped with a reliable diesel engine for outdoor operations.",
+      "ru": "Оборудован надежным дизельным двигателем для наружных работ."
+    },
+    "images": [
+      "assets/products/heli-cpcd20-1.webp",
+      "assets/products/heli-cpcd20-2.webp"
+    ],
+    "features": {
+      "uz": ["Quvvatli dizel motor", "Yuqori mustahkamlik", "Oson ta'mirlash"],
+      "en": ["Powerful diesel engine", "High durability", "Easy repairability"],
+      "ru": ["Мощный дизельный двигатель", "Высокая долговечность", "Простой ремонт"]
+    },
+    "specs": {
+      "capacity": "2000 kg",
+      "engine": "Diesel",
+      "power": "36 kW",
+      "liftingHeight": "3000–6000 mm",
+      "weight": "4200 kg",
+      "dimensions": "3400 × 1150 × 2200 mm"
+    }
+  },
+
+  "202": {
+    "id": 202,
+    "slug": "heli-cpcd25",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD25", "en": "HELI CPCD25", "ru": "HELI CPCD25" },
+    "shortDesc": {
+      "uz": "2.5t dizel forklift — ko'p qirrali ishlash.",
+      "en": "2.5t diesel forklift — versatile performance.",
+      "ru": "Дизельный погрузчик 2.5т — универсальная работа."
+    },
+    "fullDesc": {
+      "uz": "Og'ir ish sharoitlarida ham barqarorlik va samaradorlikni ta'minlaydi.",
+      "en": "Delivers stability and productivity in heavy conditions.",
+      "ru": "Обеспечивает стабильность и производительность в тяжелых условиях."
+    },
+    "images": [
+      "assets/products/heli-cpcd25-1.webp",
+      "assets/products/heli-cpcd25-2.webp"
+    ],
+    "features": {
+      "uz": ["Yuqори moment", "Mustahkam transmissiya", "Ishonchli tizim"],
+      "en": ["High torque", "Robust transmission", "Reliable systems"],
+      "ru": ["Высокий крутящий момент", "Прочная трансмиссия", "Надежные системы"]
+    },
+    "specs": {
+      "capacity": "2500 kg",
+      "engine": "Diesel",
+      "power": "45 kW",
+      "liftingHeight": "3000–6000 mm",
+      "weight": "4800 kg",
+      "dimensions": "3600 × 1250 × 2300 mm"
+    }
+  },
+
+  "203": {
+    "id": 203,
+    "slug": "heli-cpcd30",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD30", "en": "HELI CPCD30", "ru": "HELI CPCD30" },
+    "shortDesc": {
+      "uz": "3.0t dizel forklift — og'ir yuklarga mos.",
+      "en": "3.0t diesel forklift — for heavier loads.",
+      "ru": "Дизельный погрузчик 3.0т — для тяжелых грузов."
+    },
+    "fullDesc": {
+      "uz": "Katta yuklarni tashish va ochiq maydonlarda ishlash uchun mos.",
+      "en": "Suitable for heavy lifting and outdoor operations.",
+      "ru": "Подходит для тяжелых подъемов и наружных работ."
+    },
+    "images": [
+      "assets/products/heli-cpcd30-1.webp",
+      "assets/products/heli-cpcd30-2.webp"
+    ],
+    "features": {
+      "uz": ["Bardoshli ramка", "Kuchли dvигател", "Yukни барқарор кўтариш"],
+      "en": ["Durable frame", "Strong engine", "Stable lifting"],
+      "ru": ["Прочная рама", "Мощный двигатель", "Стабильный подъем"]
+    },
+    "specs": {
+      "capacity": "3000 kg",
+      "engine": "Diesel",
+      "power": "55 kW",
+      "liftingHeight": "3000–6000 mm",
+      "weight": "5200 kg",
+      "dimensions": "3750 × 1350 × 2350 mm"
+    }
+  },
+
+  "204": {
+    "id": 204,
+    "slug": "heli-cpcd35",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD35", "en": "HELI CPCD35", "ru": "HELI CPCD35" },
+    "shortDesc": {
+      "uz": "3.5t dizел forklift — balanslangan quvvat va chidamlilik.",
+      "en": "3.5t diesel forklift — balanced power and durability.",
+      "ru": "Дизельный погрузчик 3.5т — баланс мощности и прочности."
+    },
+    "fullDesc": {
+      "uz": "Dag'al sharoitlarda ishlashga moslangan konstruktsiya.",
+      "en": "Built for tough working environments with reinforced design.",
+      "ru": "Создан для сложных условий эксплуатации с усиленной конструкцией."
+    },
+    "images": [
+      "assets/products/heli-cpcd35-1.webp",
+      "assets/products/heli-cpcd35-2.webp"
+    ],
+    "features": {
+      "uz": ["Reinforced frame", "High endurance", "Maintenance-friendly"],
+      "en": ["Reinforced frame", "High endurance", "Maintenance-friendly"],
+      "ru": ["Усиленная рама", "Высокая выносливость", "Удобство обслуживания"]
+    },
+    "specs": {
+      "capacity": "3500 kg",
+      "engine": "Diesel",
+      "power": "67 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "6100 kg",
+      "dimensions": "3920 × 1400 × 2450 mm"
+    }
+  },
+
+  "205": {
+    "id": 205,
+    "slug": "heli-cpcd50",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD50", "en": "HELI CPCD50", "ru": "HELI CPCD50" },
+    "shortDesc": {
+      "uz": "5.0t dizel forklift — og'ir sanoat ishlari uchun.",
+      "en": "5.0t diesel forklift — for heavy industrial work.",
+      "ru": "Дизельный погрузчик 5.0т — для тяжелой промышленности."
+    },
+    "fullDesc": {
+      "uz": "Kuchли dvигател ва мустahкам transmissiya.",
+      "en": "Comes with a powerful engine and stout transmission.",
+      "ru": "Оснащен мощным двигателем и прочной трансмиссией."
+    },
+    "images": [
+      "assets/products/heli-cpcd50-1.webp",
+      "assets/products/heli-cpcd50-2.webp"
+    ],
+    "features": {
+      "uz": ["Og'ir yuklar учун", "Мустahкам transmissия", "Ишончли тизим"],
+      "en": ["Built for heavy loads", "Sturdy transmission", "Reliable systems"],
+      "ru": ["Для тяжелых грузов", "Прочная трансмиссия", "Надежные системы"]
+    },
+    "specs": {
+      "capacity": "5000 kg",
+      "engine": "Diesel",
+      "power": "92 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "7800 kg",
+      "dimensions": "4300 × 1700 × 2600 mm"
+    }
+  },
+
+  "206": {
+    "id": 206,
+    "slug": "heli-cpcd70",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD70", "en": "HELI CPCD70", "ru": "HELI CPCD70" },
+    "shortDesc": {
+      "uz": "7.0t дизел forklift — yuqori quvvatli model.",
+      "en": "7.0t diesel forklift — high-power model.",
+      "ru": "Дизельный погрузчик 7.0т — мощная модель."
+    },
+    "fullDesc": {
+      "uz": "Порт ва омбор ишлари учун юқори самарадорлик.",
+      "en": "Delivers productivity for port and yard operations.",
+      "ru": "Повышает производительность в портах."
+    },
+    "images": [
+      "assets/products/heli-cpcd70-1.webp",
+      "assets/products/heli-cpcd70-2.webp"
+    ],
+    "features": {
+      "uz": ["Юқори момент", "Og'ir юк бошқариш", "Ишончли узатмалар"],
+      "en": ["High torque", "Heavy load handling", "Reliable drivetrain"],
+      "ru": ["Высокий крутящий момент", "Работа с тяжелыми грузами", "Надежная трансмиссия"]
+    },
+    "specs": {
+      "capacity": "7000 kg",
+      "engine": "Diesel",
+      "power": "120 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "9800 kg",
+      "dimensions": "4800 × 1900 × 2900 mm"
+    }
+  },
+
+  "207": {
+    "id": 207,
+    "slug": "heli-cpcd100",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD100", "en": "HELI CPCD100", "ru": "HELI CPCD100" },
+    "shortDesc": {
+      "uz": "10t дизел forklift — og'ir sanoat uchun.",
+      "en": "10t diesel forklift — for heavy industry.",
+      "ru": "Дизельный погрузчик 10т — для промышленности."
+    },
+    "fullDesc": {
+      "uz": "Юқори юк кўтариш имконияти.",
+      "en": "High lifting capacity for industrial applications.",
+      "ru": "Высокая грузоподъемность."
+    },
+    "images": [
+      "assets/products/heli-cpcd100-1.webp",
+      "assets/products/heli-cpcd100-2.webp"
+    ],
+    "features": {
+      "uz": ["Катта юк кўтариш", "Мустаҳкам конструкция", "Саноат даражаси"],
+      "en": ["High capacity", "Robust structure", "Industrial grade"],
+      "ru": ["Высокая грузоподъемность", "Прочная конструкция", "Промышленное качество"]
+    },
+    "specs": {
+      "capacity": "10000 kg",
+      "engine": "Diesel",
+      "power": "170 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "14200 kg",
+      "dimensions": "6100 × 2200 × 3200 mm"
+    }
+  },
+
+  "301": {
+    "id": 301,
+    "slug": "heli-cqd16",
+    "categoryId": 3,
+    "name": { "uz": "HELI CQD16", "en": "HELI CQD16", "ru": "HELI CQD16" },
+    "shortDesc": {
+      "uz": "1.6t reach truck — tor yo'laklar uchun.",
+      "en": "1.6t reach truck — for narrow aisles.",
+      "ru": "Ричтрак 1.6т — для узких проходов."
+    },
+    "fullDesc": {
+      "uz": "Ombор ички вертикал жойлашувда самарадорлик оширади.",
+      "en": "Improves efficiency in vertical storage spaces.",
+      "ru": "Повышает эффективность вертикального хранения."
+    },
+    "images": [
+      "assets/products/heli-cqd16-1.webp",
+      "assets/products/heli-cqd16-2.webp"
+    ],
+    "features": {
+      "uz": ["Tor маневр", "Юқори кўтариш", "Аниқ бошқарув"],
+      "en": ["Tight maneuvering", "High reach", "Precise control"],
+      "ru": ["Маневренность", "Высокий подъем", "Точное управление"]
+    },
+    "specs": {
+      "capacity": "1600 kg",
+      "engine": "Electric",
+      "battery": "48V / 500Ah",
+      "liftingHeight": "6000–12000 mm",
+      "weight": "4200 kg",
+      "dimensions": "2800 × 1050 × 2100 mm"
+    }
+  },
+
+  "302": {
+    "id": 302,
+    "slug": "heli-cqd20",
+    "categoryId": 3,
+    "name": { "uz": "HELI CQD20", "en": "HELI CQD20", "ru": "HELI CQD20" },
+    "shortDesc": {
+      "uz": "2.0t reach truck — yuqori samaradorlik.",
+      "en": "2.0t reach truck — high efficiency.",
+      "ru": "Ричтрак 2.0т — высокая эффективность."
+    },
+    "fullDesc": {
+      "uz": "Tor йўлакларда ҳам катта юкни бошқаради.",
+      "en": "Handles heavier loads in narrow aisles.",
+      "ru": "Работает с тяжелыми грузами в узких проходах."
+    },
+    "images": [
+      "assets/products/heli-cqd20-1.webp",
+      "assets/products/heli-cqd20-2.webp"
+    ],
+    "features": {
+      "uz": ["Юмшоқ юк ўтказиш", "Эргономик кабина", "Юқори кўтариш"],
+      "en": ["Smooth load transfer", "Ergonomic cabin", "High lift"],
+      "ru": ["Плавная передача груза", "Эргономичная кабина", "Высокий подъем"]
+    },
+    "specs": {
+      "capacity": "2000 kg",
+      "engine": "Electric",
+      "battery": "48V / 700Ah",
+      "liftingHeight": "6000–12000 mm",
+      "weight": "4600 kg",
+      "dimensions": "2900 × 1100 × 2200 mm"
+    }
+  },
+
+  "401": {
+    "id": 401,
+    "slug": "heli-cdd10",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD10", "en": "HELI CDD10", "ru": "HELI CDD10" },
+    "shortDesc": {
+      "uz": "1.0t stacker — oddiy pallet ishlari uchun.",
+      "en": "1.0t stacker — for simple pallet tasks.",
+      "ru": "Штабелер 1.0т — для простых задач."
+    },
+    "fullDesc": {
+      "uz": "Иқтиcодий ва осон бошқариладиган stacker.",
+      "en": "Economic and easy-to-operate stacker.",
+      "ru": "Экономичный и простой штабелер."
+    },
+    "images": [
+      "assets/products/heli-cdd10-1.webp",
+      "assets/products/heli-cdd10-2.webp"
+    ],
+    "features": {
+      "uz": ["Арзон эксплуатация", "Ёрқин бошқариш", "Паст тех хизмат"],
+      "en": ["Low cost", "Easy control", "Low maintenance"],
+      "ru": ["Низкая стоимость", "Простое управление", "Низкое обслуживание"]
+    },
+    "specs": {
+      "capacity": "1000 kg",
+      "engine": "Electric",
+      "battery": "24V / 200Ah",
+      "liftingHeight": "1500–4000 mm",
+      "weight": "900 kg",
+      "dimensions": "1400 × 760 × 2000 mm"
+    }
+  },
+
+  "402": {
+    "id": 402,
+    "slug": "heli-cdd12",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD12", "en": "HELI CDD12", "ru": "HELI CDD12" },
+    "shortDesc": {
+      "uz": "1.2t stacker — kuchliroq model.",
+      "en": "1.2t stacker — stronger model.",
+      "ru": "Штабелер 1.2т — мощнее."
+    },
+    "fullDesc": {
+      "uz": "Урта омборлар учун кучли stacker.",
+      "en": "Strong stacker for mid-size warehouses.",
+      "ru": "Мощный штабелер для складов."
+    },
+    "images": [
+      "assets/products/heli-cdd12-1.webp",
+      "assets/products/heli-cdd12-2.webp"
+    ],
+    "features": {
+      "uz": ["Баркарор платформа", "Кенг вазифа", "Осон парвариш"],
+      "en": ["Stable platform", "Versatile", "Easy maintenance"],
+      "ru": ["Устойчивая платформа", "Универсальный", "Простое обслуживание"]
+    },
+    "specs": {
+      "capacity": "1200 kg",
+      "engine": "Electric",
+      "battery": "24V / 250Ah",
+      "liftingHeight": "1500–4500 mm",
+      "weight": "1100 kg",
+      "dimensions": "1500 × 800 × 2100 mm"
+    }
+  },
+
+  "403": {
+    "id": 403,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD15", "en": "HELI CDD15", "ru": "HELI CDD15" },
+    "shortDesc": {
+      "uz": "1.5t stacker — kuchли ва ишончли.",
+      "en": "1.5t stacker — strong and reliable.",
+      "ru": "Штабелер 1.5т — мощный и надежный."
+    },
+    "fullDesc": {
+      "uz": "Тез ва самарали pallet кўтариш учун идеал.",
+      "en": "Fast and efficient pallet lifting.",
+      "ru": "Быстрая и эффективная работа."
+    },
+    "images": [
+      "assets/products/heli-cdd15-1.webp",
+      "assets/products/heli-cdd15-2.webp"
+    ],
+    "features": {
+      "uz": ["Самарали платформа", "Ишончли система", "Осон бошқарув"],
+      "en": ["Efficient platform", "Reliable system", "Easy control"],
+      "ru": ["Эффективная платформа", "Надежная система", "Простое управление"]
+    },
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric",
+      "battery": "24V / 300Ah",
+      "liftingHeight": "1500–4500 mm",
+      "weight": "1350 kg",
+      "dimensions": "1600 × 850 × 2150 mm"
+    }
+  },
+
+  "501": {
+    "id": 501,
+    "slug": "heli-csd12n",
+    "categoryId": 5,
+    "name": { "uz": "HELI CSD12N", "en": "HELI CSD12N", "ru": "HELI CSD12N" },
+    "shortDesc": {
+      "uz": "1.2t tor yo'lak stacker.",
+      "en": "1.2t narrow aisle stacker.",
+      "ru": "Штабелер 1.2т узкопроходный."
+    },
+    "fullDesc": {
+      "uz": "Энг тор омборларда ҳам ишлайди.",
+      "en": "Works efficiently in very narrow aisles.",
+      "ru": "Работает в узких проходах."
+    },
+    "images": [
+      "assets/products/heli-csd12n-1.webp",
+      "assets/products/heli-csd12n-2.webp"
+    ],
+    "features": {
+      "uz": ["Tor маневр", "Юқори самарадорлик", "Осон ишлаш"],
+      "en": ["Narrow maneuver", "High efficiency", "Easy operation"],
+      "ru": ["Маневренность", "Эффективность", "Простота эксплуатации"]
+    },
+    "specs": {
+      "capacity": "1200 kg",
+      "engine": "Electric",
+      "battery": "48V / 350Ah",
+      "liftingHeight": "6000–10000 mm",
+      "weight": "2500 kg",
+      "dimensions": "2300 × 900 × 2100 mm"
+    }
+  },
+
+  "502": {
+    "id": 502,
+    "slug": "heli-csd15n",
+    "categoryId": 5,
+    "name": { "uz": "HELI CSD15N", "en": "HELI CSD15N", "ru": "HELI CSD15N" },
+    "shortDesc": {
+      "uz": "1.5t tor yo'lak stacker.",
+      "en": "1.5t narrow aisle stacker.",
+      "ru": "Штабелер 1.5т узкопроходный."
+    },
+    "fullDesc": {
+      "uz": "Tor joylarda samarali boshqaruv.",
+      "en": "Efficient in tight spaces.",
+      "ru": "Эффективен в тесных условиях."
+    },
+    "images": [
+      "assets/products/heli-csd15n-1.webp",
+      "assets/products/heli-csd15n-2.webp"
+    ],
+    "features": {
+      "uz": ["Кўпроқ сиғим", "Аниқ бошқарув", "Мустаҳкам тузилма"],
+      "en": ["Higher capacity", "Precise control", "Robust build"],
+      "ru": ["Больше грузоподъемность", "Точное управление", "Прочная конструкция"]
+    },
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric",
+      "battery": "48V / 400Ah",
+      "liftingHeight": "6000–10000 mm",
+      "weight": "2800 kg",
+      "dimensions": "2400 × 920 × 2150 mm"
+    }
+  },
+
+  "601": {
+    "id": 601,
+    "slug": "heli-oph20",
+    "categoryId": 6,
+    "name": { "uz": "HELI OPH20", "en": "HELI OPH20", "ru": "HELI OPH20" },
+    "shortDesc": {
+      "uz": "Yuqori darajali buyurtma yig'uvchi.",
+      "en": "High-level order picker.",
+      "ru": "Высотный комиссионер."
+    },
+    "fullDesc": {
+      "uz": "Юқори рафларда ишлаш учун идеал.",
+      "en": "Ideal for picking at high rack levels.",
+      "ru": "Идеален для работы на большом уровне."
+    },
+    "images": [
+      "assets/products/heli-oph20-1.webp",
+      "assets/products/heli-oph20-2.webp"
+    ],
+    "features": {
+      "uz": ["Юқори кўтариш", "Хавfsиз platforma", "Тез ишлаш"],
+      "en": ["High lift", "Safe platform", "Fast operation"],
+      "ru": ["Высокий подъем", "Безопасная платформа", "Быстрая работа"]
+    },
+    "specs": {
+      "capacity": "200 kg (picker load)",
+      "engine": "Electric",
+      "liftingHeight": "4000–12000 mm",
+      "weight": "1200 kg",
+      "dimensions": "1500 × 900 × 2100 mm"
+    }
+  },
+
+  "602": {
+    "id": 602,
+    "slug": "heli-opl15",
+    "categoryId": 6,
+    "name": { "uz": "HELI OPL15", "en": "HELI OPL15", "ru": "HELI OPL15" },
+    "shortDesc": {
+      "uz": "Past darajali buyurtma yig'uvchi.",
+      "en": "Low-level order picker.",
+      "ru": "Низкий комиссионер."
+    },
+    "fullDesc": {
+      "uz": "Пол дараjasидa тез ишлаш учун.",
+      "en": "Ideal for floor-level picking.",
+      "ru": "Для отбора на полу."
+    },
+    "images": [
+      "assets/products/heli-opl15-1.webp",
+      "assets/products/heli-opl15-2.webp"
+    ],
+    "features": {
+      "uz": ["Ixcham dizayn", "Юқори тезлик", "Осон бошқарув"],
+      "en": ["Compact design", "High speed", "Easy control"],
+      "ru": ["Компактный дизайн", "Высокая скорость", "Простое управление"]
+    },
+    "specs": {
+      "capacity": "150 kg",
+      "engine": "Electric",
+      "liftingHeight": "500–2500 mm",
+      "weight": "850 kg",
+      "dimensions": "1200 × 800 × 1600 mm"
+    }
+  },
+
+  "701": {
+    "id": 701,
+    "slug": "heli-qdd30",
+    "categoryId": 7,
+    "name": { "uz": "HELI QDD30", "en": "HELI QDD30", "ru": "HELI QDD30" },
+    "shortDesc": {
+      "uz": "3.0t tortish traktori.",
+      "en": "3.0t tow tractor.",
+      "ru": "Тягач 3.0т."
+    },
+    "fullDesc": {
+      "uz": "Юк арраларини тортиш учун идеал.",
+      "en": "Ideal for towing multiple carts.",
+      "ru": "Идеален для буксировки тележек."
+    },
+    "images": [
+      "assets/products/heli-qdd30-1.webp",
+      "assets/products/heli-qdd30-2.webp"
+    ],
+    "features": {
+      "uz": ["Qulay bog'ланиш", "Ишончли тормоз", "Иқтисодий"],
+      "en": ["Easy coupling", "Reliable brakes", "Economical"],
+      "ru": ["Удобное сцепление", "Надежные тормоза", "Экономичный"]
+    },
+    "specs": {
+      "capacity": "3000 kg towing",
+      "engine": "Electric",
+      "power": "7 kW",
+      "weight": "1500 kg",
+      "dimensions": "2200 × 900 × 1400 mm"
+    }
+  },
+
+  "702": {
+    "id": 702,
+    "slug": "heli-qdd50",
+    "categoryId": 7,
+    "name": { "uz": "HELI QDD50", "en": "HELI QDD50", "ru": "HELI QDD50" },
+    "shortDesc": {
+      "uz": "5.0t tortish traktori.",
+      "en": "5.0t tow tractor.",
+      "ru": "Тягач 5.0т."
+    },
+    "fullDesc": {
+      "uz": "Катта завод ва терминаллар учун.",
+      "en": "For plants and terminals.",
+      "ru": "Для заводов и терминалов."
+    },
+    "images": [
+      "assets/products/heli-qdd50-1.webp",
+      "assets/products/heli-qdd50-2.webp"
+    ],
+    "features": {
+      "uz": ["Кучли tortish", "Узоқ хизмат", "Хавfsиз"],
+      "en": ["Strong towing", "Long service life", "Safe operation"],
+      "ru": ["Мощная буксировка", "Долговечность", "Безопасность"]
+    },
+    "specs": {
+      "capacity": "5000 kg towing",
+      "engine": "Electric",
+      "power": "12 kW",
+      "weight": "2100 kg",
+      "dimensions": "2600 × 1000 × 1500 mm"
+    }
+  },
+
+  "801": {
+    "id": 801,
+    "slug": "heli-cbd15",
+    "categoryId": 8,
+    "name": { "uz": "HELI CBD15", "en": "HELI CBD15", "ru": "HELI CBD15" },
+    "shortDesc": {
+      "uz": "1.5t pallet truck.",
+      "en": "1.5t pallet truck.",
+      "ru": "Тележка 1.5т."
+    },
+    "fullDesc": {
+      "uz": "Доимий pallet ташиш учун идеал.",
+      "en": "Ideal for continuous pallet handling.",
+      "ru": "Для постоянной перевозки паллет."
+    },
+    "images": [
+      "assets/products/heli-cbd15-1.webp",
+      "assets/products/heli-cbd15-2.webp"
+    ],
+    "features": {
+      "uz": ["Енгил маневр", "Осон ишлаш", "Тез юклаш"],
+      "en": ["Easy maneuver", "Simple operation", "Quick load"],
+      "ru": ["Маневренность", "Простота", "Быстрая загрузка"]
+    },
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric/Manual",
+      "power": "3 kW",
+      "weight": "250 kg",
+      "dimensions": "1150 × 540 × 1250 mm"
+    }
+  },
+
+  "802": {
+    "id": 802,
+    "slug": "heli-cbd20",
+    "categoryId": 8,
+    "name": { "uz": "HELI CBD20", "en": "HELI CBD20", "ru": "HELI CBD20" },
+    "shortDesc": {
+      "uz": "2.0t pallet truck.",
+      "en": "2.0t pallet truck.",
+      "ru": "Тележка 2.0т."
+    },
+    "fullDesc": {
+      "uz": "Ўрта хажмли юклар учун.",
+      "en": "For medium loads.",
+      "ru": "Для средних грузов."
+    },
+    "images": [
+      "assets/products/heli-cbd20-1.webp",
+      "assets/products/heli-cbd20-2.webp"
+    ],
+    "features": {
+      "uz": ["Хавfsиз dizayn", "Барқарор кўтариш", "Энергия тежамкор"],
+      "en": ["Safe design", "Stable lifting", "Energy efficient"],
+      "ru": ["Безопасный дизайн", "Стабильный подъем", "Энергоэффективный"]
+    },
+    "specs": {
+      "capacity": "2000 kg",
+      "engine": "Electric/Manual",
+      "power": "3.5 kW",
+      "weight": "280 kg",
+      "dimensions": "1200 × 560 × 1300 mm"
+    }
+  },
+
+  "803": {
+    "id": 803,
+    "slug": "heli-cbd25",
+    "categoryId": 8,
+    "name": { "uz": "HELI CBD25", "en": "HELI CBD25", "ru": "HELI CBD25" },
+    "shortDesc": {
+      "uz": "2.5t pallet truck.",
+      "en": "2.5t pallet truck.",
+      "ru": "Тележка 2.5т."
+    },
+    "fullDesc": {
+      "uz": "Оғир паллетлар учун.",
+      "en": "For heavier pallets.",
+      "ru": "Для тяжелых паллет."
+    },
+    "images": [
+      "assets/products/heli-cbd25-1.webp",
+      "assets/products/heli-cbd25-2.webp"
+    ],
+    "features": {
+      "uz": ["Кatta sig'im", "Қулай бошқарув", "Ишончли система"],
+      "en": ["Higher capacity", "Comfortable control", "Reliable system"],
+      "ru": ["Большая грузоподъемность", "Удобное управление", "Надежная система"]
+    },
+    "specs": {
+      "capacity": "2500 kg",
+      "engine": "Electric/Manual",
+      "power": "4 kW",
+      "weight": "320 kg",
+      "dimensions": "1250 × 600 × 1350 mm"
+    }
+  },
+
+  "804": {
+    "id": 804,
+    "slug": "heli-cbd30",
+    "categoryId": 8,
+    "name": { "uz": "HELI CBD30", "en": "HELI CBD30", "ru": "HELI CBD30" },
+    "shortDesc": {
+      "uz": "3.0t pallet truck.",
+      "en": "3.0t pallet truck.",
+      "ru": "Тележка 3.0т."
+    },
+    "fullDesc": {
+      "uz": "Саноатда доимий ташиш учун.",
+      "en": "For industrial use.",
+      "ru": "Для промышленного использования."
+    },
+    "images": [
+      "assets/products/heli-cbd30-1.webp",
+      "assets/products/heli-cbd30-2.webp"
+    ],
+    "features": {
+      "uz": ["Саноат darajasi", "Осон сервис", "Барқарор"],
+      "en": ["Industrial durability", "Easy servicing", "Stability"],
+      "ru": ["Промышленная прочность", "Простой сервис", "Стабильность"]
+    },
+    "specs": {
+      "capacity": "3000 kg",
+      "engine": "Electric/Manual",
+      "power": "5 kW",
+      "weight": "380 kg",
+      "dimensions": "1350 × 650 × 1400 mm"
+    }
+  },
+
+  "901": {
+    "id": 901,
+    "slug": "heli-cpcd120",
+    "categoryId": 9,
+    "name": { "uz": "HELI CPCD120", "en": "HELI CPCD120", "ru": "HELI CPCD120" },
+    "shortDesc": {
+      "uz": "12t og'ir forklift.",
+      "en": "12t heavy-duty forklift.",
+      "ru": "Погрузчик 12т."
+    },
+    "fullDesc": {
+      "uz": "Кантейнер терминали учун.",
+      "en": "For container terminals.",
+      "ru": "Для контейнерных терминалов."
+    },
+    "images": [
+      "assets/products/heli-cpcd120-1.webp",
+      "assets/products/heli-cpcd120-2.webp"
+    ],
+    "features": {
+      "uz": ["Кантейнер учун оптимал", "Хавfsиз система", "Катта quvvat"],
+      "en": ["Optimized for containers", "Safe systems", "High power"],
+      "ru": ["Оптимизирован под контейнеры", "Безопасные системы", "Высокая мощность"]
+    },
+    "specs": {
+      "capacity": "12000 kg",
+      "engine": "Diesel",
+      "power": "220 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "18000 kg",
+      "dimensions": "6200 × 2600 × 3400 mm"
+    }
+  },
+
+  "902": {
+    "id": 902,
+    "slug": "heli-cpcd160",
+    "categoryId": 9,
+    "name": { "uz": "HELI CPCD160", "en": "HELI CPCD160", "ru": "HELI CPCD160" },
+    "shortDesc": {
+      "uz": "16t og'ir forklift.",
+      "en": "16t heavy forklift.",
+      "ru": "Погрузчик 16т."
+    },
+    "fullDesc": {
+      "uz": "Оғир юкларни ишончли кўтариш.",
+      "en": "Handles heavy loads reliably.",
+      "ru": "Поднимает тяжелые грузы."
+    },
+    "images": [
+      "assets/products/heli-cpcd160-1.webp",
+      "assets/products/heli-cpcd160-2.webp"
+    ],
+    "features": {
+      "uz": ["Юқори sig'im", "Мустаҳкам dizayn", "Сервис тармоғи"],
+      "en": ["Very high capacity", "Durable design", "Service network"],
+      "ru": ["Высокая грузоподъемность", "Прочность", "Сервисная сеть"]
+    },
+    "specs": {
+      "capacity": "16000 kg",
+      "engine": "Diesel",
+      "power": "300 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "22000 kg",
+      "dimensions": "6800 × 2800 × 3600 mm"
+    }
+  },
+
+  "903": {
+    "id": 903,
+    "slug": "heli-cpcd250",
+    "categoryId": 9,
+    "name": { "uz": "HELI CPCD250", "en": "HELI CPCD250", "ru": "HELI CPCD250" },
+    "shortDesc": {
+      "uz": "25t og'ir forklift.",
+      "en": "25t heavy forklift.",
+      "ru": "Погрузчик 25т."
+    },
+    "fullDesc": {
+      "uz": "Терминал ва заводлар учун.",
+      "en": "For terminals and plants.",
+      "ru": "Для терминалов и заводов."
+    },
+    "images": [
+      "assets/products/heli-cpcd250-1.webp",
+      "assets/products/heli-cpcd250-2.webp"
+    ],
+    "features": {
+      "uz": ["Иғir юклар учун", "Саноат chidamliligi", "Qo'shimcha uskunalar"],
+      "en": ["Heavy loads", "Industrial durability", "Attachments"],
+      "ru": ["Тяжелые грузы", "Промышленная прочность", "Навесы"]
+    },
+    "specs": {
+      "capacity": "25000 kg",
+      "engine": "Diesel",
+      "power": "450 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "38000 kg",
+      "dimensions": "8200 × 3400 × 4200 mm"
+    }
+  },
+
+  "904": {
+    "id": 904,
+    "slug": "heli-cpcd320",
+    "categoryId": 9,
+    "name": { "uz": "HELI CPCD320", "en": "HELI CPCD320", "ru": "HELI CPCD320" },
+    "shortDesc": {
+      "uz": "32t og'ir forklift.",
+      "en": "32t heavy forklift.",
+      "ru": "Погрузчик 32т."
+    },
+    "fullDesc": {
+      "uz": "Ultra og'ir yuklar учун maxsus model.",
+      "en": "Built for ultra-heavy loads.",
+      "ru": "Для сверхтяжёлых грузов."
+    },
+    "images": [
+      "assets/products/heli-cpcd320-1.webp",
+      "assets/products/heli-cpcd320-2.webp"
+    ],
+    "features": {
+      "uz": ["Катта quvvat", "Maxsus qo'shimchalar", "Professional servis"],
+      "en": ["High power", "Special attachments", "Professional service"],
+      "ru": ["Высокая мощность", "Спец навесы", "Проф. сервис"]
+    },
+    "specs": {
+      "capacity": "32000 kg",
+      "engine": "Diesel",
+      "power": "520 kW",
+      "liftingHeight": "3000–7000 mm",
+      "weight": "46000 kg",
+      "dimensions": "9200 × 3600 × 4600 mm"
+    }
+  },
+
+  "1001": {
+    "id": 1001,
+    "slug": "heli-agv-pt",
+    "categoryId": 10,
+    "name": { "uz": "HELI AGV-PT", "en": "HELI AGV-PT", "ru": "HELI AGV-PT" },
+    "shortDesc": {
+      "uz": "Pallet transport AGV.",
+      "en": "Pallet transport AGV.",
+      "ru": "AGV для паллет."
+    },
+    "fullDesc": {
+      "uz": "Автоматлаштирилган паллет ташиш.",
+      "en": "Automated pallet transport.",
+      "ru": "Автоматизированная транспортировка."
+    },
+    "images": [
+      "assets/products/heli-agv-pt-1.webp",
+      "assets/products/heli-agv-pt-2.webp"
+    ],
+    "features": {
+      "uz": ["Autonom navigation", "Паст хизмат эҳтиёжи", "Осон интеграция"],
+      "en": ["Autonomous navigation", "Low service", "Easy integration"],
+      "ru": ["Автономная навигация", "Низкое обслуживание", "Простая интеграция"]
+    },
+    "specs": {
+      "capacity": "1500–3000 kg",
+      "engine": "Electric / Autonomous",
+      "navigation": "LiDAR / SLAM",
+      "weight": "varies",
+      "dimensions": "varies"
+    }
+  },
+
+  "1002": {
+    "id": 1002,
+    "slug": "heli-agv-fl15",
+    "categoryId": 10,
+    "name": { "uz": "HELI AGV-FL15", "en": "HELI AGV-FL15", "ru": "HELI AGV-FL15" },
+    "shortDesc": {
+      "uz": "1.5t autonomous forklift.",
+      "en": "1.5t autonomous forklift.",
+      "ru": "Автономный погрузчик 1.5т."
+    },
+    "fullDesc": {
+      "uz": "Омборларни автоматлаштириш учун.",
+      "en": "For warehouse automation.",
+      "ru": "Для автоматизации складов."
+    },
+    "images": [
+      "assets/products/heli-agv-fl15-1.webp",
+      "assets/products/heli-agv-fl15-2.webp"
+    ],
+    "features": {
+      "uz": ["Autonom ҳаракат", "Хавfsizlik tizimlari", "Интеграция"],
+      "en": ["Autonomous movement", "Safety systems", "Integration"],
+      "ru": ["Автономность", "Безопасность", "Интеграция"]
+    },
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric",
+      "navigation": "Camera / LiDAR",
+      "weight": "2200 kg",
+      "dimensions": "2600 × 1100 × 2200 mm"
+    }
+  },
+
+  "1101": {
+    "id": 1101,
+    "slug": "heli-hth25-10",
+    "categoryId": 11,
+    "name": { "uz": "HELI HTH25-10", "en": "HELI HTH25-10", "ru": "HELI HTH25-10" },
+    "shortDesc": {
+      "uz": "2.5t telehandler.",
+      "en": "2.5t telehandler.",
+      "ru": "Телескопический 2.5т."
+    },
+    "fullDesc": {
+      "uz": "Қишлоқ хўжалиги ва қурилиш учун.",
+      "en": "For agriculture & construction.",
+      "ru": "Для сельского хоз. и строительства."
+    },
+    "images": [
+      "assets/products/heli-hth25-10-1.webp",
+      "assets/products/heli-hth25-10-2.webp"
+    ],
+    "features": {
+      "uz": ["Uzun reach", "Қулай бошқарув", "Барқарор рамка"],
+      "en": ["Long reach", "Easy handling", "Stable frame"],
+      "ru": ["Большой вылет", "Удобное управление", "Устойчивая рама"]
+    },
+    "specs": {
+      "capacity": "2500 kg",
+      "engine": "Diesel",
+      "reach": "10 m",
+      "weight": "5800 kg",
+      "dimensions": "4800 × 2000 × 2200 mm"
+    }
+  },
+
+  "1102": {
+    "id": 1102,
+    "slug": "heli-hth40-14",
+    "categoryId": 11,
+    "name": { "uz": "HELI HTH40-14", "en": "HELI HTH40-14", "ru": "HELI HTH40-14" },
+    "shortDesc": {
+      "uz": "4.0t telehandler.",
+      "en": "4.0t telehandler.",
+      "ru": "Телескопический 4.0т."
+    },
+    "fullDesc": {
+      "uz": "Кучли гидравлика ва юқори кўтариш.",
+      "en": "Strong hydraulics & high lift.",
+      "ru": "Мощная гидравлика."
+    },
+    "images": [
+      "assets/products/heli-hth40-14-1.webp",
+      "assets/products/heli-hth40-14-2.webp"
+    ],
+    "features": {
+      "uz": ["Чидамли гидравлика", "Қувватли мотор", "Кўп вазифали"],
+      "en": ["Durable hydraulics", "Powerful engine", "Multipurpose"],
+      "ru": ["Прочная гидравлика", "Мощный двигатель", "Многофункциональный"]
+    },
+    "specs": {
+      "capacity": "4000 kg",
+      "engine": "Diesel",
+      "reach": "14 m",
+      "weight": "8700 kg",
+      "dimensions": "5900 × 2200 × 2500 mm"
+    }
+  },
+
+  "1201": {
+    "id": 1201,
+    "slug": "heli-hrs4545",
+    "categoryId": 12,
+    "name": { "uz": "HELI HRS4545", "en": "HELI HRS4545", "ru": "HELI HRS4545" },
+    "shortDesc": {
+      "uz": "45t reach stacker.",
+      "en": "45t reach stacker.",
+      "ru": "Ричстакер 45т."
+    },
+    "fullDesc": {
+      "uz": "Кантейнерлар учун maxsus uskunа.",
+      "en": "Special equipment for container stacking.",
+      "ru": "Техника для штабелирования контейнеров."
+    },
+    "images": [
+      "assets/products/heli-hrs4545-1.webp",
+      "assets/products/heli-hrs4545-2.webp"
+    ],
+    "features": {
+      "uz": ["Кантейнер учун оптимал", "Юқори quvvat", "Ишончли система"],
+      "en": ["Container optimized", "High power", "Reliable systems"],
+      "ru": ["Оптимизирован", "Мощный", "Надежный"]
+    },
+    "specs": {
+      "capacity": "45000 kg",
+      "engine": "Diesel",
+      "power": "650 kW",
+      "liftingHeight": "varies",
+      "weight": "68000 kg",
+      "dimensions": "12000 × 4000 × 4200 mm"
+    }
+  },
+
+  "1301": {
+    "id": 1301,
+    "slug": "heli-g3-35",
+    "categoryId": 13,
+    "name": { "uz": "HELI G3-35", "en": "HELI G3-35", "ru": "HELI G3-35" },
+    "shortDesc": {
+      "uz": "3.5t hybrid forklift.",
+      "en": "3.5t hybrid forklift.",
+      "ru": "Гибридный 3.5т."
+    },
+    "fullDesc": {
+      "uz": "G3 серияси — тежамкор ва қулай.",
+      "en": "G3 series — efficient & comfortable.",
+      "ru": "Серия G3 — экономичная и удобная."
+    },
+    "images": [
+      "assets/products/heli-g3-35-1.webp",
+      "assets/products/heli-g3-35-2.webp"
+    ],
+    "features": {
+      "uz": ["Hybrid", "Кам сарф", "Барқарор иш"],
+      "en": ["Hybrid", "Low consumption", "Stable work"],
+      "ru": ["Гибрид", "Низкий расход", "Стабильность"]
+    },
+    "specs": {
+      "capacity": "3500 kg",
+      "engine": "Hybrid",
+      "power": "variable",
+      "weight": "4700 kg",
+      "dimensions": "3700 × 1280 × 2250 mm"
+    }
+  },
+
+  "1302": {
+    "id": 1302,
+    "slug": "heli-h3-30",
+    "categoryId": 13,
+    "name": { "uz": "HELI H3-30", "en": "HELI H3-30", "ru": "HELI H3-30" },
+    "shortDesc": {
+      "uz": "3.0t G/H series forklift.",
+      "en": "3.0t G/H series forklift.",
+      "ru": "Погрузчик 3.0т серии G/H."
+    },
+    "fullDesc": {
+      "uz": "H3 — мустаҳкам руҳ ва узлуксиз иш.",
+      "en": "H3 — strong frame & continuous work.",
+      "ru": "H3 — прочная рама и стабильность."
+    },
+    "images": [
+      "assets/products/heli-h3-30-1.webp",
+      "assets/products/heli-h3-30-2.webp"
+    ],
+    "features": {
+      "uz": ["Чидамли transmissiya", "Ишончли тормозлар", "Барқарор тизим"],
+      "en": ["Durable transmission", "Reliable brakes", "Stable system"],
+      "ru": ["Прочная трансмиссия", "Надежные тормоза", "Стабильная система"]
+    },
+    "specs": {
+      "capacity": "3000 kg",
+      "engine": "Diesel / LPG",
+      "power": "variable",
+      "weight": "4300 kg",
+      "dimensions": "3500 × 1250 × 2200 mm"
+    }
+  }
+}

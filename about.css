@@ -1,0 +1,75 @@
+.about-hero {
+  position: relative;
+  height: 45vh;
+  border-bottom: 5px solid var(--red);
+  overflow: hidden;
+}
+
+/* BACKGROUND VIDEO */
+#aboutVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* DARK OVERLAY */
+.about-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0,0,0,0.45);
+}
+
+
+/* Mission Cards */
+.mission-card {
+  padding: 30px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,.07);
+  transition: .25s;
+}
+.mission-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,.12);
+}
+.mission-card i {
+  font-size: 2.3rem;
+  color: var(--red);
+}
+
+/* Certificates */
+.cert-card img {
+  width: 100%;
+  border: 3px solid var(--yellow);
+}
+
+/* Timeline */
+.timeline {
+  border-left: 4px solid var(--red);
+  padding-left: 30px;
+}
+.timeline-item {
+  margin-bottom: 25px;
+}
+.timeline-item .year {
+  font-weight: bold;
+  color: var(--red);
+  font-size: 1.3rem;
+}
+
+/* CTA Section */
+.cta-section {
+  background: var(--red);
+}

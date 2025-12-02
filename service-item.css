@@ -1,0 +1,20 @@
+.service-item-section {
+  background: #fff;
+}
+
+.feature-list li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.feature-list i {
+  color: var(--red);
+  margin-right: 6px;
+}
+
+.service-banner-card {
+  background: var(--red);
+  padding: 30px;
+  border-radius: 15px;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}

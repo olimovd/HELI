@@ -1,0 +1,4 @@
+/* Warranty image hero or highlight styling */
+.service-item-section img {
+  border-left: 6px solid var(--yellow);
+}

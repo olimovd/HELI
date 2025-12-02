@@ -1,0 +1,469 @@
+:root {
+  --red: #c8102e;
+  --yellow: #ffcc00;
+  --black: #000000;
+}
+
+body {
+  background: #fafafa;
+  font-family: Inter, sans-serif;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.border-bottom-red {
+  border-bottom: 3px solid var(--red) !important;
+}
+
+.logo {
+  width: 100px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.nav-colored {
+  font-weight: 600;
+  color: #000;
+  transition: color .2s ease;
+}
+
+.nav-colored:hover {
+  color: var(--red) !important;
+}
+
+/* Remove underline entirely */
+.nav-colored::after {
+  display: none !important;
+}
+
+/* ---------------- DROPDOWN FIX ---------------- */
+/* Desktop hover dropdown */
+@media (hover: hover) and (pointer: fine) {
+
+  /* Hide Bootstrap default */
+  .nav-item.dropdown .dropdown-menu {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s ease, visibility .2s;
+  }
+
+  /* Show on hover */
+  .nav-item.dropdown:hover > .dropdown-menu {
+    display: block !important;
+    opacity: 1;
+    visibility: visible;
+    margin-top: .45rem;
+  }
+}
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  margin-top: .45rem;
+  padding: 0.5rem 0;
+}
+
+/* Add invisible buffer area under the toggle */
+.nav-item.dropdown::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 12px; /* extra “hover-safe area” */
+}
+
+/* Mobile - Bootstrap default click dropdown */
+@media (hover: none) {
+  .dropdown-menu {
+    display: none;
+  }
+}
+
+/* Dropdown item hover */
+.dropdown-menu .dropdown-item:hover {
+  background: rgba(200,16,34,0.08);
+  color: var(--red);
+}
+
+/* ---------------- CAROUSEL ---------------- */
+
+.carousel-img {
+  height: 420px;
+  object-fit: cover;
+}
+
+.carousel-overlay {
+  position:absolute;
+  inset:0;
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+}
+
+/* ---------------- SECTIONS ---------------- */
+
+/* Popular Forklifts — Option B: white background + red left border */
+.section-yellow {
+  background: #ffffff;
+  border-left: 6px solid var(--red);
+  padding-left: 20px;
+}
+
+.solutions-section {
+  background: #ffffff;
+}
+
+.solution-card {
+  position: relative;
+  background: #f1f5f9;        /* light grey-blue tint */
+  padding: 40px 25px;
+  border-radius: 10px;
+  text-align: left;
+  overflow: hidden;
+  min-height: 260px;
+  transition: .25s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+  background: #e9eef4;
+}
+
+.solution-number {
+  position: absolute;
+  font-size: 130px;
+  font-weight: 800;
+  color: rgba(0,0,0,0.05);
+  top: -20px;
+  right: 10px;
+  pointer-events: none;
+}
+
+/* ---------------- PRODUCT CARD ---------------- */
+
+/* ---------------- PRODUCT CARD (Improved) ---------------- */
+
+.product-card {
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+  border-bottom: 4px solid var(--yellow);
+  background: #fff;
+  overflow: hidden;
+  transition: .25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.15);
+  border-bottom-color: var(--red); /* stronger hover effect */
+}
+
+.product-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* content area */
+.product-card .card-body {
+  padding: 15px;
+}
+
+/* Title */
+.product-card .card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: .4rem;
+}
+
+/* Compact description */
+.product-card p {
+  margin-bottom: .7rem;
+}
+
+/* button alignment row */
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-row .btn {
+  flex: 1;
+}
+
+
+/* ---------------- CATALOG CARDS ---------------- */
+
+.section-catalogs {
+  background: #fff;
+  border-top: 4px solid var(--red);
+  border-bottom: 4px solid var(--yellow);
+}
+
+.catalog-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.catalog-card-inner {
+  background: #fff;
+  border-radius: .7rem;
+  overflow: hidden;
+  border: 3px solid var(--yellow);
+  transition:.25s;
+  padding-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.catalog-card-inner:hover {
+  transform: translateY(-8px);
+  border-color: var(--red);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+}
+
+.catalog-card-inner img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.catalog-card-inner h5 {
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+.footer-red {
+  background: var(--red);
+  border-top: 4px solid #000;
+  color:white;
+}
+/* ------------ ADVANCED FOOTER -------------- */
+
+.heli-footer {
+  background: #111; /* dark but not pitch black */
+  color: #fff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #bbb;
+  transition: .2s;
+}
+
+.footer-list a:hover {
+  color: var(--red);
+}
+
+/* LOGO */
+.footer-logo {
+  width: 140px;
+  object-fit: contain;
+}
+
+/* SOCIALS */
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .25s;
+}
+
+
+/* PREMIUM MODAL LAYOUT */
+.premium-dialog {
+  max-width: 720px;
+}
+
+.premium-content {
+  border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 25px 70px rgba(0,0,0,0.25);
+  animation: slideUp .4s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+/* HEADER */
+.premium-header {
+  padding: 25px 20px 10px;
+  background: var(--red);
+  color: white;
+}
+
+/* BODY */
+.premium-body {
+  padding: 30px;
+}
+
+/* PREMIUM FLOATING INPUTS */
+.premium-input {
+  position: relative;
+  width: 100%;
+}
+
+.premium-input input {
+  width: 100%;
+  padding: 14px 14px 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  background: white;
+  transition: .25s;
+  font-size: 1rem;
+}
+
+.premium-input input:focus {
+  border-color: var(--red);
+  box-shadow: 0 0 0 4px rgba(200,16,46,0.15);
+}
+
+.premium-input label {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  transition: .25s;
+  pointer-events: none;
+}
+
+/* FLOAT LABEL ACTIVATION */
+.premium-input input:focus + label,
+.premium-input input:not(:placeholder-shown) + label,
+.premium-input input:valid + label {
+  top: -4px;
+  left: 10px;
+  padding: 0 5px;
+  background: white;
+  font-size: .75rem;
+  color: var(--red);
+}
+
+/* FIX FOR READONLY AUTO-FILLED INPUT (qProduct) */
+.premium-input input[readonly]:not(:placeholder-shown) + label {
+  top: -4px;
+  left: 10px;
+  padding: 0 5px;
+  background: white;
+  font-size: .75rem;
+  color: var(--red);
+}
+
+/* FIX FOR PHONE FIELD FLOATING LABEL */
+.premium-input input#qPhone:not(:placeholder-shown) + label {
+  top: -4px;
+  left: 10px;
+  padding: 0 5px;
+  background: white;
+  font-size: .75rem;
+}
+
+/* CAPTCHA
+.premium-captcha {
+  padding: 12px 15px;
+  background: #f3f3f3;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+}
+
+.cap-box {
+  padding: 10px 18px;
+  background: var(--yellow);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.cap-sign {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.cap-input {
+  width: 90px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.cap-input:focus {
+  border-color: var(--red);
+} */
+
+/* PRIVACY LINK */
+.policy-link {
+  color: var(--red);
+  text-decoration: none;
+  font-weight: 600;
+}
+.policy-link:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER BUTTON */
+.premium-footer {
+  padding: 20px 30px;
+}
+
+.premium-submit-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  background: var(--red);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  transition: .25s;
+  box-shadow: 0 8px 20px rgba(200,16,46,0.3);
+}
+
+.premium-submit-btn:hover {
+  background: #a20d23;
+  box-shadow: 0 10px 30px rgba(200,16,46,0.35);
+}
+
+
+
+

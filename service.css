@@ -1,0 +1,61 @@
+/* HERO */
+.service-hero {
+  padding: 80px 0;
+  background: #fff;
+  border-bottom: 4px solid var(--red);
+}
+
+.service-hero h1 {
+  font-size: 3rem;
+  color: #111;
+}
+
+/* SERVICE CARDS */
+.service-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  border-bottom: 4px solid var(--yellow);
+  text-align: center;
+  transition: .25s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: var(--red);
+  margin-bottom: 15px;
+}
+
+/* INDUSTRIAL SECTION */
+.industrial-section {
+  background: #f3f3f3;
+  border-left: 6px solid var(--yellow);
+}
+
+.industrial-list li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.industrial-list i {
+  color: var(--red);
+  margin-right: 8px;
+}
+
+/* CTA */
+.cta-section {
+  background: var(--red);
+  color: #fff;
+}
+
+.cta-section .btn {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}

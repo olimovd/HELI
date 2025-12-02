@@ -1,0 +1,53 @@
+:root {
+  --red: #c8102e;
+  --yellow: #ffcc00;
+  --black: #000;
+}
+
+/* Header */
+.catalog-header {
+  background: #fff;
+}
+
+.catalog-header h1 {
+  color: var(--black);
+}
+
+.catalog-header p {
+  font-size: 1.1rem;
+}
+
+/* Catalog Cards */
+.catalog-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.catalog-card-inner {
+  background: #fff;
+  border-radius: 10px;
+  border: 3px solid var(--yellow);
+  overflow: hidden;
+  padding-bottom: 15px;
+  transition: .25s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.catalog-card-inner:hover {
+  transform: translateY(-8px);
+  border-color: var(--red);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+}
+
+.catalog-card-inner img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.catalog-card-inner h4 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+  color: #000;
+}
