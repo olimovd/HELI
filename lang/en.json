@@ -22,5 +22,38 @@
 
   "nav_service_maintenance": "Maintenance & Repair",
   "nav_service_warranty": "Warranty Support",
-  "nav_service_spare_parts": "Spare Parts"
+  "nav_service_spare_parts": "Spare Parts",
+
+  "popular_forklifts": "Popular Forklifts",
+
+  "p101_name": "HELI CB 1.5t",
+  "p101_desc": "1500 kg — compact & efficient",
+
+  "view_btn": "View",
+  "quote_btn": "Request a quote",
+
+  "slide_1_title": "Counterbalance 1.5t",
+  "slide_2_title": "Electric Walkie",
+  "slide_3_title": "Telehandler",
+
+  "btn_view_model": "View model",
+
+  "solutions_partner": "Solutions Partner",
+  "solutions_title": "Forklift Solutions",
+
+  "solutions_step1_title": "Browse\nour Inventory",
+  "solutions_step1_desc": "Explore our diverse range of forklifts available for sale or rent. We offer a wide selection to meet your specific needs.",
+
+  "solutions_step2_title": "Select\nyour Equipment",
+  "solutions_step2_desc": "Browse through our inventory, choose the items you need, and easily book them for the required time.",
+
+  "solutions_step3_title": "Confirm\nand Reserve",
+  "solutions_step3_desc": "Our team ensures prompt delivery to your designated location. Knowledgeable support is always available.",
+
+  "popular_catalogs_title": "Popular Catalogs",
+
+  "catalog_pop_1": "Counterbalance 1.5t",
+  "catalog_pop_2": "Electric Walkie",
+  "catalog_pop_3": "Reach Truck",
+  "catalog_pop_4": "Rough Terrain"
 }

@@ -23,5 +23,38 @@
 
   "nav_service_maintenance": "Texnik xizmat va ta'mirlash",
   "nav_service_warranty": "Kafolat xizmati",
-  "nav_service_spare_parts": "Ehtiyot qismlar"
+  "nav_service_spare_parts": "Ehtiyot qismlar",
+
+  "popular_forklifts": "Ommabop forkliftlar",
+
+  "p101_name": "HELI CB 1.5t",
+  "p101_desc": "1500 kg — ixcham va samarali",
+
+  "view_btn": "Ko‘rish",
+  "quote_btn": "Narx so‘rash",
+
+  "slide_1_title": "1.5 tonnalik kontrbalans forklift",
+  "slide_2_title": "Elektr piyoda boshqariladigan aravacha",
+  "slide_3_title": "Telehandler — baland ko‘tarish texnikasi",
+
+  "btn_view_model": "Modelni ko‘rish",
+
+  "solutions_partner": "Yechimlar hamkori",
+  "solutions_title": "Forklift yechimlari",
+
+  "solutions_step1_title": "Inventarimizni\nko‘rib chiqing",
+  "solutions_step1_desc": "Sotuv yoki ijaraga mavjud bo‘lgan turli xil forkliftlarimizni ko‘rib chiqing. Sizning ehtiyojlaringizga mos keng tanlovni taklif qilamiz.",
+
+  "solutions_step2_title": "Kerakli\nuskunani tanlang",
+  "solutions_step2_desc": "Inventarimizni ko‘zdan kechiring, kerakli texnikani tanlang va oson tarzda kerakli muddatga bron qiling.",
+
+  "solutions_step3_title": "Tasdiqlang\nva bron qiling",
+  "solutions_step3_desc": "Jamoamiz texnikani manzilingizga tez yetkazishni ta’minlaydi. Malakali qo‘llab-quvvatlash har doim mavjud.",
+
+  "popular_catalogs_title": "Ommabop kataloglar",
+
+  "catalog_pop_1": "1.5t qarshi-tortuvchi forklift",
+  "catalog_pop_2": "Elektr yuk ko‘taruvchi aravacha",
+  "catalog_pop_3": "Reach truck",
+  "catalog_pop_4": "Og‘ir sharoitdagi forklift"
 }
