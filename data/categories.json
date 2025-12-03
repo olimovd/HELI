@@ -2,7 +2,7 @@
   "1": {
     "id": 1,
     "slug": "electric-forklifts",
-    "image": "assets/categories/electric.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Elektr forkliftlar",
       "en": "Electric Forklifts",
@@ -12,13 +12,14 @@
       "uz": "Sokin, ekologik va energiya tejamkor yuk ko'targichlar.",
       "en": "Silent, eco-friendly, energy-efficient forklifts.",
       "ru": "Тихие, экологичные и энергоэффективные погрузчики."
-    }
+    },
+    "products": [101, 102, 103, 104, 105, 106]
   },
 
   "2": {
     "id": 2,
     "slug": "diesel-forklifts",
-    "image": "assets/categories/diesel.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Dizel forkliftlar",
       "en": "Diesel Forklifts",
@@ -28,13 +29,14 @@
       "uz": "Og'ir yuklar va tashqi maydonlar uchun qudratli texnika.",
       "en": "Powerful forklifts for outdoor and heavy-duty operations.",
       "ru": "Мощные погрузчики для тяжелых условий и улицы."
-    }
+    },
+    "products": [201, 202, 203, 204, 205, 206, 207]
   },
 
   "3": {
     "id": 3,
     "slug": "reach-trucks",
-    "image": "assets/categories/reach.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Richtrekerlar",
       "en": "Reach Trucks",
@@ -44,13 +46,14 @@
       "uz": "Tor ombor yo‘laklarida ishlash uchun ideal.",
       "en": "Ideal for narrow-aisle warehouse environments.",
       "ru": "Идеальны для работы в узких складских проходах."
-    }
+    },
+    "products": [301, 302]
   },
 
   "4": {
     "id": 4,
     "slug": "stackers",
-    "image": "assets/categories/stacker.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Shtabelyerlar",
       "en": "Stackers",
@@ -60,13 +63,14 @@
       "uz": "Palletlarni ko'tarish va joylashtirish uchun iqtisodiy texnika.",
       "en": "Economic equipment for lifting and pallet stacking.",
       "ru": "Экономичное оборудование для подъема и штабелирования."
-    }
+    },
+    "products": [401, 402, 403]
   },
 
   "5": {
     "id": 5,
     "slug": "narrow-aisle-stackers",
-    "image": "assets/categories/narrow.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Tor yo‘lakli shtabelyerlar",
       "en": "Narrow-Aisle Stackers",
@@ -76,13 +80,14 @@
       "uz": "Juda tor ombor yo‘laklarida maksimal samaradorlik.",
       "en": "Maximum efficiency in ultra-narrow storage aisles.",
       "ru": "Максимальная эффективность в узких складских проходах."
-    }
+    },
+    "products": [501, 502]
   },
 
   "6": {
     "id": 6,
     "slug": "order-pickers",
-    "image": "assets/categories/orderpicker.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Buyurtma yig'uvchilar",
       "en": "Order Pickers",
@@ -92,13 +97,14 @@
       "uz": "Buyurtmalarni tez va aniq yig‘ish uchun yaratilgan texnika.",
       "en": "Designed for fast and precise order picking.",
       "ru": "Созданы для быстрой и точной комплектации заказов."
-    }
+    },
+    "products": [601, 602]
   },
 
   "7": {
     "id": 7,
     "slug": "tow-tractors",
-    "image": "assets/categories/tow.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Sklad tortish traktorlar",
       "en": "Tow Tractors",
@@ -108,13 +114,14 @@
       "uz": "Ko‘p miqdordagi yuklarni tashish uchun qulay traktorlar.",
       "en": "Efficient tractors for moving large quantities of goods.",
       "ru": "Эффективные тягачи для перемещения больших грузов."
-    }
+    },
+    "products": [701, 702]
   },
 
   "8": {
     "id": 8,
     "slug": "pallet-trucks",
-    "image": "assets/categories/pallet.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Elektro-aravachalar",
       "en": "Electric Pallet Trucks",
@@ -124,13 +131,14 @@
       "uz": "Oson va xavfsiz pallet tashish uchun texnika.",
       "en": "Easy and safe pallet transport equipment.",
       "ru": "Безопасная и удобная техника для перемещения паллет."
-    }
+    },
+    "products": [801, 802, 803, 804]
   },
 
   "9": {
     "id": 9,
     "slug": "heavy-forklifts",
-    "image": "assets/categories/heavy.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Yirik yuk forkliftlar",
       "en": "Heavy-Duty Forklifts",
@@ -140,13 +148,14 @@
       "uz": "Eng og'ir sanoat yuklarini ko‘tarishga mo‘ljallangan.",
       "en": "Engineered for extremely heavy industrial loads.",
       "ru": "Предназначены для сверхтяжелых промышленных грузов."
-    }
+    },
+    "products": [901, 902, 903, 904]
   },
 
   "10": {
     "id": 10,
     "slug": "agv-amr",
-    "image": "assets/categories/agv.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Avtomatlashtirilgan texnika (AGV/AMR)",
       "en": "Automated Equipment (AGV/AMR)",
@@ -156,29 +165,31 @@
       "uz": "Ombor logistikasida to‘liq avtomatlashtirilgan yechimlar.",
       "en": "Fully automated solutions for logistics and warehouses.",
       "ru": "Автоматизированные решения для логистики и складов."
-    }
+    },
+    "products": [1001, 1002]
   },
 
   "11": {
     "id": 11,
     "slug": "telehandlers",
-    "image": "assets/categories/telehandler.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Telehandlerlar",
       "en": "Telehandlers",
       "ru": "Телескопические погрузчики"
     },
     "desc": {
-      "uz": "Uzoq masofaga ko‘tarish uchun universal texnika.",
+      "uz": "Uzoq masофaga ko‘tarиш uchun universal texnika.",
       "en": "Versatile equipment for extended lifting.",
       "ru": "Универсальная техника для высоких подъемов."
-    }
+    },
+    "products": [1101, 1102]
   },
 
   "12": {
     "id": 12,
     "slug": "reach-stackers",
-    "image": "assets/categories/reachstacker.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Ritsch-stakerlar",
       "en": "Reach Stackers",
@@ -188,13 +199,14 @@
       "uz": "Konteyner terminallari uchun kuchli yuk ko'tarish texnikasi.",
       "en": "Powerful lifting equipment for container terminals.",
       "ru": "Мощная техника для контейнерных терминалов."
-    }
+    },
+    "products": [1201]
   },
 
   "13": {
     "id": 13,
     "slug": "forklifts-general",
-    "image": "assets/categories/forklift.webp",
+    "image": "assets/categories/category1.webp",
     "name": {
       "uz": "Vilo forkliftlar",
       "en": "Forklifts (General)",
@@ -204,6 +216,7 @@
       "uz": "Har xil yuklarni ko‘tarish uchun universal forkliftlar.",
       "en": "Universal forklifts for various material handling tasks.",
       "ru": "Универсальные погрузчики для разных задач."
-    }
+    },
+    "products": [1301, 1302]
   }
 }

@@ -1,13 +1,27 @@
 {
   "nav_catalog": "Katalog",
+  "nav_catalog_list": "Turkumlar",
   "nav_service": "Xizmatlar",
   "nav_about": "Biz haqimizda",
   "nav_contacts": "Aloqa",
   "nav_search_placeholder": "Forklift qidirish...",
 
-  "hero_title": "HELI Forkliftlar Oʻzbekiston",
-  "hero_sub": "Biznesingiz uchun premium forkliftlar",
+  "nav_brand_subtitle": "Oʻzbekiston",
 
-  "footer_rights": "Barcha huquqlar himoyalangan",
-  "footer_follow": "Bizni kuzating"
+  "nav_item_1": "Elektr forkliftlar",
+  "nav_item_2": "Dizel forkliftlar",
+  "nav_item_3": "Reach trucklar",
+  "nav_item_4": "Stackerlar",
+  "nav_item_5": "Tor yoʻlak uskunalari",
+  "nav_item_6": "Order pickerlar",
+  "nav_item_7": "Pallet aravachalar",
+  "nav_item_8": "Telehandlerlar",
+  "nav_item_9": "Ogʻir texnika",
+  "nav_item_10": "AGV / Avtomatlashtirish",
+  "nav_item_11": "Tortish traktorlari",
+  "nav_item_12": "Maxsus qoʻshimchalar",
+
+  "nav_service_maintenance": "Texnik xizmat va ta'mirlash",
+  "nav_service_warranty": "Kafolat xizmati",
+  "nav_service_spare_parts": "Ehtiyot qismlar"
 }

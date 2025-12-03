@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,75 +10,87 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="catalog-item.css">
-  <link rel="stylesheet" href="index.css"> <!-- global styles -->
+  <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
+<body class="page-fade">
 
-<!-- NAVBAR -->
+<!-- NAVBAR / MODAL / FOOTER placeholders -->
 <div id="navbar-placeholder"></div>
-<script>
-fetch("navbar.html")
-  .then(r => r.text())
-  .then(html => {
-    document.getElementById("navbar-placeholder").innerHTML = html;
-    if (window.initSharedUI) window.initSharedUI();
-  });
-</script>
+<div id="modal-placeholder"></div>
 
-<!-- PAGE CONTENT -->
+<!-- HEADER -->
 <section id="categoryHeader" class="category-header text-white d-flex align-items-center">
   <div class="container text-center">
-    <h1 id="categoryName" class="fw-bold"></h1>
+    <h1 id="categoryName"></h1>
     <p id="categoryDesc" class="mt-3"></p>
   </div>
 </section>
 
+<!-- PRODUCT GRID -->
 <section class="container py-5">
-  <h3 class="mb-4">Available Models</h3>
-
-  <div id="productGrid" class="row g-4">
-    <!-- Dynamic products load here -->
-  </div>
+  <h3 class="mb-4" id="availableTitle" data-i18n="available_models">Available Models</h3>
+  <div id="productGrid" class="row g-4"></div>
 </section>
-
-<!-- QUOTE MODAL -->
-<div class="modal fade" id="quoteModal" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <form id="quoteForm">
-        <div class="modal-header">
-          <h5 class="modal-title">Request a Quote</h5>
-          <button class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-
-        <div class="modal-body">
-          <input type="text" class="form-control mb-3" placeholder="Name" required>
-          <input type="text" class="form-control mb-3" placeholder="Phone" required>
-          <textarea class="form-control" placeholder="Message"></textarea>
-        </div>
-
-        <div class="modal-footer">
-          <button class="btn btn-danger" type="submit">Submit</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
 
 <!-- FOOTER -->
 <div id="footer-placeholder"></div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+<script src="catalog-item.js"></script>
+
+<!-- SINGLE FINAL LOADER — DO NOT DUPLICATE -->
 <script>
-fetch("footer.html")
-  .then(r => r.text())
-  .then(html => {
-    document.getElementById("footer-placeholder").innerHTML = html;
-    if (window.initSharedUI) window.initSharedUI();
-  });
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    console.log("[loader] start");
+
+    /* 1️⃣ Load NAVBAR */
+    const navRes = await fetch("navbar.html");
+    if (!navRes.ok) throw new Error("navbar.html fetch failed");
+    document.getElementById("navbar-placeholder").innerHTML = await navRes.text();
+
+    if (typeof initSharedUI === "function") initSharedUI();
+    if (typeof initLanguageSwitcher === "function") initLanguageSwitcher();
+
+    /* 2️⃣ Load LANGUAGE BEFORE ANY PAGE LOGIC */
+    window.currentLang = localStorage.getItem("heli-lang") || "uz";
+    if (typeof loadLanguage === "function") {
+      await loadLanguage(window.currentLang);
+    }
+    if (typeof setActiveLangButton === "function") setActiveLangButton();
+
+    /* 3️⃣ Load MODAL */
+    const modalRes = await fetch("modal.html");
+    if (modalRes.ok) {
+      document.getElementById("modal-placeholder").innerHTML = await modalRes.text();
+      if (typeof initSharedUI === "function") initSharedUI();
+    }
+
+    /* 4️⃣ Load FOOTER */
+    const footRes = await fetch("footer.html");
+    if (footRes.ok) {
+      document.getElementById("footer-placeholder").innerHTML = await footRes.text();
+    }
+
+    /* 5️⃣ Finally load the category + product cards */
+    if (typeof loadCatalogPage === "function") {
+      await loadCatalogPage();
+    } else {
+      console.error("loadCatalogPage() missing");
+      document.getElementById("productGrid").innerHTML =
+        "<div class='col-12 text-danger'>Page script missing</div>";
+    }
+
+  } catch (err) {
+    console.error("Loader error:", err);
+    document.getElementById("productGrid").innerHTML =
+      `<div class="col-12 text-danger">Error loading page: ${err.message}</div>`;
+  }
+});
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="catalog-item.js"></script>
-<script src="index.js"></script>
 </body>
 </html>

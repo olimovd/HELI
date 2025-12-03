@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const res = await fetch("data/products.json");
     products = await res.json();
   } catch (err) {
-    console.error("❌ products.json yuklanmadi:", err);
+    console.error("❌ products.json failed:", err);
     document.querySelector("#productContainer").innerHTML = "<h2>Product Data Error</h2>";
     return;
   }
@@ -24,68 +24,57 @@ document.addEventListener("DOMContentLoaded", async () => {
   const p = products[id];
 
   // FILL MAIN INFO
-  const imgEl = document.querySelector("#productImage");
-  const nameEl = document.querySelector("#productName");
-  const shortEl = document.querySelector("#productShortDesc");
-  const descEl = document.querySelector("#productDescription");
-  const charList = document.querySelector("#productCharacteristics");
+  document.querySelector("#productImage").src = p.img;
+  document.querySelector("#productName").textContent = p.name;
+  document.querySelector("#productShortDesc").textContent = p.short;
+  document.querySelector("#productDescription").textContent = p.desc;
 
-  if (imgEl) imgEl.src = p.img;
-  if (nameEl) nameEl.textContent = p.name;
-  if (shortEl) shortEl.textContent = p.short;
-  if (descEl) descEl.textContent = p.desc;
-  if (charList) {
-    charList.innerHTML = (p.characteristics || [])
-      .map(c => `<li>${c}</li>`)
-      .join("");
-  }
+  // CHARACTERISTICS
+  document.querySelector("#productCharacteristics").innerHTML =
+    p.characteristics.map(c => `<li>${c}</li>`).join("");
 
   // RELATED PRODUCTS
   const relatedWrap = document.querySelector("#relatedProducts");
-  if (relatedWrap) {
-    const validRelated = (p.related || []).filter(r => products[r]);
+  const validRelated = (p.related || []).filter(r => products[r]);
 
-    relatedWrap.innerHTML = validRelated
-      .map(rid => {
-        const rp = products[rid];
-        return `
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img src="${rp.img}">
-              <div class="card-body">
-                <h6>${rp.name}</h6>
-                <a href="product.html?id=${rid}" class="btn btn-outline-dark btn-sm mt-2">View</a>
-              </div>
+  relatedWrap.innerHTML = validRelated
+    .map(rid => {
+      const rp = products[rid];
+      return `
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="${rp.img}">
+            <div class="card-body">
+              <h6>${rp.name}</h6>
+              <a href="product.html?id=${rid}" class="btn btn-outline-dark btn-sm mt-2">View</a>
             </div>
           </div>
-        `;
-      })
-      .join("");
-  }
+        </div>
+      `;
+    })
+    .join("");
 
   // IMAGE ZOOM FEATURE
-  if (imgEl) {
-    imgEl.addEventListener("click", () => {
-      const overlay = document.createElement("div");
-      overlay.id = "zoomOverlay";
+  const imgEl = document.querySelector("#productImage");
+  imgEl.addEventListener("click", () => {
+    const overlay = document.createElement("div");
+    overlay.id = "zoomOverlay";
 
-      overlay.innerHTML = `<img src="${p.img}" alt="${p.name}">`;
-      document.body.appendChild(overlay);
+    overlay.innerHTML = `<img src="${p.img}" alt="${p.name}">`;
+    document.body.appendChild(overlay);
 
-      overlay.style.display = "flex";
+    overlay.style.display = "flex";
+    overlay.addEventListener("click", () => overlay.remove());
+  });
 
-      overlay.addEventListener("click", () => overlay.remove());
-    });
-  }
-
-  // QUOTE MODAL HOOK
+  // QUOTE MODAL
   const quoteModalEl = document.getElementById("quoteModal");
   if (quoteModalEl) {
     const modal = new bootstrap.Modal(quoteModalEl);
 
-    document.querySelectorAll(".request-quote-btn").forEach(btn => {
-      btn.addEventListener("click", () => modal.show());
-    });
+    document.querySelectorAll(".request-quote-btn").forEach(btn =>
+      btn.addEventListener("click", () => modal.show())
+    );
 
     const qForm = document.getElementById("quoteForm");
     if (qForm) {

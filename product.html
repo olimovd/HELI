@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,14 +18,9 @@
 
 <!-- NAVBAR -->
 <div id="navbar-placeholder"></div>
-<script>
-fetch("navbar.html")
-  .then(r => r.text())
-  .then(html => {
-    document.getElementById("navbar-placeholder").innerHTML = html;
-    if (window.initSharedUI) window.initSharedUI();
-  });
-</script>
+
+<!-- MODAL -->
+<div id="modal-placeholder"></div>
 
 <!-- PRODUCT CONTENT -->
 <section class="container py-5" id="productContainer">
@@ -41,8 +37,9 @@ fetch("navbar.html")
       <h1 id="productName" class="fw-bold"></h1>
       <p id="productShortDesc" class="text-muted"></p>
 
-      <!-- Buttons -->
-      <button class="btn btn-danger btn-lg mt-3 request-quote-btn">Request a Quote</button>
+      <button class="btn btn-danger btn-lg mt-3 request-quote-btn" id="quoteBtn">
+        Request a Quote
+      </button>
     </div>
 
   </div>
@@ -79,43 +76,42 @@ fetch("navbar.html")
 
 </section>
 
-<!-- QUOTE MODAL -->
-<div class="modal fade" id="quoteModal" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <form id="quoteForm">
-        <div class="modal-header">
-          <h5 class="modal-title">Request a Quote</h5>
-          <button class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-
-        <div class="modal-body">
-          <input type="text" class="form-control mb-3" placeholder="Name" required>
-          <input type="text" class="form-control mb-3" placeholder="Phone" required>
-          <textarea class="form-control" placeholder="Message"></textarea>
-        </div>
-
-        <div class="modal-footer">
-          <button class="btn btn-danger" type="submit">Send</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
-<!-- FOOTER -->
+<!-- QUOTE MODAL (shared) -->
 <div id="footer-placeholder"></div>
+
+<!-- BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- MAIN JS -->
+<script src="index.js"></script>
+<script src="product.js"></script>
+
 <script>
-fetch("footer.html")
-  .then(r => r.text())
-  .then(html => {
-    document.getElementById("footer-placeholder").innerHTML = html;
-    if (window.initSharedUI) window.initSharedUI();
-  });
+document.addEventListener("DOMContentLoaded", async () => {
+
+  /* ---------- LOAD NAVBAR ---------- */
+  const navRes = await fetch("navbar.html");
+  const navbar = await navRes.text();
+  document.getElementById("navbar-placeholder").innerHTML = navbar;
+
+  if (window.initSharedUI) initSharedUI();
+  if (window.initLanguageSwitcher) initLanguageSwitcher();
+  if (window.loadLanguage) await loadLanguage(window.currentLang || "uz");
+  if (window.setActiveLangButton) setActiveLangButton();
+
+
+  /* ---------- LOAD MODAL ---------- */
+  const modalRes = await fetch("modal.html");
+  document.getElementById("modal-placeholder").innerHTML = await modalRes.text();
+  if (window.initSharedUI) initSharedUI();
+
+
+  /* ---------- LOAD FOOTER ---------- */
+  const footerRes = await fetch("footer.html");
+  document.getElementById("footer-placeholder").innerHTML = await footerRes.text();
+
+});
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="product.js"></script>
-<script src="index.js"></script>
 </body>
 </html>

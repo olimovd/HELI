@@ -1,13 +1,26 @@
 {
   "nav_catalog": "Catalog",
+  "nav_catalog_list": "Categories",
   "nav_service": "Service",
   "nav_about": "About",
   "nav_contacts": "Contacts",
   "nav_search_placeholder": "Search forklifts...",
+  "nav_brand_subtitle": "Uzbekistan",
 
-  "hero_title": "HELI Forklifts Uzbekistan",
-  "hero_sub": "Premium forklifts for your business",
+  "nav_item_1": "Electric Forklifts",
+  "nav_item_2": "Diesel Forklifts",
+  "nav_item_3": "Reach Trucks",
+  "nav_item_4": "Stackers",
+  "nav_item_5": "Narrow Aisle",
+  "nav_item_6": "Order Pickers",
+  "nav_item_7": "Pallet Trucks",
+  "nav_item_8": "Telehandlers",
+  "nav_item_9": "Heavy Duty Forklifts",
+  "nav_item_10": "AGV / Automation",
+  "nav_item_11": "Tow Tractors",
+  "nav_item_12": "Special Attachments",
 
-  "footer_rights": "All rights reserved",
-  "footer_follow": "Follow us"
+  "nav_service_maintenance": "Maintenance & Repair",
+  "nav_service_warranty": "Warranty Support",
+  "nav_service_spare_parts": "Spare Parts"
 }

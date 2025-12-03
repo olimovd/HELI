@@ -25,18 +25,6 @@ window.initSharedUI = function () {
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
   // ---------------------------------------------------
-  // LANGUAGE SWITCH
-  // ---------------------------------------------------
-  document.querySelectorAll(".language-switch button").forEach(btn => {
-    const newBtn = replaceNode(btn);
-    newBtn.addEventListener("click", () => {
-      document.querySelectorAll(".language-switch button")
-        .forEach(x => x.classList.remove("active"));
-      newBtn.classList.add("active");
-    });
-  });
-
-  // ---------------------------------------------------
   // SEARCH FORM
   // ---------------------------------------------------
   const searchForm = document.getElementById("searchForm");
@@ -258,22 +246,34 @@ window.loadLanguage = async function(lang) {
 };
 
 // switch btns
-window.initLanguageSwitcher = function() {
+window.initLanguageSwitcher = function () {
+
+  const current = window.currentLang;
+
+  // Highlight the active button
   document.querySelectorAll(".language-switch button").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.lang === current);
+
+    // Add click handler
     btn.addEventListener("click", () => {
       const lang = btn.dataset.lang;
-      loadLanguage(lang);
 
-      document.querySelectorAll(".language-switch button")
-        .forEach(x => x.classList.remove("active"));
-      btn.classList.add("active");
+      // Save language
+      localStorage.setItem("heli-lang", lang);
+      window.currentLang = lang;
+
+      // 🔥 Reload the whole page so dynamic content updates correctly
+      window.location.reload();
     });
   });
 };
+
 
 // load on first page load
 document.addEventListener("DOMContentLoaded", () => {
   loadLanguage(window.currentLang);
   initLanguageSwitcher();
 });
+
+
 

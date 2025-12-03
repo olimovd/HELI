@@ -1,76 +1,114 @@
-// CATEGORY DATA
-const categories = {
-  1: {
-    name: "Electric Forklifts",
-    desc: "Silent, eco-friendly and efficient forklifts for warehouses and logistics.",
-    image: "assets/category1.webp",
-    products: [
-      { id: 101, name: "HELI CPD 1.5t", img: "assets/category1.webp", desc: "1.5t compact electric forklift" },
-      { id: 102, name: "HELI CPD 2t", img: "assets/category1.webp", desc: "2t electric forklift – long runtime" }
-    ]
-  },
+window.loadCatalogPage = async function () {
+  console.log("loadCatalogPage(): start");
 
-  2: {
-    name: "Diesel Forklifts",
-    desc: "Powerful machines for outdoor and heavy-duty applications.",
-    image: "assets/category2.webp",
-    products: [
-      { id: 201, name: "HELI CPCD 3t", img: "assets/p3.webp", desc: "3-ton durable diesel forklift" },
-      { id: 202, name: "HELI CPCD 5t", img: "assets/p4.webp", desc: "High lifting capacity diesel model" }
-    ]
-  },
+  const lang = window.currentLang || "uz";
+  console.log("Active language:", lang);
 
-  3: {
-    name: "Reach Trucks",
-    desc: "High-lifting solutions for narrow warehouse aisles.",
-    image: "assets/reachtruck.webp",
-    products: [
-      { id: 301, name: "HELI CQD 1.6t", img: "assets/p5.webp", desc: "1.6t reach truck" }
-    ]
-  },
-
-  4: {
-    name: "Electric",
-    desc: "Economic lifting equipment for pallet stacking and transport.",
-    image: "assets/electer_hero.png",
-    products: [
-      { id: 401, name: "HELI CDD 1t", img: "assets/electer_1.jpg", desc: "Electric pallet stacker 1t" }
-    ]
+  function pageMessage(html) {
+    const grid = document.getElementById("productGrid");
+    if (grid) grid.innerHTML = `<div class="col-12 text-center text-muted py-5">${html}</div>`;
   }
-};
 
-// ---------------- LOAD PAGE ----------------
-const urlParams = new URLSearchParams(window.location.search);
-const type = urlParams.get("type");
+  /* Load categories */
+  let categories = {};
+  try {
+    const res = await fetch("data/categories.json");
+    if (!res.ok) throw new Error("categories.json error");
+    categories = await res.json();
+  } catch (err) {
+    console.error(err);
+    return pageMessage("Failed to load categories.");
+  }
 
-if (categories[type]) {
+  /* Load products */
+  let products = {};
+  try {
+    const res = await fetch("data/products.json");
+    if (!res.ok) throw new Error("products.json error");
+    products = await res.json();
+  } catch (err) {
+    console.error(err);
+    return pageMessage("Failed to load products.");
+  }
 
-  // HEADER
-  document.getElementById("categoryName").textContent = categories[type].name;
-  document.getElementById("categoryDesc").textContent = categories[type].desc;
+  const type = new URLSearchParams(window.location.search).get("type");
+  if (!type) return pageMessage("No category selected.");
 
-  document.getElementById("categoryHeader").style.backgroundImage =
-    `url('${categories[type].image}')`;
+  const category = categories[type];
+  if (!category) return pageMessage("Category not found.");
 
-  // PRODUCTS
+  /* Set header texts */
+  document.getElementById("categoryName").textContent =
+    category.name?.[lang] || category.name?.uz || "Category";
+
+  document.getElementById("categoryDesc").textContent =
+    category.desc?.[lang] || category.desc?.uz || "";
+
+  /* Background image */
+  if (category.image) {
+    document.getElementById("categoryHeader").style.backgroundImage =
+      `url('${category.image}')`;
+  }
+
+  /* Product grid */
   const grid = document.getElementById("productGrid");
-  grid.innerHTML = categories[type].products.map(p => `
-    <div class="col-lg-3 col-md-4 col-sm-6">
-      <div class="card product-card">
-        <img src="${p.img}">
-        <div class="card-body">
-          <h5 class="card-title">${p.name}</h5>
-          <p class="small text-muted">${p.desc}</p>
+  const productIds = Array.isArray(category.products) ? category.products : [];
 
-          <div class="btn-row">
-            <a href="product.html?id=${p.id}" class="btn btn-outline-dark btn-sm">View</a>
-            <button class="btn btn-danger btn-sm request-quote-btn">Quote</button>
+  if (productIds.length === 0) {
+    return pageMessage("No products in this category.");
+  }
+
+  const cards = productIds.map(pid => {
+    const p = products[pid];
+    if (!p) return "";
+
+    const img = p.images?.[0] || "assets/no-image.png";
+    const title = p.name?.[lang] || p.name?.uz || "Product";
+    const desc = p.shortDesc?.[lang] || p.shortDesc?.uz || "";
+
+    return `
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card product-card h-100">
+          <img src="${img}" class="card-img-top" style="height:180px; object-fit:cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">${title}</h5>
+            <p class="small text-muted">${desc}</p>
+            <div class="mt-auto d-flex gap-2">
+              <a href="product.html?id=${p.id}" class="btn btn-outline-dark btn-sm">
+                View
+              </a>
+              <button class="btn btn-danger btn-sm request-quote-btn"
+                data-product="${escapeHtml(title)}">
+                Quote
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  `).join("");
+    `;
+  }).join("");
 
-} else {
-  document.getElementById("categoryName").textContent = "Category Not Found";
+  grid.innerHTML = cards;
+
+  /* Quote modal open */
+  document.querySelectorAll(".request-quote-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const qField = document.getElementById("qProduct");
+      if (qField) qField.value = btn.dataset.product;
+
+      const modalEl = document.getElementById("quoteModal");
+      if (modalEl) new bootstrap.Modal(modalEl).show();
+    });
+  });
+
+  console.log("Catalog page rendered ✔");
+};
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
