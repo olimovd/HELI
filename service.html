@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>HELI Services</title>
+  <title data-i18n="service_title">HELI Services</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="service.css">
@@ -20,8 +20,8 @@
 <!-- HERO SECTION -->
 <section class="service-hero">
   <div class="container text-center">
-    <h1 class="fw-bold">HELI Services</h1>
-    <p class="lead mt-3">
+    <h1 class="fw-bold" data-i18n="service_title">HELI Services</h1>
+    <p class="lead mt-3" data-i18n="service_subtitle">
       Professional maintenance, high-quality spare parts, and certified support across Uzbekistan.
     </p>
   </div>
@@ -38,9 +38,11 @@
           <div class="service-icon">
             <i class="bi bi-tools"></i>
           </div>
-          <h4>Maintenance & Repair</h4>
-          <p>Certified mechanics providing scheduled maintenance and professional repair services.</p>
-          <a href="service-maintenance.html" class="btn btn-dark">Learn More</a>
+          <h4 data-i18n="service_card_1_title">Maintenance & Repair</h4>
+          <p data-i18n="service_card_1_desc">
+            Certified mechanics providing scheduled maintenance and professional repair services.
+          </p>
+          <a href="service-maintenance.html" class="btn btn-dark" data-i18n="service_card_btn">Learn More</a>
         </div>
       </div>
 
@@ -50,9 +52,11 @@
           <div class="service-icon">
             <i class="bi bi-gear-wide-connected"></i>
           </div>
-          <h4>Spare Parts</h4>
-          <p>Large inventory of genuine HELI spare parts for all forklift types and models.</p>
-          <a href="service-spare-parts.html" class="btn btn-dark">Learn More</a>
+          <h4 data-i18n="service_card_2_title">Spare Parts</h4>
+          <p data-i18n="service_card_2_desc">
+            Large inventory of genuine HELI spare parts for all forklift types and models.
+          </p>
+          <a href="service-spare-parts.html" class="btn btn-dark" data-i18n="service_card_btn">Learn More</a>
         </div>
       </div>
 
@@ -62,9 +66,11 @@
           <div class="service-icon">
             <i class="bi bi-shield-check"></i>
           </div>
-          <h4>Warranty Support</h4>
-          <p>Official warranty services handled by HELI-certified specialists in Uzbekistan.</p>
-          <a href="service-warranty.html" class="btn btn-dark">Learn More</a>
+          <h4 data-i18n="service_card_3_title">Warranty Support</h4>
+          <p data-i18n="service_card_3_desc">
+            Official warranty services handled by HELI-certified specialists in Uzbekistan.
+          </p>
+          <a href="service-warranty.html" class="btn btn-dark" data-i18n="service_card_btn">Learn More</a>
         </div>
       </div>
 
@@ -79,17 +85,18 @@
     <div class="row align-items-center">
 
       <div class="col-lg-6">
-        <h2 class="fw-bold mb-3">Why Choose HELI Service?</h2>
-        <p>
+        <h2 class="fw-bold mb-3" data-i18n="why_choose_title">Why Choose HELI Service?</h2>
+
+        <p data-i18n="why_choose_desc">
           We offer complete support across Uzbekistan — from regular maintenance to emergency repairs.
           Our technicians are factory-trained and equipped with certified diagnostic tools.
         </p>
 
         <ul class="industrial-list mt-3">
-          <li><i class="bi bi-check-circle"></i> 24/7 technical support</li>
-          <li><i class="bi bi-check-circle"></i> Fast repair turnaround</li>
-          <li><i class="bi bi-check-circle"></i> Original HELI spare parts</li>
-          <li><i class="bi bi-check-circle"></i> Certified mechanics</li>
+          <li><i class="bi bi-check-circle"></i> <span data-i18n="why_bullet_1">24/7 technical support</span></li>
+          <li><i class="bi bi-check-circle"></i> <span data-i18n="why_bullet_2">Fast repair turnaround</span></li>
+          <li><i class="bi bi-check-circle"></i> <span data-i18n="why_bullet_3">Original HELI spare parts</span></li>
+          <li><i class="bi bi-check-circle"></i> <span data-i18n="why_bullet_4">Certified mechanics</span></li>
         </ul>
       </div>
 
@@ -105,10 +112,12 @@
 <!-- CALL TO ACTION -->
 <section class="cta-section text-center py-5">
   <div class="container">
-    <h2 class="fw-bold mb-3">Need Service Assistance?</h2>
-    <p class="mb-4">Our experts are ready to help you with diagnostics, service, and spare parts.</p>
+    <h2 class="fw-bold mb-3" data-i18n="assist_title">Need Service Assistance?</h2>
+    <p class="mb-4" data-i18n="assist_desc">
+      Our experts are ready to help you with diagnostics, service, and spare parts.
+    </p>
 
-    <button class="btn btn-danger request-quote-btn" data-product="Service Request">
+    <button class="btn btn-danger request-quote-btn" data-product="Service Request" data-i18n="assist_btn">
       Request Service
     </button>
   </div>
@@ -119,49 +128,33 @@
 
 <!-- ---------- SCRIPTS ---------- -->
 
-<!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- main shared script (must be loaded BEFORE we init the navbar) -->
 <script src="index.js"></script>
 
-<!-- Load navbar and footer AFTER index.js is available -->
+<!-- Load navbar & footer -->
 <script>
   document.addEventListener('DOMContentLoaded', async () => {
-    // --- load navbar ---
+
+    /* Load Navbar */
     try {
-      const r = await fetch('navbar.html');
-      if (!r.ok) throw new Error('Navbar fetch failed: ' + r.status);
-      const html = await r.text();
-      document.getElementById('navbar-placeholder').innerHTML = html;
+      const nav = await fetch('navbar.html');
+      document.getElementById('navbar-placeholder').innerHTML = await nav.text();
 
-      // initialize shared UI and language controls
-      if (typeof window.initSharedUI === 'function') window.initSharedUI();
-      if (typeof window.initLanguageSwitcher === 'function') window.initLanguageSwitcher();
-
-      // load language translations
-      if (typeof window.loadLanguage === 'function') {
-        await window.loadLanguage(window.currentLang || 'uz');
-      }
-
-      // set active language button (important)
-      if (typeof window.setActiveLangButton === 'function') window.setActiveLangButton();
+      if (window.initSharedUI) window.initSharedUI();
+      if (window.initLanguageSwitcher) window.initLanguageSwitcher();
+      if (window.loadLanguage) await window.loadLanguage(window.currentLang || 'uz');
+      if (window.setActiveLangButton) window.setActiveLangButton();
 
     } catch (err) {
-      console.error('Error loading navbar:', err);
+      console.error('Navbar load error:', err);
     }
 
-    // --- load footer (no UI init needed) ---
+    /* Load Footer */
     try {
-      const rf = await fetch('footer.html');
-      if (rf.ok) {
-        const fhtml = await rf.text();
-        document.getElementById('footer-placeholder').innerHTML = fhtml;
-      } else {
-        console.warn('Footer fetch failed:', rf.status);
-      }
+      const ft = await fetch('footer.html');
+      document.getElementById('footer-placeholder').innerHTML = await ft.text();
     } catch (err) {
-      console.error('Error loading footer:', err);
+      console.error('Footer load error:', err);
     }
   });
 </script>

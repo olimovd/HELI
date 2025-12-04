@@ -5,14 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Contact – HELI Uzbekistan</title>
+  <title data-i18n="contact_title">Contact – HELI Uzbekistan</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-  <!-- EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
   <style>
@@ -36,8 +35,10 @@
   </video>
 
   <div class="container text-center text-white">
-    <h1 class="fw-bold">Contact Us</h1>
-    <p class="lead mt-2">We are here to help you with forklifts, service, and spare parts.</p>
+    <h1 class="fw-bold" data-i18n="contact_title">Contact Us</h1>
+    <p class="lead mt-2" data-i18n="contact_sub">
+      We are here to help you with forklifts, service, and spare parts.
+    </p>
   </div>
 </section>
 
@@ -49,29 +50,29 @@
       <!-- LEFT SIDE INFO -->
       <div class="col-lg-5">
 
-        <h2 class="fw-bold mb-4">Get in Touch</h2>
+        <h2 class="fw-bold mb-4" data-i18n="contact_get_in_touch">Get in Touch</h2>
 
         <div class="contact-box">
           <i class="bi bi-telephone-fill"></i>
           <div>
-            <h6>Phone</h6>
-            <p class="text-muted">+998 90 123 45 67</p>
+            <h6 data-i18n="contact_phone_label">Phone</h6>
+            <p class="text-muted" data-i18n="contact_phone_value">+998 90 123 45 67</p>
           </div>
         </div>
 
         <div class="contact-box">
           <i class="bi bi-envelope-fill"></i>
           <div>
-            <h6>Email</h6>
-            <p class="text-muted">info@helifork.uz</p>
+            <h6 data-i18n="contact_email_label">Email</h6>
+            <p class="text-muted" data-i18n="contact_email_value">info@helifork.uz</p>
           </div>
         </div>
 
         <div class="contact-box">
           <i class="bi bi-geo-alt-fill"></i>
           <div>
-            <h6>Address</h6>
-            <p class="text-muted">Tashkent, Uzbekistan</p>
+            <h6 data-i18n="contact_address_label">Address</h6>
+            <p class="text-muted" data-i18n="contact_address_value">Tashkent, Uzbekistan</p>
           </div>
         </div>
 
@@ -92,8 +93,8 @@
             height="350" 
             style="border:0; border-radius: 15px;" 
             allowfullscreen 
-            loading="lazy"
-          ></iframe>
+            loading="lazy">
+          </iframe>
         </div>
       </div>
 
@@ -104,13 +105,13 @@
 <!-- CTA -->
 <section class="contact-cta text-center py-5">
   <div class="container">
-    <h2 class="fw-bold text-white mb-3">Send Us a Message</h2>
-    <p class="text-light">Our team will contact you shortly.</p>
+    <h2 class="fw-bold text-white mb-3" data-i18n="contact_cta_title">Send Us a Message</h2>
+    <p class="text-light" data-i18n="contact_cta_text">Our team will contact you shortly.</p>
 
     <button 
       class="btn btn-light mt-3 request-quote-btn"
       data-product="Contact Page Inquiry"
-    >
+      data-i18n="contact_cta_btn">
       Contact HELI
     </button>
   </div>
@@ -126,31 +127,24 @@
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
 
-  /* ---------------- NAVBAR ---------------- */
+  /* NAVBAR */
   const navRes = await fetch("navbar.html");
-  const navbar = await navRes.text();
-  document.getElementById("navbar-placeholder").innerHTML = navbar;
+  document.getElementById("navbar-placeholder").innerHTML = await navRes.text();
 
   if (window.initSharedUI) initSharedUI();
   if (window.initLanguageSwitcher) initLanguageSwitcher();
   if (window.loadLanguage) await loadLanguage(window.currentLang || "uz");
   if (window.setActiveLangButton) setActiveLangButton();
 
-
-  /* ---------------- MODAL ---------------- */
+  /* MODAL */
   const modalRes = await fetch("modal.html");
-  const modalHTML = await modalRes.text();
-  document.getElementById("modal-placeholder").innerHTML = modalHTML;
+  document.getElementById("modal-placeholder").innerHTML = await modalRes.text();
 
-  // reinitialize UI for modal buttons
-  if (window.initSharedUI) initSharedUI();
+  if (window.initSharedUI) initSharedUI(); // reattach quote modal events
 
-
-  /* ---------------- FOOTER ---------------- */
-  const footRes = await fetch("footer.html");
-  const footerHTML = await footRes.text();
-  document.getElementById("footer-placeholder").innerHTML = footerHTML;
-
+  /* FOOTER */
+  const footerRes = await fetch("footer.html");
+  document.getElementById("footer-placeholder").innerHTML = await footerRes.text();
 });
 </script>
 

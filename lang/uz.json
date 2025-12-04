@@ -56,5 +56,79 @@
   "catalog_pop_1": "1.5t qarshi-tortuvchi forklift",
   "catalog_pop_2": "Elektr yuk ko‘taruvchi aravacha",
   "catalog_pop_3": "Reach truck",
-  "catalog_pop_4": "Og‘ir sharoitdagi forklift"
+  "catalog_pop_4": "Og‘ir sharoitdagi forklift",
+
+  "service_title": "HELI Xizmatlari",
+  "service_subtitle": "O‘zbekiston bo‘ylab professional texnik xizmat, sifatli ehtiyot qismlar va sertifikatlangan qo‘llab-quvvatlash.",
+
+  "service_card_1_title": "Texnik xizmat va ta’mirlash",
+  "service_card_1_desc": "Sertifikatlangan ustalar tomonidan rejalashtirilgan texnik xizmat va professional ta’mirlash ishlari.",
+  "service_card_btn": "Batafsil",
+
+  "service_card_2_title": "Ehtiyot qismlar",
+  "service_card_2_desc": "HELI brendiga tegishli barcha forkliftlar uchun original ehtiyot qismlar.",
+  
+  "service_card_3_title": "Kafolat xizmati",
+  "service_card_3_desc": "O‘zbekiston bo‘yicha HELI sertifikatlangan mutaxassislari tomonidan kafolatli xizmat ko‘rsatish.",
+
+  "why_choose_title": "Nega HELI xizmatini tanlashadi?",
+  "why_choose_desc": "Biz O‘zbekiston bo‘ylab to‘liq texnik xizmatni taklif etamiz — rejalashtirilgan xizmatlardan tortib favqulodda ta’mirlashgacha.",
+
+  "why_bullet_1": "24/7 texnik yordam",
+  "why_bullet_2": "Tezkor ta’mirlash",
+  "why_bullet_3": "Original HELI ehtiyot qismlari",
+  "why_bullet_4": "Sertifikatlangan mexaniklar",
+
+  "assist_title": "Xizmat kerakmi?",
+  "assist_desc": "Bizning mutaxassislar diagnostika, texnik xizmat va ehtiyot qismlar bo‘yicha yordam berishga tayyor.",
+  "assist_btn": "Xizmat buyurtma qilish",
+
+  "about_title": "HELI O‘zbekiston haqida",
+  "about_sub": "O‘zbekistonning yetakchi forklift distributori va xizmat ko‘rsatish hamkori",
+
+  "about_who_title": "Biz kimmiz?",
+  "about_who_text1": "HELI Uzbekistan — dunyoning yetakchi forklift ishlab chiqaruvchilaridan biri bo‘lgan HELI brendining rasmiy distributori bo‘lib, 60 yildan ortiq muhandislik tajribasiga ega.",
+  "about_who_text2": "Bizning maqsadimiz — ishonchli yuk ko‘tarish texnikalari orqali mijozlarimizning samaradorligini oshirish.",
+
+  "about_mission_title": "Bizning maqsadimiz",
+  "about_mission_text": "O‘zbekiston sanoati uchun ilg‘or forkliftlar va yuqori darajadagi texnik xizmatni taqdim etish.",
+
+  "about_mission_card1_title": "Sertifikatlangan sifat",
+  "about_mission_card1_text": "HELI mahsulotlari xalqaro mustahkamlik va ishonchlilik standartlariga javob beradi.",
+
+  "about_mission_card2_title": "Zamonaviy texnologiya",
+  "about_mission_card2_text": "Yuqori samaradorlik va unumdorlik uchun zamonaviy muhandislik yechimlari.",
+
+  "about_mission_card3_title": "Mijozlarga yo‘naltirilgan yondashuv",
+  "about_mission_card3_text": "Uskuna tanlashdan tortib uzoq muddatli texnik xizmatgacha to‘liq qo‘llab-quvvatlash.",
+
+  "about_cert_title": "Sertifikatlar va e’tiroflar",
+
+  "about_timeline_title": "Bizning yo‘limiz",
+  "about_time_2010": "HELI O‘zbekistonga kirib kelib, dastlabki distribyutor tarmoqlarini yo‘lga qo‘ydi.",
+  "about_time_2015": "Mamlakatning asosiy hududlarida xizmat ko‘rsatish markazlari kengaytirildi.",
+  "about_time_2020": "To‘liq ehtiyot qismlar va texnik xizmat operatsiyalari yo‘lga qo‘yildi.",
+  "about_time_2024": "O‘zbekistondagi yetakchi HELI uskunalari yetkazib beruvchisi.",
+
+  "about_cta_title": "Ko‘proq bilishni xohlaysizmi?",
+  "about_cta_text": "HELI yechimlari haqida batafsil ma’lumot olish uchun bizning jamoamizga murojaat qiling.",
+  "about_cta_btn": "Biz bilan bog‘laning",
+
+  "contact_title": "Biz bilan bog‘laning",
+  "contact_sub": "Forkliftlar, xizmat va ehtiyot qismlar bo‘yicha sizga yordam berishga tayyormiz.",
+
+  "contact_get_in_touch": "Biz bilan bog‘laning",
+
+  "contact_phone_label": "Telefon",
+  "contact_phone_value": "+998 90 123 45 67",
+
+  "contact_email_label": "Email",
+  "contact_email_value": "info@helifork.uz",
+
+  "contact_address_label": "Manzil",
+  "contact_address_value": "Toshkent, O‘zbekiston",
+
+  "contact_cta_title": "Bizga xabar yuboring",
+  "contact_cta_text": "Jamoamiz tez orada siz bilan bog‘lanadi.",
+  "contact_cta_btn": "HELI bilan bog‘lanish"
 }

@@ -38,7 +38,7 @@
     "slug": "reach-trucks",
     "image": "assets/categories/category1.webp",
     "name": {
-      "uz": "Richtrekerlar",
+      "uz": "Richtraklar",
       "en": "Reach Trucks",
       "ru": "Ричтраки"
     },
@@ -201,22 +201,5 @@
       "ru": "Мощная техника для контейнерных терминалов."
     },
     "products": [1201]
-  },
-
-  "13": {
-    "id": 13,
-    "slug": "forklifts-general",
-    "image": "assets/categories/category1.webp",
-    "name": {
-      "uz": "Vilo forkliftlar",
-      "en": "Forklifts (General)",
-      "ru": "Вилочные погрузчики"
-    },
-    "desc": {
-      "uz": "Har xil yuklarni ko‘tarish uchun universal forkliftlar.",
-      "en": "Universal forklifts for various material handling tasks.",
-      "ru": "Универсальные погрузчики для разных задач."
-    },
-    "products": [1301, 1302]
   }
 }

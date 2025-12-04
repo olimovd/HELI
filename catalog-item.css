@@ -4,22 +4,69 @@
   --black: #000;
 }
 
-/* HEADER BANNER */
+/* ============================
+   CATEGORY HEADER (HERO)
+============================= */
 .category-header {
+  position: relative;
   height: 280px;
   background-size: cover;
   background-position: center;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.category-header::after {
-  content: "";
+/* Dark overlay */
+.category-header-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
 }
 
-/* PRODUCT CARDS INSIDE CATEGORY */
+/* Text wrapper */
+.category-header-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Header text */
+.category-header-content h1 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.75);
+}
+
+.category-header-content p {
+  color: #e5e5e5;
+  font-size: 1.15rem;
+  margin-top: 8px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .category-header {
+    height: 220px;
+  }
+
+  .category-header-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .category-header-content p {
+    font-size: 1rem;
+  }
+}
+
+/* ============================
+   PRODUCT CARDS
+============================= */
 .product-card {
   border-radius: 10px;
   border: 1px solid #eee;
@@ -45,6 +92,11 @@
   padding: 15px;
 }
 
+.product-card h5 {
+  font-weight: 600;
+  color: var(--black);
+}
+
 .btn-row {
   display: flex;
   gap: 10px;
@@ -53,4 +105,10 @@
 
 .btn-row .btn {
   flex: 1;
+}
+
+/* Spacing for "Available Models" */
+#availableTitle {
+  font-weight: 700;
+  color: var(--black);
 }

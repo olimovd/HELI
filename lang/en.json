@@ -55,5 +55,80 @@
   "catalog_pop_1": "Counterbalance 1.5t",
   "catalog_pop_2": "Electric Walkie",
   "catalog_pop_3": "Reach Truck",
-  "catalog_pop_4": "Rough Terrain"
+  "catalog_pop_4": "Rough Terrain",
+
+  "service_title": "HELI Services",
+  "service_subtitle": "Professional maintenance, high-quality spare parts, and certified support across Uzbekistan.",
+
+  "service_card_1_title": "Maintenance & Repair",
+  "service_card_1_desc": "Certified mechanics providing scheduled maintenance and professional repair services.",
+  "service_card_btn": "Learn More",
+
+  "service_card_2_title": "Spare Parts",
+  "service_card_2_desc": "Large inventory of genuine HELI spare parts for all forklift types and models.",
+  
+  "service_card_3_title": "Warranty Service",
+  "service_card_3_desc": "Official warranty services handled by HELI-certified specialists in Uzbekistan.",
+
+  "why_choose_title": "Why Choose HELI Service?",
+  "why_choose_desc": "We offer complete support across Uzbekistan — from regular maintenance to emergency repairs.",
+
+  "why_bullet_1": "24/7 technical support",
+  "why_bullet_2": "Fast repair turnaround",
+  "why_bullet_3": "Original HELI spare parts",
+  "why_bullet_4": "Certified mechanics",
+
+  "assist_title": "Need Service Assistance?",
+  "assist_desc": "Our experts are ready to help you with diagnostics, service, and spare parts.",
+  "assist_btn": "Request Service",
+
+  "about_title": "About HELI Uzbekistan",
+  "about_sub": "Leading Forklift Distributor & Service Partner in Uzbekistan",
+
+  "about_who_title": "Who We Are",
+  "about_who_text1": "HELI Uzbekistan is the official distributor of HELI forklifts — one of the world’s top manufacturers with over six decades of engineering excellence.",
+  "about_who_text2": "Our goal is to help customers increase productivity through reliable material-handling solutions.",
+
+  "about_mission_title": "Our Mission",
+  "about_mission_text": "To deliver world-class forklifts and outstanding technical service that empowers industries in Uzbekistan.",
+
+  "about_mission_card1_title": "Certified Quality",
+  "about_mission_card1_text": "HELI products meet international standards of durability and reliability.",
+
+  "about_mission_card2_title": "Advanced Technology",
+  "about_mission_card2_text": "Modern engineering solutions for better efficiency and performance.",
+
+  "about_mission_card3_title": "Customer Focus",
+  "about_mission_card3_text": "Full support from equipment selection to long-term service.",
+
+  "about_cert_title": "Certificates & Recognition",
+
+  "about_timeline_title": "Our Journey",
+  "about_time_2010": "HELI enters Uzbekistan with its first distributor network.",
+  "about_time_2015": "Service centers expanded across major regions of the country.",
+  "about_time_2020": "Launched full-scale spare parts and maintenance operations.",
+  "about_time_2024": "Became the leading HELI equipment supplier in Uzbekistan.",
+
+  "about_cta_title": "Want to Know More?",
+  "about_cta_text": "Contact our team to learn more about HELI solutions.",
+  "about_cta_btn": "Contact Us",
+
+  "contact_title": "Contact Us",
+  "contact_sub": "We are here to help you with forklifts, service, and spare parts.",
+
+  "contact_get_in_touch": "Get in Touch",
+
+  "contact_phone_label": "Phone",
+  "contact_phone_value": "+998 90 123 45 67",
+
+  "contact_email_label": "Email",
+  "contact_email_value": "info@helifork.uz",
+
+  "contact_address_label": "Address",
+  "contact_address_value": "Tashkent, Uzbekistan",
+
+  "contact_cta_title": "Send Us a Message",
+  "contact_cta_text": "Our team will contact you shortly.",
+  "contact_cta_btn": "Contact HELI"
+  
 }
