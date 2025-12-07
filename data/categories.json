@@ -36,7 +36,7 @@
   "3": {
     "id": 3,
     "slug": "reach-trucks",
-    "image": "assets/categories/reach-truck.jpg",
+    "image": "assets/categories/category3.png",
     "name": {
       "uz": "Richtraklar",
       "en": "Reach Trucks",
@@ -53,7 +53,7 @@
   "4": {
     "id": 4,
     "slug": "stackers",
-    "image": "assets/categories/shtabelery-fork.webp",
+    "image": "assets/categories/category4.png",
     "name": {
       "uz": "Shtabelyerlar",
       "en": "Stackers",
