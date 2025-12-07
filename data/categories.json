@@ -121,7 +121,7 @@
   "8": {
     "id": 8,
     "slug": "pallet-trucks",
-    "image": "assets/categories/elektro-fork.webp",
+    "image": "assets/categories/category8.png",
     "name": {
       "uz": "Elektro-aravachalar",
       "en": "Electric Pallet Trucks",
@@ -138,7 +138,7 @@
   "9": {
     "id": 9,
     "slug": "heavy-forklifts",
-    "image": "assets/categories/big-fork.webp",
+    "image": "assets/categories/category9.png",
     "name": {
       "uz": "Yirik yuk forkliftlar",
       "en": "Heavy-Duty Forklifts",
@@ -155,7 +155,7 @@
   "10": {
     "id": 10,
     "slug": "agv-amr",
-    "image": "assets/categories/category1.webp",
+    "image": "assets/categories/category10.png",
     "name": {
       "uz": "Avtomatlashtirilgan texnika (AGV/AMR)",
       "en": "Automated Equipment (AGV/AMR)",
@@ -172,7 +172,7 @@
   "11": {
     "id": 11,
     "slug": "telehandlers",
-    "image": "assets/categories/telescope.jpg",
+    "image": "assets/categories/category11.png",
     "name": {
       "uz": "Telehandlerlar",
       "en": "Telehandlers",
@@ -189,7 +189,7 @@
   "12": {
     "id": 12,
     "slug": "reach-stackers",
-    "image": "assets/categories/richstaker-fork.jpg",
+    "image": "assets/categories/category12.png",
     "name": {
       "uz": "Ritsch-stakerlar",
       "en": "Reach Stackers",
