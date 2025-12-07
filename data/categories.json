@@ -70,7 +70,7 @@
   "5": {
     "id": 5,
     "slug": "narrow-aisle-stackers",
-    "image": "assets/categories/uzkoprohodnyj-fork.webp",
+    "image": "assets/categories/category5.png",
     "name": {
       "uz": "Tor yo‘lakli shtabelyerlar",
       "en": "Narrow-Aisle Stackers",
@@ -87,7 +87,7 @@
   "6": {
     "id": 6,
     "slug": "order-pickers",
-    "image": "assets/categories/category1.webp",
+    "image": "assets/categories/category6.png",
     "name": {
       "uz": "Buyurtma yig'uvchilar",
       "en": "Order Pickers",
@@ -104,7 +104,7 @@
   "7": {
     "id": 7,
     "slug": "tow-tractors",
-    "image": "assets/categories/sklad-fork.webp",
+    "image": "assets/categories/category7.png",
     "name": {
       "uz": "Sklad tortish traktorlar",
       "en": "Tow Tractors",
