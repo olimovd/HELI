@@ -207,11 +207,11 @@
     "id": 201,
     "slug": "heli-cpcd20",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD20", "en": "HELI CPCD20", "ru": "HELI CPCD20" },
+    "name": { "uz": "HELI CPCD10/15/18 K2", "en": "HELI CPCD10/15/18 K2", "ru": "HELI CPCD10/15/18 K2" },
     "shortDesc": {
-      "uz": "2.0t dizel forklift — qayta yuklanadigan kuch.",
-      "en": "2.0t diesel forklift — dependable power.",
-      "ru": "Дизельный погрузчик 2.0т — надежная мощность."
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD10/15/18 K2 seriyali",
+      "en": "Diesel forklift trucks HELI CPCD10/15/18 K2 series",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD10/15/18 серии К2"
     },
     "fullDesc": {
       "uz": "Tashqi muhit va ochiq ish joylari uchun ishonchli dizel dvigatel bilan jihozlangan.",
