@@ -130,5 +130,68 @@
 
   "contact_cta_title": "Отправьте нам сообщение",
   "contact_cta_text": "Наша команда свяжется с вами в ближайшее время.",
-  "contact_cta_btn": "Связаться с HELI"
+  "contact_cta_btn": "Связаться с HELI",
+
+  "service_maint_title": "HELI – Техническое обслуживание и ремонт",
+  "service_maint_h1": "Техническое обслуживание и ремонт",
+  "service_maint_intro": "Поддерживайте технику HELI на максимальной производительности с помощью сертифицированного обслуживания и ремонта.",
+  "service_maint_offer_title": "Что мы предлагаем",
+
+  "service_maint_f1": "Полная техническая диагностика",
+  "service_maint_f2": "Обслуживание двигателя и трансмиссии",
+  "service_maint_f3": "Диагностика и ремонт электрики",
+  "service_maint_f4": "Ремонт гидравлической системы",
+  "service_maint_f5": "Замена и регулировка шин",
+
+  "service_maint_need_help": "Нужен сервис?",
+  "service_maint_subtext": "Наши специалисты скоро свяжутся с вами.",
+  "service_maint_btn": "Заказать сервис",
+
+  "service_warranty_title": "HELI – Гарантийная поддержка",
+  "service_warranty_h1": "Гарантийная поддержка",
+
+  "service_warranty_intro": "HELI Uzbekistan предоставляет полную гарантийную поддержку новых погрузчиков и оригинальных запчастей.",
+
+  "service_warranty_coverage_title": "Гарантия включает",
+  "service_warranty_c1": "Полная диагностика техники по гарантийному обращению",
+  "service_warranty_c2": "Замена дефектных деталей на оригинальные HELI",
+  "service_warranty_c3": "Ремонт по стандартам производителя",
+  "service_warranty_c4": "Сертифицированные гарантийные инженеры",
+  "service_warranty_c5": "Прозрачный процесс рассмотрения заявки",
+
+  "service_warranty_conditions_title": "Условия гарантии",
+  "service_warranty_cond1": "Гарантия действует только на официально ввезённые погрузчики HELI",
+  "service_warranty_cond2": "Записи о регулярном обслуживании обязательны",
+  "service_warranty_cond3": "Только одобренные сервисные центры могут выполнять гарантийный ремонт",
+
+  "service_warranty_need_help": "Гарантийная заявка?",
+  "service_warranty_subtext": "Отправьте запрос — наши инженеры свяжутся с вами.",
+  "service_warranty_btn": "Отправить гарантийный запрос",
+
+  "service_spare_title": "HELI – Запасные части",
+  "service_spare_h1": "Оригинальные запасные части HELI",
+  "service_spare_subtitle": "Оригинальные и сертифицированные запчасти доступны по всему Узбекистану.",
+
+  "service_spare_tab_desc": "Описание",
+  "service_spare_tab_stock": "В наличии",
+
+  "service_spare_desc": "HELI предлагает полный ассортимент сертифицированных запасных частей для обеспечения надежности и долговечности вашего парка погрузчиков.",
+
+  "service_spare_why_title": "Почему оригинальные запчасти HELI?",
+  "service_spare_why_1": "Компоненты, протестированные на заводе",
+  "service_spare_why_2": "Максимальная долговечность",
+  "service_spare_why_3": "Всегда доступны в Узбекистане",
+  "service_spare_why_4": "Быстрая система поставки",
+
+  "service_spare_stock_title": "Популярные запчасти в наличии",
+
+  "service_spare_item_1": "Сборка трансмиссии",
+  "service_spare_item_2": "Тормозная система",
+  "service_spare_item_3": "Воздушный фильтр",
+  "service_spare_item_4": "Гидравлические шланги",
+  "service_spare_item_5": "Компоненты топливной системы",
+
+  "service_spare_need": "Нужны запчасти?",
+  "service_spare_help": "Наши специалисты помогут подобрать точные детали.",
+  "service_spare_btn": "Заказать запчасти"
 }

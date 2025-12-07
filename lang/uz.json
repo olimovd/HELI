@@ -130,5 +130,68 @@
 
   "contact_cta_title": "Bizga xabar yuboring",
   "contact_cta_text": "Jamoamiz tez orada siz bilan bog‘lanadi.",
-  "contact_cta_btn": "HELI bilan bog‘lanish"
+  "contact_cta_btn": "HELI bilan bog‘lanish",
+
+  "service_maint_title": "HELI – Texnik xizmat va ta'mirlash",
+  "service_maint_h1": "Texnik xizmat va ta'mirlash",
+  "service_maint_intro": "HELI forkliftlaringizni yuqori samaradorlikda ishlashi uchun sertifikatlangan texnik xizmat va ta’mirlash xizmatlari.",
+  "service_maint_offer_title": "Biz nimalarni taklif qilamiz",
+
+  "service_maint_f1": "To‘liq texnik diagnostika",
+  "service_maint_f2": "Dvigitel va transmissiya servisi",
+  "service_maint_f3": "Elektr tizimini aniqlash va tuzatish",
+  "service_maint_f4": "Gidravlika tizimini ta’mirlash",
+  "service_maint_f5": "G‘ildiraklarni almashtirish va sozlash",
+
+  "service_maint_need_help": "Xizmat kerakmi?",
+  "service_maint_subtext": "Mutaxassislarimiz tez orada siz bilan bog‘lanadi.",
+  "service_maint_btn": "Xizmatga buyurtma berish",
+
+  "service_warranty_title": "HELI – Kafolat xizmati",
+  "service_warranty_h1": "Kafolat xizmati",
+
+  "service_warranty_intro": "HELI Uzbekistan yangi forkliftlar va rasmiy ehtiyot qismlar uchun to‘liq kafolat xizmatini taqdim etadi.",
+  
+  "service_warranty_coverage_title": "Kafolat qamrovi quyidagilarni o‘z ichiga oladi",
+  "service_warranty_c1": "Kafolat arizalari bo‘yicha to‘liq texnik diagnostika",
+  "service_warranty_c2": "Nosoz qismlarni original HELI qismlariga almashtirish",
+  "service_warranty_c3": "Ishlab chiqaruvchi standartlariga binoan ta’mirlash",
+  "service_warranty_c4": "Sertifikatlangan kafolat muhandislari",
+  "service_warranty_c5": "Shaffof kafolat jarayoni",
+
+  "service_warranty_conditions_title": "Kafolat shartlari",
+  "service_warranty_cond1": "Kafolat faqat rasmiy olib kelingan HELI forkliftlariga amal qiladi",
+  "service_warranty_cond2": "Rejalashtirilgan texnik xizmat yozuvlari bo‘lishi shart",
+  "service_warranty_cond3": "Faqat ruxsat etilgan servis markazlari kafolat ta’mirini amalga oshirishi mumkin",
+
+  "service_warranty_need_help": "Kafolat bo‘yicha murojaatmi?",
+  "service_warranty_subtext": "So‘rov yuboring — mutaxassislarimiz tez orada bog‘lanadi.",
+  "service_warranty_btn": "Kafolat bo‘yicha murojaat yuborish",
+
+  "service_spare_title": "HELI – Ehtiyot qismlar",
+  "service_spare_h1": "Original HELI ehtiyot qismlari",
+  "service_spare_subtitle": "O'zbekiston bo'ylab original va sertifikatlangan ehtiyot qismlar mavjud.",
+  
+  "service_spare_tab_desc": "Tavsif",
+  "service_spare_tab_stock": "Omborda",
+
+  "service_spare_desc": "HELI forkliftlaringizning ishonchliligi va uzoq xizmat qilishini ta'minlash uchun rasmiy sertifikatlangan ehtiyot qismlar to‘liq assortimentini taqdim etadi.",
+
+  "service_spare_why_title": "Nega original HELI qismlari?",
+  "service_spare_why_1": "Zavodda sinovdan o'tgan komponentlar",
+  "service_spare_why_2": "Maksimal chidamlilik",
+  "service_spare_why_3": "Doimo O‘zbekistonda mavjud",
+  "service_spare_why_4": "Tezkor yetkazib berish tizimi",
+
+  "service_spare_stock_title": "Ombordagi mashhur ehtiyot qismlar",
+
+  "service_spare_item_1": "Transmissiya yig‘masi",
+  "service_spare_item_2": "Tormoz tizimi",
+  "service_spare_item_3": "Havo filtri",
+  "service_spare_item_4": "Gidravlik shlanglar",
+  "service_spare_item_5": "Yoqilg‘i tizimi qismlari",
+
+  "service_spare_need": "Ehtiyot qism kerakmi?",
+  "service_spare_help": "Mutaxassislarimiz sizga mos qismlarni topishda yordam beradi.",
+  "service_spare_btn": "Ehtiyot qism buyurtma qilish"
 }

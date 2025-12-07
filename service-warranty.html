@@ -4,22 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>HELI Warranty Support</title>
+  <title data-i18n="service_warranty_title">HELI Warranty Support</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="service-item.css">
-  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="service-warranty.css">
+  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
   <!-- EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-  <!-- Warranty page → hide forklift field -->
+  <!-- Hide forklift field -->
   <style>
     #selectedForkliftGroup { display: none !important; }
   </style>
-
 </head>
 
 <body>
@@ -31,7 +30,10 @@ fetch("navbar.html")
   .then(res => res.text())
   .then(html => {
     document.getElementById("navbar-placeholder").innerHTML = html;
+
     if (window.initSharedUI) initSharedUI();
+    if (window.initLanguageSwitcher) initLanguageSwitcher();
+    if (window.loadLanguage) loadLanguage(window.currentLang);
   });
 </script>
 
@@ -59,52 +61,54 @@ fetch("modal.html")
 
         <img src="assets/category1.webp" class="img-fluid rounded shadow mb-4" alt="Warranty Support">
 
-        <h1 class="fw-bold mb-3">Warranty Support</h1>
+        <h1 class="fw-bold mb-3" data-i18n="service_warranty_h1">Warranty Support</h1>
 
-        <p class="lead text-muted">
+        <p class="lead text-muted" data-i18n="service_warranty_intro">
           HELI Uzbekistan provides full warranty support for new forklifts and officially supplied spare parts.
-          Our warranty service ensures fast resolution of manufacturing issues, full diagnostics, and genuine part replacement.
         </p>
 
         <hr class="my-4">
 
-        <h4 class="fw-semibold mb-3">Warranty Coverage Includes</h4>
+        <h4 class="fw-semibold mb-3" data-i18n="service_warranty_coverage_title">Warranty Coverage Includes</h4>
 
         <ul class="feature-list">
-          <li><i class="bi bi-check-circle-fill"></i> Full unit diagnostics during warranty claims</li>
-          <li><i class="bi bi-check-circle-fill"></i> Replacement of defective parts with genuine HELI parts</li>
-          <li><i class="bi bi-check-circle-fill"></i> Manufacturer-backed repair procedures</li>
-          <li><i class="bi bi-check-circle-fill"></i> Certified warranty engineers</li>
-          <li><i class="bi bi-check-circle-fill"></i> Transparent claim process</li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_c1">Full unit diagnostics during warranty claims</span></li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_c2">Replacement of defective parts with genuine HELI parts</span></li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_c3">Manufacturer-backed repair procedures</span></li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_c4">Certified warranty engineers</span></li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_c5">Transparent claim process</span></li>
         </ul>
 
         <hr class="my-4">
 
-        <h4 class="fw-semibold mb-3">Warranty Conditions</h4>
+        <h4 class="fw-semibold mb-3" data-i18n="service_warranty_conditions_title">Warranty Conditions</h4>
 
         <ul class="feature-list">
-          <li><i class="bi bi-check-circle-fill"></i> Warranty applies only to officially imported HELI forklifts</li>
-          <li><i class="bi bi-check-circle-fill"></i> Regular maintenance records must be available</li>
-          <li><i class="bi bi-check-circle-fill"></i> Only approved service centers may perform warranty repair</li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_cond1">Warranty applies only to officially imported HELI forklifts</span></li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_cond2">Regular maintenance records must be available</span></li>
+          <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="service_warranty_cond3">Only approved service centers may perform warranty repair</span></li>
         </ul>
 
       </div>
 
       <!-- RIGHT SIDE -->
       <div class="col-lg-5">
+
         <div class="service-banner-card">
-          <h3 class="text-white mb-3">Warranty Claim?</h3>
-          <p class="text-light small">
+          <h3 class="text-white mb-3" data-i18n="service_warranty_need_help">Warranty Claim?</h3>
+          <p class="text-light small" data-i18n="service_warranty_subtext">
             Submit a request and our warranty engineers will contact you.
           </p>
 
-          <button 
+          <button
             class="btn btn-light w-100 mt-3 request-quote-btn"
             data-product="Service: Warranty Support"
+            data-i18n="service_warranty_btn"
           >
             Submit Warranty Request
           </button>
         </div>
+
       </div>
 
     </div>

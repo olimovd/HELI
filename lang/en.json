@@ -129,6 +129,69 @@
 
   "contact_cta_title": "Send Us a Message",
   "contact_cta_text": "Our team will contact you shortly.",
-  "contact_cta_btn": "Contact HELI"
+  "contact_cta_btn": "Contact HELI",
+
+  "service_maint_title": "HELI – Maintenance & Repair",
+  "service_maint_h1": "Maintenance & Repair",
+  "service_maint_intro": "Keep your HELI forklifts running at peak performance with certified maintenance and repair services.",
+  "service_maint_offer_title": "What We Offer",
+
+  "service_maint_f1": "Full technical diagnostics",
+  "service_maint_f2": "Engine & transmission service",
+  "service_maint_f3": "Electrical troubleshooting",
+  "service_maint_f4": "Hydraulic system repair",
+  "service_maint_f5": "Tire replacement & adjustment",
+
+  "service_maint_need_help": "Need Maintenance?",
+  "service_maint_subtext": "Our certified technicians will contact you shortly.",
+  "service_maint_btn": "Request Service",
+
+  "service_warranty_title": "HELI – Warranty Support",
+  "service_warranty_h1": "Warranty Support",
+
+  "service_warranty_intro": "HELI Uzbekistan provides full warranty support for new forklifts and officially supplied spare parts.",
+
+  "service_warranty_coverage_title": "Warranty Coverage Includes",
+  "service_warranty_c1": "Full unit diagnostics during warranty claims",
+  "service_warranty_c2": "Replacement of defective parts with genuine HELI parts",
+  "service_warranty_c3": "Manufacturer-backed repair procedures",
+  "service_warranty_c4": "Certified warranty engineers",
+  "service_warranty_c5": "Transparent claim process",
+
+  "service_warranty_conditions_title": "Warranty Conditions",
+  "service_warranty_cond1": "Warranty applies only to officially imported HELI forklifts",
+  "service_warranty_cond2": "Regular maintenance records must be available",
+  "service_warranty_cond3": "Only approved service centers may perform warranty repairs",
+
+  "service_warranty_need_help": "Warranty Claim?",
+  "service_warranty_subtext": "Submit a request and our warranty engineers will contact you.",
+  "service_warranty_btn": "Submit Warranty Request",
+
+  "service_spare_title": "HELI – Spare Parts",
+  "service_spare_h1": "Genuine HELI Spare Parts",
+  "service_spare_subtitle": "Original & certified replacement parts available across Uzbekistan.",
+
+  "service_spare_tab_desc": "Description",
+  "service_spare_tab_stock": "In Stock",
+
+  "service_spare_desc": "HELI provides a complete range of officially certified spare parts to ensure the reliability and durability of your forklift fleet.",
+
+  "service_spare_why_title": "Why Genuine HELI Parts?",
+  "service_spare_why_1": "Factory-tested components",
+  "service_spare_why_2": "Maximum durability",
+  "service_spare_why_3": "Always available in Uzbekistan",
+  "service_spare_why_4": "Fast delivery system",
+
+  "service_spare_stock_title": "Popular Spare Parts in Stock",
+
+  "service_spare_item_1": "Transmission Assembly",
+  "service_spare_item_2": "Brake System",
+  "service_spare_item_3": "Air Filter",
+  "service_spare_item_4": "Hydraulic Hoses",
+  "service_spare_item_5": "Fuel System Components",
+
+  "service_spare_need": "Need Spare Parts?",
+  "service_spare_help": "Our specialists will help you find exact matching parts.",
+  "service_spare_btn": "Request Spare Parts"
   
 }
