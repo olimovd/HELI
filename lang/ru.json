@@ -193,5 +193,13 @@
 
   "service_spare_need": "Нужны запчасти?",
   "service_spare_help": "Наши специалисты помогут подобрать точные детали.",
-  "service_spare_btn": "Заказать запчасти"
+  "service_spare_btn": "Заказать запчасти",
+
+  "spec_title": "Технические Характеристики",
+  "spec_capacity": "Грузоподъёмность",
+  "spec_engineType": "Тип Двигателя",
+  "spec_enginePower": "Мощность Двигателя",
+  "spec_liftingHeight": "Высота Подъёма",
+  "spec_operatingWeight": "Эксплуатационная Масса",
+  "spec_dimensions": "Габариты"
 }

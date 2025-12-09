@@ -193,5 +193,13 @@
 
   "service_spare_need": "Ehtiyot qism kerakmi?",
   "service_spare_help": "Mutaxassislarimiz sizga mos qismlarni topishda yordam beradi.",
-  "service_spare_btn": "Ehtiyot qism buyurtma qilish"
+  "service_spare_btn": "Ehtiyot qism buyurtma qilish",
+
+  "spec_title": "Texnik Xususiyatlar",
+  "spec_capacity": "Yuk Ko‘tarish Qobiliyati",
+  "spec_engineType": "Dvigatel Turi",
+  "spec_enginePower": "Dvigatel Quvvati",
+  "spec_liftingHeight": "Ko‘tarish Balandligi",
+  "spec_operatingWeight": "Ish Og‘irligi",
+  "spec_dimensions": "O‘lchamlari"
 }

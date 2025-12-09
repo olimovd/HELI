@@ -13,23 +13,51 @@
   cursor: zoom-in;
 }
 
-/* Zoom fullscreen */
+/* ===============================
+   IMAGE ZOOM OVERLAY
+================================ */
 #zoomOverlay {
   position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.85);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
   display: flex;
-  justify-content: center;
   align-items: center;
-  z-index: 2000;
-  display: none;
+  justify-content: center;
 }
 
-#zoomOverlay img {
+.zoom-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+}
+
+.zoom-image {
+  position: relative;
   max-width: 90%;
   max-height: 90%;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.6);
+  animation: zoomIn .25s ease;
 }
+
+.zoom-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(.92); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
 
 /* Tabs */
 .nav-tabs .nav-link {
@@ -66,3 +94,91 @@
   height: 200px;
   object-fit: cover;
 }
+
+
+/* ===============================
+   PREMIUM SPECIFICATION TABLE
+================================ */
+
+.spec-title {
+  font-weight: 700;
+  color: var(--black);
+  position: relative;
+  padding-left: 12px;
+}
+
+.spec-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 4px;
+  height: 100%;
+  background: var(--red);
+  border-radius: 3px;
+}
+
+.spec-table {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+/* Each row */
+.spec-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s ease;
+}
+
+.spec-row:last-child {
+  border-bottom: none;
+}
+
+.spec-row:nth-child(even) {
+  background: #fafafa;
+}
+
+.spec-row:hover {
+  background: rgba(200, 16, 46, 0.05);
+}
+
+/* Left column */
+.spec-key {
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spec-key::before {
+  content: "■";
+  font-size: 8px;
+  color: var(--red);
+}
+
+/* Right column */
+.spec-value {
+  color: #000;
+  font-weight: 500;
+  text-align: right;
+}
+
+/* Mobile friendly */
+@media (max-width: 576px) {
+  .spec-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .spec-value {
+    text-align: left;
+    color: #444;
+  }
+}
+
+

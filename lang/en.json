@@ -192,6 +192,14 @@
 
   "service_spare_need": "Need Spare Parts?",
   "service_spare_help": "Our specialists will help you find exact matching parts.",
-  "service_spare_btn": "Request Spare Parts"
+  "service_spare_btn": "Request Spare Parts",
+
+  "spec_title": "Technical Specifications",
+  "spec_capacity": "Load Capacity",
+  "spec_engineType": "Engine Type",
+  "spec_enginePower": "Engine Power",
+  "spec_liftingHeight": "Lifting Height",
+  "spec_operatingWeight": "Operating Weight",
+  "spec_dimensions": "Dimensions"
   
 }

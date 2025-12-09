@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
 
-  // LOAD PRODUCT DATABASE FROM JSON FILE
+  // =========================================================
+  // ✅ LOAD PRODUCT DATABASE
+  // =========================================================
   let products = {};
 
   try {
@@ -8,82 +10,117 @@ document.addEventListener("DOMContentLoaded", async () => {
     products = await res.json();
   } catch (err) {
     console.error("❌ products.json failed:", err);
-    document.querySelector("#productContainer").innerHTML = "<h2>Product Data Error</h2>";
+    document.querySelector("#productContainer").innerHTML =
+      "<h2 class='text-danger'>Product Data Error</h2>";
     return;
   }
 
-  // GET PRODUCT ID FROM URL
+  // =========================================================
+  // ✅ GET PRODUCT ID FROM URL
+  // =========================================================
   const id = new URLSearchParams(window.location.search).get("id");
 
   if (!products[id]) {
-    const container = document.querySelector("#productContainer");
-    if (container) container.innerHTML = "<h2>Product Not Found</h2>";
+    document.querySelector("#productContainer").innerHTML =
+      "<h2 class='text-danger'>Product Not Found</h2>";
     return;
   }
 
   const p = products[id];
 
-  // FILL MAIN INFO
-  document.querySelector("#productImage").src = p.img;
-  document.querySelector("#productName").textContent = p.name;
-  document.querySelector("#productShortDesc").textContent = p.short;
-  document.querySelector("#productDescription").textContent = p.desc;
+  // =========================================================
+  // ✅ CURRENT LANGUAGE
+  // =========================================================
+  const lang = localStorage.getItem("heli-lang") || "uz";
 
-  // CHARACTERISTICS
-  document.querySelector("#productCharacteristics").innerHTML =
-    p.characteristics.map(c => `<li>${c}</li>`).join("");
+  // =========================================================
+  // ✅ MAIN IMAGE
+  // =========================================================
+  const productImage = document.getElementById("productImage");
+  productImage.src = p.images[0];
+  productImage.alt = p.name[lang];
 
-  // RELATED PRODUCTS
-  const relatedWrap = document.querySelector("#relatedProducts");
-  const validRelated = (p.related || []).filter(r => products[r]);
+  // =========================================================
+  // ✅ PRODUCT TEXTS (MULTI-LANG)
+  // =========================================================
+  document.getElementById("productName").textContent = p.name[lang];
+  document.getElementById("productShortDesc").textContent = p.shortDesc[lang];
+  document.getElementById("productDescription").textContent = p.fullDesc[lang];
 
-  relatedWrap.innerHTML = validRelated
-    .map(rid => {
-      const rp = products[rid];
-      return `
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card product-card">
-            <img src="${rp.img}">
-            <div class="card-body">
-              <h6>${rp.name}</h6>
-              <a href="product.html?id=${rid}" class="btn btn-outline-dark btn-sm mt-2">View</a>
-            </div>
-          </div>
+  // ✅ PREMIUM SPEC TABLE FILL
+    if (p.specs) {
+      document.getElementById("spec-capacity").textContent = p.specs.capacity || "-";
+      document.getElementById("spec-engine").textContent = p.specs.engine || "-";
+      document.getElementById("spec-power").textContent = p.specs.power || "-";
+      document.getElementById("spec-liftingHeight").textContent = p.specs.liftingHeight || "-";
+      document.getElementById("spec-weight").textContent = p.specs.weight || "-";
+      document.getElementById("spec-dimensions").textContent = p.specs.dimensions || "-";
+    }
+
+
+
+  // =========================================================
+  // ✅ FEATURES / CHARACTERISTICS
+  // =========================================================
+  document.getElementById("productCharacteristics").innerHTML =
+    p.features[lang].map(f => `<li>${f}</li>`).join("");
+
+  // =========================================================
+  // ✅ RELATED PRODUCTS (SAME CATEGORY)
+  // =========================================================
+  const relatedWrap = document.getElementById("relatedProducts");
+
+  const related = Object.values(products)
+    .filter(x => x.categoryId === p.categoryId && x.id !== p.id)
+    .slice(0, 4);
+
+  relatedWrap.innerHTML = related.map(rp => `
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card product-card">
+        <img src="${rp.images[0]}" alt="${rp.name[lang]}">
+        <div class="card-body">
+          <h6>${rp.name[lang]}</h6>
+          <a href="product.html?id=${rp.id}" class="btn btn-outline-dark btn-sm mt-2">
+            View
+          </a>
         </div>
-      `;
-    })
-    .join("");
+      </div>
+    </div>
+  `).join("");
 
-  // IMAGE ZOOM FEATURE
-  const imgEl = document.querySelector("#productImage");
-  imgEl.addEventListener("click", () => {
-    const overlay = document.createElement("div");
+  // =========================================================
+  // ✅ FIXED & ENHANCED IMAGE ZOOM
+  // =========================================================
+  productImage.addEventListener("click", () => {
+
+    let overlay = document.getElementById("zoomOverlay");
+    if (overlay) overlay.remove();
+
+    overlay = document.createElement("div");
     overlay.id = "zoomOverlay";
+    overlay.innerHTML = `
+      <div class="zoom-backdrop"></div>
+      <img src="${p.images[0]}" class="zoom-image" alt="${p.name[lang]}">
+      <span class="zoom-close">&times;</span>
+    `;
 
-    overlay.innerHTML = `<img src="${p.img}" alt="${p.name}">`;
     document.body.appendChild(overlay);
 
-    overlay.style.display = "flex";
-    overlay.addEventListener("click", () => overlay.remove());
+    const closeBtn = overlay.querySelector(".zoom-close");
+    closeBtn.onclick = () => overlay.remove();
+    overlay.querySelector(".zoom-backdrop").onclick = () => overlay.remove();
   });
 
-  // QUOTE MODAL
-  const quoteModalEl = document.getElementById("quoteModal");
-  if (quoteModalEl) {
-    const modal = new bootstrap.Modal(quoteModalEl);
+  // =========================================================
+  // ✅ REQUEST QUOTE BUTTON (SEND PRODUCT NAME INTO MODAL)
+  // =========================================================
+  document.querySelectorAll(".request-quote-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const input = document.getElementById("qProduct");
+      if (input) input.value = p.name[lang];
 
-    document.querySelectorAll(".request-quote-btn").forEach(btn =>
-      btn.addEventListener("click", () => modal.show())
-    );
-
-    const qForm = document.getElementById("quoteForm");
-    if (qForm) {
-      qForm.addEventListener("submit", e => {
-        e.preventDefault();
-        alert("Request sent!");
-        modal.hide();
-      });
-    }
-  }
+      new bootstrap.Modal(document.getElementById("quoteModal")).show();
+    });
+  });
 
 });
