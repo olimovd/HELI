@@ -18,18 +18,20 @@
       "assets/products/category1.webp",
       "assets/products/category1.webp"
     ],
-    "features": {
-      "uz": ["Ovozsiz ishlash", "Past xizmat xarajatlari", "Ichki ombor uchun ideal"],
-      "en": ["Silent operation", "Low maintenance", "Ideal for indoor storage"],
-      "ru": ["Тихая работа", "Низкие затраты на обслуживание", "Идеален для закрытых складов"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1500 kg",
-      "engine": "Electric",
-      "battery": "48V / 400Ah",
-      "liftingHeight": "3000–6000 mm",
-      "weight": "2900 kg",
-      "dimensions": "3220 × 1080 × 2100 mm"
+      "engine": "Electric"
     }
   },
 
@@ -52,18 +54,20 @@
       "assets/products/heli-cpd20-1.webp",
       "assets/products/heli-cpd20-2.webp"
     ],
-    "features": {
-      "uz": ["Yuqori samaradorlik", "Uzun batareya muddati", "Ergonomik boshqaruv"],
-      "en": ["High efficiency", "Long battery life", "Ergonomic controls"],
-      "ru": ["Высокая эффективность", "Длительное время работы батареи", "Эргономичное управление"]
-    },
+   "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2000 kg",
-      "engine": "Electric",
-      "battery": "48V / 600Ah",
-      "liftingHeight": "3000–6000 mm",
-      "weight": "3300 kg",
-      "dimensions": "3340 × 1150 × 2160 mm"
+      "engine": "Electric"
     }
   },
 
@@ -86,18 +90,20 @@
       "assets/products/heli-cpd25-1.webp",
       "assets/products/heli-cpd25-2.webp"
     ],
-    "features": {
-      "uz": ["Barqaror tashish", "Oson parvarishlash", "Qulay ishlash"],
-      "en": ["Stable hauling", "Easy maintenance", "Comfortable operation"],
-      "ru": ["Стабильная перевозка", "Простой уход", "Комфортное управление"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2500 kg",
-      "engine": "Electric",
-      "battery": "48V / 700Ah",
-      "liftingHeight": "3000–6000 mm",
-      "weight": "3800 kg",
-      "dimensions": "3450 × 1200 × 2200 mm"
+      "engine": "Electric"
     }
   },
 
@@ -120,18 +126,20 @@
       "assets/products/heli-cpd30-1.webp",
       "assets/products/heli-cpd30-2.webp"
     ],
-    "features": {
-      "uz": ["Kuchli motor", "Terminal samaradorligi", "Xavfsiz boshqaruv"],
-      "en": ["Powerful motor", "Operational efficiency", "Safe control"],
-      "ru": ["Мощный мотор", "Оперативная эффективность", "Безопасное управление"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "3000 kg",
-      "engine": "Electric",
-      "battery": "48V / 800Ah",
-      "liftingHeight": "3000–6000 mm",
-      "weight": "4200 kg",
-      "dimensions": "3580 × 1250 × 2250 mm"
+      "engine": "Electric"
     }
   },
 
@@ -154,18 +162,20 @@
       "assets/products/heli-cpd35-1.webp",
       "assets/products/heli-cpd35-2.webp"
     ],
-    "features": {
-      "uz": ["Sanoat darajadagi chidamlilik", "Quvvatli batareya", "Oson servis"],
-      "en": ["Industrial durability", "High-capacity battery", "Easy servicing"],
-      "ru": ["Промышленная прочность", "Высокая емкость батареи", "Простое обслуживание"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "3500 kg",
-      "engine": "Electric",
-      "battery": "48V / 1000Ah",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "4800 kg",
-      "dimensions": "3720 × 1300 × 2300 mm"
+      "engine": "Electric"
     }
   },
 
@@ -188,18 +198,20 @@
       "assets/products/heli-cpd50-1.webp",
       "assets/products/heli-cpd50-2.webp"
     ],
-    "features": {
-      "uz": ["Yuqori yuk ko'tarish", "Mustahkam ramka", "Iqtisodiy boshqaruv"],
-      "en": ["High load capacity", "Robust frame", "Efficient controls"],
-      "ru": ["Высокая грузоподъемность", "Прочная рама", "Эффективное управление"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "5000 kg",
-      "engine": "Electric",
-      "battery": "80V / 800Ah",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "6200 kg",
-      "dimensions": "4100 × 1600 × 2500 mm"
+      "engine": "Electric"
     }
   },
 
@@ -214,7 +226,7 @@
       "ru": "Дизельные вилочные погрузчики HELI CPCD10/15/18 серии К2"
     },
     "fullDesc": {
-      "uz": "K2 seriyasi haqida 1.0–10 tonna Ichki yonuv dvigatelli modellar K2 seriyasiga mansub 1–10 tonnalik ichki yonuv dvigatelli forkliftlar HELI kompaniyasining eng ko‘p sotiladigan modellari bo‘lib, K seriyali ichki yonuv forkliftlarining yangilangan versiyasidir. U mustahkam va baquvvat tashqi ko‘rinishga ega bo‘lib, zamonaviy va chiroyli dizayni bilan ajralib turadi. Asosiy komponеntlari bozor tomonidan to‘liq sinovdan o‘tgan, yetuk va ishonchlidir. Butun mashina deyarli yarim asrlik muhandislik tajribasi va dizayn innovatsiyalarini o‘zida mujassam etgan bo‘lib, eng so‘nggi texnologik va ishlab chiqarish yutuqlarini jamlagan, bardoshlilik va yuqori tejamkorlik kabi an’anaviy afzalliklarni namoyon etadi. Transmissiya tizimi mustaqil tarzda ishlab chiqilgan va ishlab chiqarilgan bo‘lib, juda yuqori ishonchlilik va uzoq xizmat muddati bilan ajralib turadi. Forkliftning umumiy dizayni oddiy, lekin soddalikdan yiroq bo‘lib, mustahkam va uzoq muddat xizmat qiladigan yagona uslubdagi dizayn asosida yaratilgan. Dvigatellar tanlovi keng bo‘lib, ko‘plab kuchli dvigatel variantlari mavjud va ular Xitoy, Yevropa, AQSh hamda past emissiya talab qilinadigan boshqa hududlar ekologik me’yorlariga to‘liq javob beradi. Seriyadagi barcha modellar keng ko‘rish burchagiga ega machtalar bilan jihozlangan bo‘lib, haydovchining ko‘rish maydonini sezilarli darajada kengaytiradi va ishni qulay hamda xavfsiz qiladi. Mashinada sovitish tizimi optimallashtirilgan bo‘lib, dvigatel va uzatmalar qutisi kabi muhim uzellarning xizmat muddatini sezilarli darajada oshiradi hamda og‘ir ish sharoitlariga moslashish imkonini beradi. Jihozlanishi boy: barcha modellarga kabina, konditsioner, telematika (avtomobil tarmoqlanishi) o‘rnatish mumkin, 4–10 tonnalik modellarga esa nam tormozli yetakchi o‘q (wet brake axle) o‘rnatish imkoniyati mavjud. K2 seriyasi ijaraga berish, konteynerlar bilan ishlash va tosh sanoati kabi maxsus sohalar uchun moslashtirilgan segmentlangan modellarni ham ishlab chiqilgan.",
+      "uz": "K2 seriyasi haqida 1.0–10 tonna Ichki yonuv dvigatelli modellar K2 seriyasiga mansub 1–10 tonnalik ichki yonuv dvigatelli forkliftlar HELI kompaniyasining eng ko‘p sotiladigan modellari bo‘lib, K seriyali ichki yonuv forkliftlarining yangilangan versiyasidir. U mustahkam va baquvvat tashqi ko‘rinishga ega bo‘lib, zamonaviy va chiroyli dizayni bilan ajralib turadi. Asosiy komponеntlari bozor tomonidan to‘liq sinovdan o‘tgan, yetuk va ishonchlidir. Butun mashina deyarli yarim asrlik muhandislik tajribasi va dizayn innovatsiyalarini o‘zida mujassam etgan bo‘lib, eng so‘nggi texnologik va ishlab chiqarish yutuqlarini jamlagan, bardoshlilik va yuqori tejamkorlik kabi an’anaviy afzalliklarni namoyon etadi. Transmissiya tizimi mustaqil tarzda ishlab chiqilgan va ishlab chiqarilgan bo‘lib, juda yuqori ishonchlilik va uzoq xizmat muddati bilan ajralib turadi. Forkliftning umumiy dizayni oddiy, lekin soddalikdan yiroq bo‘lib, mustahkam va uzoq muddat xizmat qiladigan yagona uslubdagi dizayn asosida yaratilgan. Dvigatellar tanlovi keng bo‘lib, ko‘plab kuchli dvigatel variantlari mavjud va ular Xitoy, Yevropa, AQSh hamda past emissiya talab qilinadigan boshqa hududlar ekologik me’yorlariga to‘liq javob beradi. Seriyadagi barcha modellar keng ko‘rish burchagiga ega machtalar bilan jihozlangan bo‘lib, haydovchining ko‘rish mayдонини sezиларли darajada kengaytiradi ва ишни qulay hamda xavfsiz qiladi. Mashinada sovitish tizimi optimallashtirilgan bo‘lib, dvigatel va uzatmalar qutisi kabi muhim uzellarning xizmat muddatini sezilarli darajada oshiradi hamда og‘ir ish sharoitlariga moslashish imkonini beradi. Jihozlanishi boy: barcha modellarga kabina, konditsioner, telematika (avtomobil tarmoqlanishi) o‘rnatish mumkin, 4–10 tonnalik modellarga esa nam tormozli yetakchi o‘q (wet brake axle) o‘rnatish imkoniyati mavjud. K2 seriyasi ijaraga berish, konteynerlar bilan ishlash va tosh sanoati kabi maxsus sohalar uchun moslashtirilgan segmentlangan modellarni ham ishlab chiqilgan.",
       "en": "About K2 Series 1.0-10 t Internal Combustion Models K2 series 1-10t internal combustion forklift is Heli's best-selling series model and an upgraded product of the K series internal combustion forklift. It has a tough and sturdy appearance, as well as a modern and beautiful style. The core components have been fully verified by the market and are mature and reliable; the whole machine embodies the technological exploration and design innovation of Heli in the field of internal combustion forklifts for nearly half a century, incorporating the latest technological and process development achievements, highlighting the traditional attributes of durability and high cost-effectiveness. The transmission system is independently designed and manufactured, with high reliability and durability. The overall design of the vehicle is simple yet not simplistic, adopting a family oriented design style that is durable and long-lasting. Rich power supply, multiple powerful engines to choose from, meeting the emission requirements of China, Europe, America, low emission regions and other places; all models in the series adopt wide field of view door frames, effectively improving the driver's field of vision, making operation more convenient and safe. Optimize the overall vehicle cooling design, significantly improve the service life of key components such as the engine and gearbox, and be able to adapt to relatively harsh working conditions. Rich configuration, all models can be equipped with driver's cab, air conditioning, car networking etc., and 4-10t can be equipped with wet brake axle. The K2 series has developed segmented market models such as rental, containers, and stone to meet the needs of specific industries.",
       "ru": "О серии K2 Модели с двигателем внутреннего сгорания грузоподъёмностью 1,0–10 т Серия K2 внутренних погрузчиков грузоподъёмностью 1–10 тонн является самой продаваемой серией компании HELI и представляет собой обновлённую версию погрузчиков серии K. Модель отличается прочным и мощным внешним видом, а также современным и эстетичным дизайном. Основные компоненты полностью проверены рынком, являются зрелыми и надёжными. Вся машина воплощает в себе почти полувековой технологический опыт и инновации в области погрузчиков с ДВС, объединяя новейшие достижения в технологиях и производственных процессах, подчёркивая традиционные преимущества — долговечность и высокую экономическую эффективность. Трансмиссионная система разработана и изготовлена самостоятельно, отличается высокой надёжностью и долговечностью. Общий дизайн погрузчика прост, но не примитивен, выполнен в едином фирменном стиле, ориентированном на прочность и длительный срок службы. Широкий выбор мощных двигателей соответствует экологическим требованиям Китая, Европы, США, регионов с низким уровнем выбросов и других стран. Все модели серии оснащены мачтами с широким обзором, что значительно улучшает видимость для водителя, делая работу более удобной и безопасной. Оптимизированная система охлаждения всей машины значительно увеличивает срок службы ключевых компонентов, таких как двигатель и коробка передач, а также позволяет работать в достаточно жёстких условиях эксплуатации. Богатая комплектация: все модели могут оснащаться кабиной, кондиционером, системой телематики, а модели грузоподъёмностью 4–10 тонн могут комплектоваться ведущим мостом с мокрыми тормозами. Серия K2 также включает в себя специализированные модели для арендного бизнеса, контейнерных перевозок и камнеобрабатывающей промышленности, разработанные для удовлетворения потребностей конкретных отраслей."
     },
@@ -222,18 +234,21 @@
       "assets/products/c2p1.jpg",
       "assets/products/c2p1.jpg"
     ],
-    "features": {
-      "uz": ["Quvvatli dizel motor", "Yuqori mustahkamlik", "Oson ta'mirlash"],
-      "en": ["Powerful diesel engine", "High durability", "Easy repairability"],
-      "ru": ["Мощный дизельный двигатель", "Высокая долговечность", "Простой ремонт"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2000 kg",
       "engine": "Diesel",
-      "power": "36 kW",
-      "liftingHeight": "3000–6000 mm",
-      "weight": "4200 kg",
-      "dimensions": "3400 × 1150 × 2200 mm"
+      "power": "36 kW"
     }
   },
 
@@ -256,18 +271,21 @@
       "assets/products/heli-cpcd25-1.webp",
       "assets/products/heli-cpcd25-2.webp"
     ],
-    "features": {
-      "uz": ["Yuqори moment", "Mustahkam transmissiya", "Ishonchli tizim"],
-      "en": ["High torque", "Robust transmission", "Reliable systems"],
-      "ru": ["Высокий крутящий момент", "Прочная трансмиссия", "Надежные системы"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2500 kg",
       "engine": "Diesel",
-      "power": "45 kW",
-      "liftingHeight": "3000–6000 mm",
-      "weight": "4800 kg",
-      "dimensions": "3600 × 1250 × 2300 mm"
+      "power": "45 kW"
     }
   },
 
@@ -290,18 +308,21 @@
       "assets/products/heli-cpcd30-1.webp",
       "assets/products/heli-cpcd30-2.webp"
     ],
-    "features": {
-      "uz": ["Bardoshli ramка", "Kuchли dvигател", "Yukни барқарор кўтариш"],
-      "en": ["Durable frame", "Strong engine", "Stable lifting"],
-      "ru": ["Прочная рама", "Мощный двигатель", "Стабильный подъем"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "3000 kg",
       "engine": "Diesel",
-      "power": "55 kW",
-      "liftingHeight": "3000–6000 mm",
-      "weight": "5200 kg",
-      "dimensions": "3750 × 1350 × 2350 mm"
+      "power": "55 kW"
     }
   },
 
@@ -311,7 +332,7 @@
     "categoryId": 2,
     "name": { "uz": "HELI CPCD35", "en": "HELI CPCD35", "ru": "HELI CPCD35" },
     "shortDesc": {
-      "uz": "3.5t dizел forklift — balanslangan quvvat va chidamlilik.",
+      "uz": "3.5t dizел forklift — балансланган quvvat ва chidamlilik.",
       "en": "3.5t diesel forklift — balanced power and durability.",
       "ru": "Дизельный погрузчик 3.5т — баланс мощности и прочности."
     },
@@ -324,18 +345,21 @@
       "assets/products/heli-cpcd35-1.webp",
       "assets/products/heli-cpcd35-2.webp"
     ],
-    "features": {
-      "uz": ["Reinforced frame", "High endurance", "Maintenance-friendly"],
-      "en": ["Reinforced frame", "High endurance", "Maintenance-friendly"],
-      "ru": ["Усиленная рама", "Высокая выносливость", "Удобство обслуживания"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "3500 kg",
       "engine": "Diesel",
-      "power": "67 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "6100 kg",
-      "dimensions": "3920 × 1400 × 2450 mm"
+      "power": "67 kW"
     }
   },
 
@@ -358,18 +382,21 @@
       "assets/products/heli-cpcd50-1.webp",
       "assets/products/heli-cpcd50-2.webp"
     ],
-    "features": {
-      "uz": ["Og'ir yuklar учун", "Мустahкам transmissия", "Ишончли тизим"],
-      "en": ["Built for heavy loads", "Sturdy transmission", "Reliable systems"],
-      "ru": ["Для тяжелых грузов", "Прочная трансмиссия", "Надежные системы"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "5000 kg",
       "engine": "Diesel",
-      "power": "92 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "7800 kg",
-      "dimensions": "4300 × 1700 × 2600 mm"
+      "power": "92 kW"
     }
   },
 
@@ -392,18 +419,21 @@
       "assets/products/heli-cpcd70-1.webp",
       "assets/products/heli-cpcd70-2.webp"
     ],
-    "features": {
-      "uz": ["Юқори момент", "Og'ir юк бошқариш", "Ишончли узатмалар"],
-      "en": ["High torque", "Heavy load handling", "Reliable drivetrain"],
-      "ru": ["Высокий крутящий момент", "Работа с тяжелыми грузами", "Надежная трансмиссия"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "7000 kg",
       "engine": "Diesel",
-      "power": "120 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "9800 kg",
-      "dimensions": "4800 × 1900 × 2900 mm"
+      "power": "120 kW"
     }
   },
 
@@ -426,18 +456,21 @@
       "assets/products/heli-cpcd100-1.webp",
       "assets/products/heli-cpcd100-2.webp"
     ],
-    "features": {
-      "uz": ["Катта юк кўтариш", "Мустаҳкам конструкция", "Саноат даражаси"],
-      "en": ["High capacity", "Robust structure", "Industrial grade"],
-      "ru": ["Высокая грузоподъемность", "Прочная конструкция", "Промышленное качество"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "10000 kg",
       "engine": "Diesel",
-      "power": "170 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "14200 kg",
-      "dimensions": "6100 × 2200 × 3200 mm"
+      "power": "170 kW"
     }
   },
 
@@ -460,18 +493,20 @@
       "assets/products/heli-cqd16-1.webp",
       "assets/products/heli-cqd16-2.webp"
     ],
-    "features": {
-      "uz": ["Tor маневр", "Юқори кўтариш", "Аниқ бошқарув"],
-      "en": ["Tight maneuvering", "High reach", "Precise control"],
-      "ru": ["Маневренность", "Высокий подъем", "Точное управление"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1600 kg",
-      "engine": "Electric",
-      "battery": "48V / 500Ah",
-      "liftingHeight": "6000–12000 mm",
-      "weight": "4200 kg",
-      "dimensions": "2800 × 1050 × 2100 mm"
+      "engine": "Electric"
     }
   },
 
@@ -494,18 +529,20 @@
       "assets/products/heli-cqd20-1.webp",
       "assets/products/heli-cqd20-2.webp"
     ],
-    "features": {
-      "uz": ["Юмшоқ юк ўтказиш", "Эргономик кабина", "Юқори кўтариш"],
-      "en": ["Smooth load transfer", "Ergonomic cabin", "High lift"],
-      "ru": ["Плавная передача груза", "Эргономичная кабина", "Высокий подъем"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2000 kg",
-      "engine": "Electric",
-      "battery": "48V / 700Ah",
-      "liftingHeight": "6000–12000 mm",
-      "weight": "4600 kg",
-      "dimensions": "2900 × 1100 × 2200 mm"
+      "engine": "Electric"
     }
   },
 
@@ -528,18 +565,20 @@
       "assets/products/heli-cdd10-1.webp",
       "assets/products/heli-cdd10-2.webp"
     ],
-    "features": {
-      "uz": ["Арзон эксплуатация", "Ёрқин бошқариш", "Паст тех хизмат"],
-      "en": ["Low cost", "Easy control", "Low maintenance"],
-      "ru": ["Низкая стоимость", "Простое управление", "Низкое обслуживание"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1000 kg",
-      "engine": "Electric",
-      "battery": "24V / 200Ah",
-      "liftingHeight": "1500–4000 mm",
-      "weight": "900 kg",
-      "dimensions": "1400 × 760 × 2000 mm"
+      "engine": "Electric"
     }
   },
 
@@ -562,18 +601,20 @@
       "assets/products/heli-cdd12-1.webp",
       "assets/products/heli-cdd12-2.webp"
     ],
-    "features": {
-      "uz": ["Баркарор платформа", "Кенг вазифа", "Осон парвариш"],
-      "en": ["Stable platform", "Versatile", "Easy maintenance"],
-      "ru": ["Устойчивая платформа", "Универсальный", "Простое обслуживание"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1200 kg",
-      "engine": "Electric",
-      "battery": "24V / 250Ah",
-      "liftingHeight": "1500–4500 mm",
-      "weight": "1100 kg",
-      "dimensions": "1500 × 800 × 2100 mm"
+      "engine": "Electric"
     }
   },
 
@@ -583,7 +624,7 @@
     "categoryId": 4,
     "name": { "uz": "HELI CDD15", "en": "HELI CDD15", "ru": "HELI CDD15" },
     "shortDesc": {
-      "uz": "1.5t stacker — kuchли ва ишончли.",
+      "uz": "1.5t stacker — kuchli ва ишончли.",
       "en": "1.5t stacker — strong and reliable.",
       "ru": "Штабелер 1.5т — мощный и надежный."
     },
@@ -596,18 +637,20 @@
       "assets/products/heli-cdd15-1.webp",
       "assets/products/heli-cdd15-2.webp"
     ],
-    "features": {
-      "uz": ["Самарали платформа", "Ишончли система", "Осон бошқарув"],
-      "en": ["Efficient platform", "Reliable system", "Easy control"],
-      "ru": ["Эффективная платформа", "Надежная система", "Простое управление"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1500 kg",
-      "engine": "Electric",
-      "battery": "24V / 300Ah",
-      "liftingHeight": "1500–4500 mm",
-      "weight": "1350 kg",
-      "dimensions": "1600 × 850 × 2150 mm"
+      "engine": "Electric"
     }
   },
 
@@ -630,18 +673,20 @@
       "assets/products/heli-csd12n-1.webp",
       "assets/products/heli-csd12n-2.webp"
     ],
-    "features": {
-      "uz": ["Tor маневр", "Юқори самарадорлик", "Осон ишлаш"],
-      "en": ["Narrow maneuver", "High efficiency", "Easy operation"],
-      "ru": ["Маневренность", "Эффективность", "Простота эксплуатации"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1200 kg",
-      "engine": "Electric",
-      "battery": "48V / 350Ah",
-      "liftingHeight": "6000–10000 mm",
-      "weight": "2500 kg",
-      "dimensions": "2300 × 900 × 2100 mm"
+      "engine": "Electric"
     }
   },
 
@@ -664,18 +709,20 @@
       "assets/products/heli-csd15n-1.webp",
       "assets/products/heli-csd15n-2.webp"
     ],
-    "features": {
-      "uz": ["Кўпроқ сиғим", "Аниқ бошқарув", "Мустаҳкам тузилма"],
-      "en": ["Higher capacity", "Precise control", "Robust build"],
-      "ru": ["Больше грузоподъемность", "Точное управление", "Прочная конструкция"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1500 kg",
-      "engine": "Electric",
-      "battery": "48V / 400Ah",
-      "liftingHeight": "6000–10000 mm",
-      "weight": "2800 kg",
-      "dimensions": "2400 × 920 × 2150 mm"
+      "engine": "Electric"
     }
   },
 
@@ -698,17 +745,20 @@
       "assets/products/heli-oph20-1.webp",
       "assets/products/heli-oph20-2.webp"
     ],
-    "features": {
-      "uz": ["Юқори кўтариш", "Хавfsиз platforma", "Тез ишлаш"],
-      "en": ["High lift", "Safe platform", "Fast operation"],
-      "ru": ["Высокий подъем", "Безопасная платформа", "Быстрая работа"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "200 kg (picker load)",
-      "engine": "Electric",
-      "liftingHeight": "4000–12000 mm",
-      "weight": "1200 kg",
-      "dimensions": "1500 × 900 × 2100 mm"
+      "engine": "Electric"
     }
   },
 
@@ -723,7 +773,7 @@
       "ru": "Низкий комиссионер."
     },
     "fullDesc": {
-      "uz": "Пол дараjasидa тез ишлаш учун.",
+      "uz": "Пол даражасидa тез ишлаш учун.",
       "en": "Ideal for floor-level picking.",
       "ru": "Для отбора на полу."
     },
@@ -731,17 +781,20 @@
       "assets/products/heli-opl15-1.webp",
       "assets/products/heli-opl15-2.webp"
     ],
-    "features": {
-      "uz": ["Ixcham dizayn", "Юқори тезлик", "Осон бошқарув"],
-      "en": ["Compact design", "High speed", "Easy control"],
-      "ru": ["Компактный дизайн", "Высокая скорость", "Простое управление"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "150 kg",
-      "engine": "Electric",
-      "liftingHeight": "500–2500 mm",
-      "weight": "850 kg",
-      "dimensions": "1200 × 800 × 1600 mm"
+      "engine": "Electric"
     }
   },
 
@@ -756,7 +809,7 @@
       "ru": "Тягач 3.0т."
     },
     "fullDesc": {
-      "uz": "Юк арраларини тортиш учун идеал.",
+      "uz": "Юк арраларини тортиш uchun идеал.",
       "en": "Ideal for towing multiple carts.",
       "ru": "Идеален для буксировки тележек."
     },
@@ -764,17 +817,21 @@
       "assets/products/heli-qdd30-1.webp",
       "assets/products/heli-qdd30-2.webp"
     ],
-    "features": {
-      "uz": ["Qulay bog'ланиш", "Ишончли тормоз", "Иқтисодий"],
-      "en": ["Easy coupling", "Reliable brakes", "Economical"],
-      "ru": ["Удобное сцепление", "Надежные тормоза", "Экономичный"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "3000 kg towing",
       "engine": "Electric",
-      "power": "7 kW",
-      "weight": "1500 kg",
-      "dimensions": "2200 × 900 × 1400 mm"
+      "power": "7 kW"
     }
   },
 
@@ -797,17 +854,21 @@
       "assets/products/heli-qdd50-1.webp",
       "assets/products/heli-qdd50-2.webp"
     ],
-    "features": {
-      "uz": ["Кучли tortish", "Узоқ хизмат", "Хавfsиз"],
-      "en": ["Strong towing", "Long service life", "Safe operation"],
-      "ru": ["Мощная буксировка", "Долговечность", "Безопасность"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "5000 kg towing",
       "engine": "Electric",
-      "power": "12 kW",
-      "weight": "2100 kg",
-      "dimensions": "2600 × 1000 × 1500 mm"
+      "power": "12 kW"
     }
   },
 
@@ -830,17 +891,21 @@
       "assets/products/heli-cbd15-1.webp",
       "assets/products/heli-cbd15-2.webp"
     ],
-    "features": {
-      "uz": ["Енгил маневр", "Осон ишлаш", "Тез юклаш"],
-      "en": ["Easy maneuver", "Simple operation", "Quick load"],
-      "ru": ["Маневренность", "Простота", "Быстрая загрузка"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1500 kg",
       "engine": "Electric/Manual",
-      "power": "3 kW",
-      "weight": "250 kg",
-      "dimensions": "1150 × 540 × 1250 mm"
+      "power": "3 kW"
     }
   },
 
@@ -863,17 +928,21 @@
       "assets/products/heli-cbd20-1.webp",
       "assets/products/heli-cbd20-2.webp"
     ],
-    "features": {
-      "uz": ["Хавfsиз dizayn", "Барқарор кўтариш", "Энергия тежамкор"],
-      "en": ["Safe design", "Stable lifting", "Energy efficient"],
-      "ru": ["Безопасный дизайн", "Стабильный подъем", "Энергоэффективный"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2000 kg",
       "engine": "Electric/Manual",
-      "power": "3.5 kW",
-      "weight": "280 kg",
-      "dimensions": "1200 × 560 × 1300 mm"
+      "power": "3.5 kW"
     }
   },
 
@@ -896,17 +965,21 @@
       "assets/products/heli-cbd25-1.webp",
       "assets/products/heli-cbd25-2.webp"
     ],
-    "features": {
-      "uz": ["Кatta sig'im", "Қулай бошқарув", "Ишончли система"],
-      "en": ["Higher capacity", "Comfortable control", "Reliable system"],
-      "ru": ["Большая грузоподъемность", "Удобное управление", "Надежная система"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2500 kg",
       "engine": "Electric/Manual",
-      "power": "4 kW",
-      "weight": "320 kg",
-      "dimensions": "1250 × 600 × 1350 mm"
+      "power": "4 kW"
     }
   },
 
@@ -929,17 +1002,21 @@
       "assets/products/heli-cbd30-1.webp",
       "assets/products/heli-cbd30-2.webp"
     ],
-    "features": {
-      "uz": ["Саноат darajasi", "Осон сервис", "Барқарор"],
-      "en": ["Industrial durability", "Easy servicing", "Stability"],
-      "ru": ["Промышленная прочность", "Простой сервис", "Стабильность"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "3000 kg",
       "engine": "Electric/Manual",
-      "power": "5 kW",
-      "weight": "380 kg",
-      "dimensions": "1350 × 650 × 1400 mm"
+      "power": "5 kW"
     }
   },
 
@@ -962,18 +1039,21 @@
       "assets/products/heli-cpcd120-1.webp",
       "assets/products/heli-cpcd120-2.webp"
     ],
-    "features": {
-      "uz": ["Кантейнер учун оптимал", "Хавfsиз система", "Катта quvvat"],
-      "en": ["Optimized for containers", "Safe systems", "High power"],
-      "ru": ["Оптимизирован под контейнеры", "Безопасные системы", "Высокая мощность"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "12000 kg",
       "engine": "Diesel",
-      "power": "220 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "18000 kg",
-      "dimensions": "6200 × 2600 × 3400 mm"
+      "power": "220 kW"
     }
   },
 
@@ -996,18 +1076,21 @@
       "assets/products/heli-cpcd160-1.webp",
       "assets/products/heli-cpcd160-2.webp"
     ],
-    "features": {
-      "uz": ["Юқори sig'im", "Мустаҳкам dizayn", "Сервис тармоғи"],
-      "en": ["Very high capacity", "Durable design", "Service network"],
-      "ru": ["Высокая грузоподъемность", "Прочность", "Сервисная сеть"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "16000 kg",
       "engine": "Diesel",
-      "power": "300 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "22000 kg",
-      "dimensions": "6800 × 2800 × 3600 mm"
+      "power": "300 kW"
     }
   },
 
@@ -1030,18 +1113,21 @@
       "assets/products/heli-cpcd250-1.webp",
       "assets/products/heli-cpcd250-2.webp"
     ],
-    "features": {
-      "uz": ["Иғir юклар учун", "Саноат chidamliligi", "Qo'shimcha uskunalar"],
-      "en": ["Heavy loads", "Industrial durability", "Attachments"],
-      "ru": ["Тяжелые грузы", "Промышленная прочность", "Навесы"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "25000 kg",
       "engine": "Diesel",
-      "power": "450 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "38000 kg",
-      "dimensions": "8200 × 3400 × 4200 mm"
+      "power": "450 kW"
     }
   },
 
@@ -1064,18 +1150,21 @@
       "assets/products/heli-cpcd320-1.webp",
       "assets/products/heli-cpcd320-2.webp"
     ],
-    "features": {
-      "uz": ["Катта quvvat", "Maxsus qo'shimchalar", "Professional servis"],
-      "en": ["High power", "Special attachments", "Professional service"],
-      "ru": ["Высокая мощность", "Спец навесы", "Проф. сервис"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "32000 kg",
       "engine": "Diesel",
-      "power": "520 kW",
-      "liftingHeight": "3000–7000 mm",
-      "weight": "46000 kg",
-      "dimensions": "9200 × 3600 × 4600 mm"
+      "power": "520 kW"
     }
   },
 
@@ -1098,17 +1187,20 @@
       "assets/products/heli-agv-pt-1.webp",
       "assets/products/heli-agv-pt-2.webp"
     ],
-    "features": {
-      "uz": ["Autonom navigation", "Паст хизмат эҳтиёжи", "Осон интеграция"],
-      "en": ["Autonomous navigation", "Low service", "Easy integration"],
-      "ru": ["Автономная навигация", "Низкое обслуживание", "Простая интеграция"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1500–3000 kg",
-      "engine": "Electric / Autonomous",
-      "navigation": "LiDAR / SLAM",
-      "weight": "varies",
-      "dimensions": "varies"
+      "engine": "Electric / Autonomous"
     }
   },
 
@@ -1131,17 +1223,20 @@
       "assets/products/heli-agv-fl15-1.webp",
       "assets/products/heli-agv-fl15-2.webp"
     ],
-    "features": {
-      "uz": ["Autonom ҳаракат", "Хавfsizlik tizimlari", "Интеграция"],
-      "en": ["Autonomous movement", "Safety systems", "Integration"],
-      "ru": ["Автономность", "Безопасность", "Интеграция"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "1500 kg",
-      "engine": "Electric",
-      "navigation": "Camera / LiDAR",
-      "weight": "2200 kg",
-      "dimensions": "2600 × 1100 × 2200 mm"
+      "engine": "Electric"
     }
   },
 
@@ -1156,7 +1251,7 @@
       "ru": "Телескопический 2.5т."
     },
     "fullDesc": {
-      "uz": "Қишлоқ хўжалиги ва қурилиш учун.",
+      "uz": "Қишлоқ хўжалиги ва қурilish учун.",
       "en": "For agriculture & construction.",
       "ru": "Для сельского хоз. и строительства."
     },
@@ -1164,17 +1259,20 @@
       "assets/products/heli-hth25-10-1.webp",
       "assets/products/heli-hth25-10-2.webp"
     ],
-    "features": {
-      "uz": ["Uzun reach", "Қулай бошқарув", "Барқарор рамка"],
-      "en": ["Long reach", "Easy handling", "Stable frame"],
-      "ru": ["Большой вылет", "Удобное управление", "Устойчивая рама"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "2500 kg",
-      "engine": "Diesel",
-      "reach": "10 m",
-      "weight": "5800 kg",
-      "dimensions": "4800 × 2000 × 2200 mm"
+      "engine": "Diesel"
     }
   },
 
@@ -1197,17 +1295,20 @@
       "assets/products/heli-hth40-14-1.webp",
       "assets/products/heli-hth40-14-2.webp"
     ],
-    "features": {
-      "uz": ["Чидамли гидравлика", "Қувватли мотор", "Кўп вазифали"],
-      "en": ["Durable hydraulics", "Powerful engine", "Multipurpose"],
-      "ru": ["Прочная гидравлика", "Мощный двигатель", "Многофункциональный"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "4000 kg",
-      "engine": "Diesel",
-      "reach": "14 m",
-      "weight": "8700 kg",
-      "dimensions": "5900 × 2200 × 2500 mm"
+      "engine": "Diesel"
     }
   },
 
@@ -1230,18 +1331,21 @@
       "assets/products/heli-hrs4545-1.webp",
       "assets/products/heli-hrs4545-2.webp"
     ],
-    "features": {
-      "uz": ["Кантейнер учун оптимал", "Юқори quvvat", "Ишончли система"],
-      "en": ["Container optimized", "High power", "Reliable systems"],
-      "ru": ["Оптимизирован", "Мощный", "Надежный"]
-    },
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
     "specs": {
       "capacity": "45000 kg",
       "engine": "Diesel",
-      "power": "650 kW",
-      "liftingHeight": "varies",
-      "weight": "68000 kg",
-      "dimensions": "12000 × 4000 × 4200 mm"
+      "power": "650 kW"
     }
   }
 }

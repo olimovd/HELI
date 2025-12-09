@@ -37,7 +37,7 @@
       <h1 id="productName" class="fw-bold"></h1>
       <p id="productShortDesc" class="text-muted"></p>
 
-      <!-- ✅ PREMIUM TECHNICAL SPECIFICATIONS -->
+      <!-- ✅ TOP TECHNICAL SPECIFICATIONS (STATIC 3) -->
       <div class="product-specs mt-4">
         <h5 class="spec-title mb-3" data-i18n="spec_title"></h5>
 
@@ -45,32 +45,17 @@
 
           <div class="spec-row">
             <div class="spec-key" data-i18n="spec_capacity"></div>
-            <div class="spec-value" id="spec-capacity"></div>
+            <div class="spec-value" id="top-spec-capacity"></div>
           </div>
 
           <div class="spec-row">
             <div class="spec-key" data-i18n="spec_engineType"></div>
-            <div class="spec-value" id="spec-engine"></div>
+            <div class="spec-value" id="top-spec-engine"></div>
           </div>
 
           <div class="spec-row">
             <div class="spec-key" data-i18n="spec_enginePower"></div>
-            <div class="spec-value" id="spec-power"></div>
-          </div>
-
-          <div class="spec-row">
-            <div class="spec-key" data-i18n="spec_liftingHeight"></div>
-            <div class="spec-value" id="spec-liftingHeight"></div>
-          </div>
-
-          <div class="spec-row">
-            <div class="spec-key" data-i18n="spec_operatingWeight"></div>
-            <div class="spec-value" id="spec-weight"></div>
-          </div>
-
-          <div class="spec-row">
-            <div class="spec-key" data-i18n="spec_dimensions"></div>
-            <div class="spec-value" id="spec-dimensions"></div>
+            <div class="spec-value" id="top-spec-power"></div>
           </div>
 
         </div>
@@ -83,7 +68,7 @@
 
   </div>
 
-  <!-- TABS -->
+  <!-- ✅ TABS -->
   <div class="mt-5">
     <ul class="nav nav-tabs" id="productTabs">
       <li class="nav-item">
@@ -96,18 +81,30 @@
 
     <div class="tab-content p-4 border border-top-0">
 
+      <!-- ✅ DESCRIPTION TAB -->
       <div class="tab-pane fade show active" id="descTab">
         <p id="productDescription"></p>
       </div>
 
+      <!-- ✅ CHARACTERISTICS TAB (MULTI COLUMN VALUES) -->
       <div class="tab-pane fade" id="charTab">
-        <ul id="productCharacteristics"></ul>
+
+        <div class="product-specs mt-4">
+        <h5 class="spec-title mb-3" data-i18n="spec_title"></h5>
+
+        <div class="table-responsive">
+          <table class="spec-compare-table text-center align-middle" id="specTable">
+            <!-- JS WILL BUILD EVERYTHING -->
+          </table>
+        </div>
       </div>
 
+
+      </div>
     </div>
   </div>
 
-  <!-- RELATED PRODUCTS -->
+  <!-- ✅ RELATED PRODUCTS -->
   <section class="mt-5">
     <h3 class="mb-4">Similar Models</h3>
     <div class="row g-4" id="relatedProducts"></div>
@@ -115,7 +112,7 @@
 
 </section>
 
-<!-- QUOTE MODAL (shared) -->
+<!-- FOOTER -->
 <div id="footer-placeholder"></div>
 
 <!-- BOOTSTRAP -->
@@ -130,20 +127,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   /* ---------- LOAD NAVBAR ---------- */
   const navRes = await fetch("navbar.html");
-  const navbar = await navRes.text();
-  document.getElementById("navbar-placeholder").innerHTML = navbar;
+  document.getElementById("navbar-placeholder").innerHTML = await navRes.text();
 
   if (window.initSharedUI) initSharedUI();
   if (window.initLanguageSwitcher) initLanguageSwitcher();
   if (window.loadLanguage) await loadLanguage(window.currentLang || "uz");
   if (window.setActiveLangButton) setActiveLangButton();
 
-
   /* ---------- LOAD MODAL ---------- */
   const modalRes = await fetch("modal.html");
   document.getElementById("modal-placeholder").innerHTML = await modalRes.text();
-  if (window.initSharedUI) initSharedUI();
-
 
   /* ---------- LOAD FOOTER ---------- */
   const footerRes = await fetch("footer.html");

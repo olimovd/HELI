@@ -49,21 +49,54 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // ✅ PREMIUM SPEC TABLE FILL
     if (p.specs) {
-      document.getElementById("spec-capacity").textContent = p.specs.capacity || "-";
-      document.getElementById("spec-engine").textContent = p.specs.engine || "-";
-      document.getElementById("spec-power").textContent = p.specs.power || "-";
-      document.getElementById("spec-liftingHeight").textContent = p.specs.liftingHeight || "-";
-      document.getElementById("spec-weight").textContent = p.specs.weight || "-";
-      document.getElementById("spec-dimensions").textContent = p.specs.dimensions || "-";
+      document.getElementById("top-spec-capacity").textContent = p.specs.capacity || "-";
+      document.getElementById("top-spec-engine").textContent = p.specs.engine || "-";
+      document.getElementById("top-spec-power").textContent = p.specs.power || "-";
+
     }
 
 
 
   // =========================================================
   // ✅ FEATURES / CHARACTERISTICS
-  // =========================================================
-  document.getElementById("productCharacteristics").innerHTML =
-    p.features[lang].map(f => `<li>${f}</li>`).join("");
+  // ✅ CHARACTERISTICS TABLE (ROWS STATIC, COLUMNS DYNAMIC)
+  const specTableEl = document.getElementById("specTable");
+
+  if (p.variants && p.specTable && specTableEl) {
+
+    let html = "<thead><tr>";
+
+    // ✅ First column = row title
+    html += `<th data-i18n="spec_model">Model</th>`;
+
+    // ✅ Dynamic variant columns
+    p.variants.forEach(v => {
+      html += `<th>${v}</th>`;
+    });
+
+    html += "</tr></thead><tbody>";
+
+    // ✅ Fixed rows, dynamic values
+    p.specTable.forEach(spec => {
+      html += `<tr>`;
+
+      // ✅ Left column (row title via i18n)
+      html += `<td data-i18n="spec_${spec.key}"></td>`;
+
+      // ✅ Dynamic variant values
+      spec.values.forEach(val => {
+        html += `<td>${val} ${spec.unit || ""}</td>`;
+      });
+
+      html += `</tr>`;
+    });
+
+    html += `</tbody>`;
+    specTableEl.innerHTML = html;
+  }
+
+
+
 
   // =========================================================
   // ✅ RELATED PRODUCTS (SAME CATEGORY)

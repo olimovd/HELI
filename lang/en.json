@@ -200,6 +200,12 @@
   "spec_enginePower": "Engine Power",
   "spec_liftingHeight": "Lifting Height",
   "spec_operatingWeight": "Operating Weight",
-  "spec_dimensions": "Dimensions"
+  "spec_dimensions": "Dimensions",
+  "spec_loadCenter": "Load Center",
+  "spec_length": "Length",
+  "spec_width": "Width",
+  "spec_turnRadius": "Turning Radius",
+  "spec_tires": "Tires"
+
   
 }

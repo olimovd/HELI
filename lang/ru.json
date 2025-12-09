@@ -201,5 +201,10 @@
   "spec_enginePower": "Мощность Двигателя",
   "spec_liftingHeight": "Высота Подъёма",
   "spec_operatingWeight": "Эксплуатационная Масса",
-  "spec_dimensions": "Габариты"
+  "spec_dimensions": "Габариты",
+  "spec_loadCenter": "Центр нагрузки",
+  "spec_length": "Длина",
+  "spec_width": "Ширина",
+  "spec_turnRadius": "Радиус разворота",
+  "spec_tires": "Шины"
 }

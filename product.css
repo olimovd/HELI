@@ -181,4 +181,124 @@
   }
 }
 
+/* ===============================
+   PREMIUM MULTI-MODEL SPEC TABLE
+================================ */
 
+.spec-compare-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  font-size: 0.95rem;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.05);
+}
+
+/* Sticky header */
+.spec-compare-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 14px 16px;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(180deg, #f9f9f9, #eeeeee);
+  border-bottom: 1px solid #e2e2e2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+
+/* Body cells */
+.spec-compare-table tbody td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f1f1f1;
+  vertical-align: middle;
+  transition: background 0.2s ease;
+}
+
+/* Zebra rows */
+.spec-compare-table tbody tr:nth-child(even) {
+  background: #fcfcfc;
+}
+
+/* Row hover */
+.spec-compare-table tbody tr:hover {
+  background: #f7f9fc;
+}
+
+/* ✅ First column: Parameter name */
+.spec-compare-table tbody td:first-child {
+  font-weight: 600;
+  color: #222;
+  width: 28%;
+  position: relative;
+  padding-left: 22px;
+  background: linear-gradient(90deg, #fff, #fafafa);
+}
+
+.spec-compare-table tbody td:first-child::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 4px;
+  background: var(--red, #c5161c);
+  border-radius: 2px;
+}
+
+/* ✅ Value cells */
+.spec-value {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  color: #333;
+}
+
+.spec-unit {
+  display: block;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 2px;
+}
+
+/* ✅ Rounded corners */
+.spec-compare-table thead th:first-child {
+  border-top-left-radius: 16px;
+}
+
+.spec-compare-table thead th:last-child {
+  border-top-right-radius: 16px;
+}
+
+.spec-compare-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 16px;
+}
+
+.spec-compare-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 16px;
+}
+
+/* ✅ Mobile optimization */
+@media (max-width: 768px) {
+  .spec-compare-table {
+    font-size: 0.85rem;
+  }
+
+  .spec-compare-table thead th {
+    padding: 10px 10px;
+  }
+
+  .spec-compare-table tbody td {
+    padding: 10px 10px;
+  }
+
+  .spec-compare-table tbody td:first-child {
+    width: 40%;
+  }
+}

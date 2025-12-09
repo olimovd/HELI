@@ -201,5 +201,10 @@
   "spec_enginePower": "Dvigatel Quvvati",
   "spec_liftingHeight": "Ko‘tarish Balandligi",
   "spec_operatingWeight": "Ish Og‘irligi",
-  "spec_dimensions": "O‘lchamlari"
+  "spec_dimensions": "O‘lchamlari",
+  "spec_loadCenter": "Yuk markazi",
+  "spec_length": "Uzunligi",
+  "spec_width": "Kengligi",
+  "spec_turnRadius": "Burilish radiusi",
+  "spec_tires": "Shinalar"
 }
