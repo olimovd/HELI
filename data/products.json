@@ -237,18 +237,18 @@
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+    { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+    { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+    { "key": "length", "unit": "mm", "values": ["2241", "2245", "2293"] },
+    { "key": "width", "unit": "mm", "values": ["1170", "1170", "1170"] },
+    { "key": "height", "unit": "mm", "values": ["2035", "2035", "2035"] },
+    { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
-      "capacity": "2000 kg",
+      "capacity": "1800 kg",
       "engine": "Diesel",
-      "power": "36 kW"
+      "liftingHeight": "3 m"
     }
   },
 
@@ -285,7 +285,7 @@
     "specs": {
       "capacity": "2500 kg",
       "engine": "Diesel",
-      "power": "45 kW"
+      "liftingHeight": "45 kW"
     }
   },
 

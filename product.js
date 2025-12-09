@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (p.specs) {
       document.getElementById("top-spec-capacity").textContent = p.specs.capacity || "-";
       document.getElementById("top-spec-engine").textContent = p.specs.engine || "-";
-      document.getElementById("top-spec-power").textContent = p.specs.power || "-";
+      document.getElementById("top-spec-power").textContent = p.specs.liftingHeight || "-";
 
     }
 
