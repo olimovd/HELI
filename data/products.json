@@ -5,18 +5,18 @@
     "categoryId": 1,
     "name": { "uz": "HELI CPD15", "en": "HELI CPD15", "ru": "HELI CPD15" },
     "shortDesc": {
-      "uz": "1.5 tonnalik ixcham elektr forklift.",
-      "en": "Compact 1.5t electric forklift.",
-      "ru": "Компактный электрический погрузчик 1.5т."
+      "uz": "Elektr vilkali yuklovchilar HELI CPD08/10/12 SQ H4 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD08/10/12 SQ серии H4",
+      "en": "Electric forklift trucks HELI CPD08/10/12 SQ H4 series"
     },
     "fullDesc": {
-      "uz": "Kichik omborlar uchun energiya tejamkor va ovozsiz ishlaydigan elektr forklift.",
-      "en": "An energy-efficient and silent electric forklift designed for small warehouses.",
-      "ru": "Энергоэффективный и тихий погрузчик, предназначенный для небольших складов."
+      "en": "About 0.8–1.2 t H4 series battery forklift trucks. Lead-acid and lithium batteries are ready to go. People-oriented design concept with inherited family design, seeking breakthroughs in appearance and showing dynamic charm in design details. Comfort and energy saving with fully considered user experience and superior operating space for high driving comfort. Stable and reliable performance ensured through CAE analysis, component bench testing and whole truck strengthening tests. Intelligent security with intelligent control and protection to improve driver safety, including dual-core controller, OPS protection (standard driving OPS / optional hydraulic OPS), hydraulic burst protection and forward tilting self-locking protection, multiple electrical protections such as short circuit, overheating, low power and sequence protection, parking safety reminder, slow sliding reminder on ramps, optional automatic deceleration when turning, flexible battery charging mode with on-board charging or battery replacement, main electrical components such as pump, pump motor and controller located on the counterweight for convenient maintenance, and a friendly user interface. Convenient maintenance with improved service efficiency for after-sales support.",
+      "uz": "0,8–1,2 tonnalik H4 seriyali akkumulyatorli forkliftlar haqida. Qo‘rg‘oshin va litiy-ion variantlari ishga tayyor. Odamga yo‘naltirilgan dizayn konsepsiyasi, oilaviy dizayn konsepsiyasining davomiyligi, tashqi ko‘rinishda yangilik izlash va dizayn detallarida dinamik joziba namoyon etiladi. Qulay va energiya tejamkor bo‘lib, foydalanuvchi tajribasi to‘liq hisobga olingan hamda keng boshqaruv makoni yuqori darajadagi haydash qulayligini ta’minlaydi. Barqaror va ishonchli ishlash uchun CAE tahlili, komponentlarning stend sinovlari va butun mashinaning mustahkamlash sinovlari qo‘llaniladi. Aqlli xavfsizlik tizimi haydovchi xavfsizligini oshiradi, jumladan ikki yadroli kontroller, OPS himoyasi (standart haydash OPS / ixtiyoriy gidravlik OPS), gidravlika tizimining yorilishdan himoyasi va oldga og‘ish vaqtida o‘z-o‘zidan qulflanish himoyasi, elektr himoya tizimlari (qisqa tutashuvdan, qizib ketishdan, past quvvatdan va ketma-ketlikdan himoya), parklash xavfsizligi eslatmasi, rampa bo‘ylab sekin sirpanish orqali ogohlantirish, burilishda avtomatik sekinlashtirish (ixtiyoriy), moslashuvchan batareya zaryadlash rejimi (forkliftda zaryadlash yoki batareyani almashtirish), nasos, nasos motor, kontroller va boshqa asosiy elektr qismlarning qarshi og‘irlik qismiga joylashtirilishi texnik xizmatni anchayin qulay qiladi, hamda foydalanuvchi uchun qulay interfeys mavjud. Oson texnik xizmat ko‘rsatish sotuvdan keyingi xizmat samaradorligini oshiradi.",
+      "ru": "О аккумуляторных вилочных погрузчиках серии H4 грузоподъёмностью 0,8–1,2 т. Доступны версии со свинцово-кислотными и литий-ионными батареями. Дизайн, ориентированный на человека, с наследованием фирменной семейной концепции, стремлением к прорыву во внешнем облике и динамической привлекательностью в деталях. Комфорт и энергосбережение обеспечиваются полностью учтённым пользовательским опытом и превосходно спроектированным рабочим пространством. Стабильность и надёжность достигаются за счёт CAE-анализа, стендовых испытаний компонентов и комплексных испытаний всего погрузчика на прочность. Интеллектуальная система безопасности включает интеллектуальное управление и многоуровневую защиту водителя, двухъядерный контроллер, защиту OPS (стандартная OPS движения / опциональная гидравлическая OPS), защиту от разрыва гидросистемы и самоблокировки при наклоне вперёд, многоуровневую электрическую защиту от короткого замыкания, перегрева, пониженного напряжения и по фазовой последовательности, напоминание о безопасности при парковке, предупреждение за счёт плавного скольжения на уклоне, автоматическое замедление при повороте (опция), гибкий режим зарядки аккумулятора с возможностью зарядки на погрузчике или быстрой заменой батареи, размещение основных электрических компонентов в противовесе для удобства обслуживания и удобный пользовательский интерфейс. Простота обслуживания повышает эффективность послепродажного сервиса."
     },
     "images": [
-      "assets/products/category1.webp",
-      "assets/products/category1.webp"
+      "assets/products/c1p1.jpg",
+      "assets/products/c1p1.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -41,29 +41,29 @@
     "categoryId": 1,
     "name": { "uz": "HELI CPD20", "en": "HELI CPD20", "ru": "HELI CPD20" },
     "shortDesc": {
-      "uz": "2.0 tonnalik kuchli elektr forklift.",
-      "en": "2.0t powerful electric forklift.",
-      "ru": "Электрический погрузчик 2.0т."
+      "uz": "Elektr vilkali yuklovchilar HELI CPD15/18/20/25/30/35/38 H4 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD15/18/20/25/30/35/38 серии H4",
+      "en": "Electric forklift trucks HELI CPD15/18/20/25/30/35/38 H4 series"
     },
     "fullDesc": {
-      "uz": "O'rta va kichik omborlar uchun barqaror ishlash va uzoq batareya muddati.",
-      "en": "Reliable performance and extended battery life for medium warehouses.",
-      "ru": "Надежная работа и увеличенное время работы батареи для средних складов."
+      "en": "About 1.5–3.8 t H4 series battery forklift trucks. Lead-acid and lithium batteries are ready to go. People-oriented design concept with inherited family design, seeking breakthroughs in appearance and showing dynamic charm in design details. Comfort and energy saving with fully considered user experience and superior operating space for high driving comfort. Stable and reliable performance ensured through CAE analysis, component bench testing and whole truck strengthening tests. Intelligent security with intelligent control and protection to improve driver safety, including dual-core controller, OPS protection (standard driving OPS / optional hydraulic OPS), hydraulic burst protection and forward tilting self-locking protection, multiple electrical protections such as short circuit, overheating, low power and sequence protection, parking safety reminder, slow sliding reminder on ramps, optional automatic deceleration when turning, flexible battery charging mode with on-board charging or battery replacement, main electrical components such as pump, pump motor and controller located on the counterweight for convenient maintenance, and a friendly user interface. Convenient maintenance with improved service efficiency for after-sales support.",
+      "uz": "1,5–3,8 tonnalik H4 seriyali akkumulyatorli forkliftlar haqida. Qo‘rg‘oshin va litiy-ion variantlari ishga tayyor. Odamga yo‘naltirilgan dizayn konsepsiyasi, oilaviy dizayn konsepsiyasining davomiyligi, tashqi ko‘rinishda yangilik izlash va dizayn detallarida dinamik joziba namoyon etiladi. Qulay va energiya tejamkor bo‘lib, foydalanuvchi tajribasi to‘liq hisobga olingan hamda keng boshqaruv makoni yuqori darajadagi haydash qulayligini ta’minlaydi. Barqaror va ishonchli ishlash uchun CAE tahlili, komponentlarning stend sinovlari va butun mashinaning mustahkamlash sinovlari qo‘llaniladi. Aqlli xavfsizlik tizimi haydovchi xavfsizligini oshiradi, jumladan ikki yadroli kontroller, OPS himoyasi (standart haydash OPS / ixtiyoriy gidravlik OPS), gidravlika tizimining yorilishdan himoyasi va oldga og‘ish vaqtida o‘z-o‘zidan qulflanish himoyasi, elektr himoya tizimlari (qisqa tutashuvdan, qizib ketishdan, past quvvatdan va ketma-ketlikdan himoya), parklash xavfsizligi eslatmasi, rampa bo‘ylab sekin sirpanish orqali ogohlantirish, burilishda avtomatik sekinlashtirish (ixtiyoriy), moslashuvchan batareya zaryadlash rejimi (forkliftda zaryadlash yoki batareyani almashtirish), nasos, nasos motor, kontroller va boshqa asosiy elektr qismlarning qarshi og‘irlik qismiga joylashtirilishi texnik xizmatni juda qulay qiladi hamda foydalanuvchi uchun qulay interfeys mavjud. Oson texnik xizmat ko‘rsatish sotuvdan keyingi xizmat samaradorligini oshiradi.",
+      "ru": "О аккумуляторных вилочных погрузчиках серии H4 грузоподъёмностью 1,5–3,8 т. Доступны версии со свинцово-кислотными и литий-ионными батареями. Дизайн, ориентированный на человека, с наследованием фирменной семейной концепции, стремлением к прорыву во внешнем облике и динамической привлекательностью в деталях. Комфорт и энергосбережение обеспечиваются полностью учтённым пользовательским опытом и превосходно спроектированным рабочим пространством. Стабильность и надёжность достигаются за счёт CAE-анализа, стендовых испытаний компонентов и комплексных испытаний всего погрузчика на прочность. Интеллектуальная система безопасности включает интеллектуальное управление и многоуровневую защиту водителя, двухъядерный контроллер, защиту OPS (стандартная OPS движения / опциональная гидравлическая OPS), защиту от разрыва гидросистемы и самоблокировки при наклоне вперёд, многоуровневую электрическую защиту от короткого замыкания, перегрева, пониженного напряжения и по фазовой последовательности, напоминание о безопасности при парковке, предупреждение за счёт плавного скольжения на уклоне, автоматическое замедление при повороте (опция), гибкий режим зарядки аккумулятора с возможностью зарядки на погрузчике или быстрой заменой батареи, размещение основных электрических компонентов в противовесе для удобства обслуживания и удобный пользовательский интерфейс. Простота обслуживания повышает эффективность послепродажного сервиса."
     },
     "images": [
-      "assets/products/heli-cpd20-1.webp",
-      "assets/products/heli-cpd20-2.webp"
+      "assets/products/c1p2.png",
+      "assets/products/c1p2.png"
     ],
    "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      { "key": "capacity", "unit": "kg", "values": ["2000", "2500", "3000", "3500", "3800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["2530", "2615", "2792", "2798", "2800"] },
+      { "key": "width", "unit": "mm", "values": ["1160", "1160", "1225", "1225", "1225"] },
+      { "key": "height", "unit": "mm", "values": ["2120", "2120", "2140", "2140", "2140"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
       "capacity": "2000 kg",
@@ -77,29 +77,29 @@
     "categoryId": 1,
     "name": { "uz": "HELI CPD25", "en": "HELI CPD25", "ru": "HELI CPD25" },
     "shortDesc": {
-      "uz": "2.5t elektr forklift — yuqori unumdorlik.",
-      "en": "2.5t electric forklift — high productivity.",
-      "ru": "Электрический погрузчик 2.5т — высокая производительность."
+      "uz": "Elektr vilkali yuklovchilar HELI CPD13/15/16/18/20 SQ G3 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD13/15/16/18/20 SQ серии G3",
+      "en": "Electric forklift trucks HELI CPD13/15/16/18/20 SQ G3 series"
     },
     "fullDesc": {
-      "uz": "Yuk ko'tarish tezligi va ishonchliligi bilan o'rta o'lchamli operatsiyalar uchun.",
-      "en": "Balanced speed and reliability for medium-duty operations.",
-      "ru": "Баланс скорости и надежности для средних нагрузок."
+      "uz": "G3 seriyali old g‘ildirakdan ikki dvigatelli litiy batareyali uch g‘ildirakli forklift kuchli va moslashuvchan bo‘lib, yuqori quvvat va manevr qilish imkoniyati bilan ajralib turadi. Qulay va energiya tejamkor dizayni foydalanuvchiga eng qulay haydash tajribasini taqdim etadi, zamonaviy energiya tejovchi texnologiyalar qo‘llanilgani sababli u yanada ekologik toza va atrof-muhitga zarar yetkazmaydi. Barqaror va ishonchli mahsulot barqarorlik va ishonchlilik konsepsiyasi asosida ishlab chiqilgan bo‘lib, ko‘plab qat’iy sinovlardan va tekshiruvlardan o‘tkazilgan. Aqlli xavfsizlik tizimi xavfsizlikni asosiy tamoyil qilib olgan bo‘lib, bir nechta ilg‘or xavfsizlik texnologiyalari bilan jihozlangan. Oson texnik xizmat ko‘rsatish esa vaqtni tejaydigan, qulay va samarali xizmat ko‘rsatish imkoniyatini ta’minlaydi.",
+      "ru": "О литий-ионном трёхколёсном погрузчике серии G3 с двумя передними приводными колёсами. Погрузчик отличается высокой производительностью, гибкостью и маневренностью. Он обеспечивает пользователю максимально комфортный опыт вождения, при этом применённые современные энергосберегающие технологии делают технику более экологичной и безопасной для окружающей среды. Продукт разработан на основе концепции стабильности и надёжности и прошёл множество строгих испытаний и проверок. Погрузчик создан с акцентом на интеллектуальную систему безопасности и оснащён несколькими передовыми технологиями защиты. Обслуживание занимает минимальное время, удобно и эффективно, что снижает эксплуатационные затраты и повышает производительность.",
+      "en": "About the G3 series front-wheel dual-drive lithium battery three-wheel truck. It delivers strong driving performance with excellent flexibility and maneuverability. The truck provides operators with a highly comfortable driving experience, and advanced energy-saving technologies are adopted, making it greener and more environmentally friendly. Designed based on the concept of stability and reliability, the product has passed multiple strict tests and verifications to ensure dependable performance. Built with intelligent safety as the core concept and equipped with multiple advanced safety protection technologies. Easy maintenance is time-saving, convenient, and highly efficient, ensuring lower operating costs and higher productivity."
     },
     "images": [
-      "assets/products/heli-cpd25-1.webp",
-      "assets/products/heli-cpd25-2.webp"
+      "assets/products/c1p3.jpg",
+      "assets/products/c1p3.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      { "key": "capacity", "unit": "kg", "values": ["4000", "4500", "5000", "5500"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3250", "3250", "3250", "3300"] },
+      { "key": "width", "unit": "mm", "values": ["1530", "1530", "1530", "1530"] },
+      { "key": "height", "unit": "mm", "values": ["2350", "2350", "2350", "2350"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
       "capacity": "2500 kg",
@@ -111,31 +111,31 @@
     "id": 104,
     "slug": "heli-cpd30",
     "categoryId": 1,
-    "name": { "uz": "HELI CPD30", "en": "HELI CPD30", "ru": "HELI CPD30" },
+    "name": { "uz": "HELI CPCD18", "en": "HELI CPD30", "ru": "HELI CPD30" },
     "shortDesc": {
-      "uz": "3.0t elektr forklift — ishonchli va kuchli.",
-      "en": "3.0t electric forklift — reliable and strong.",
-      "ru": "Электрический погрузчик 3.0т — надежный и мощный."
+      "uz": "Elektr vilkali yuklovchilar HELI CPD15/18/20/25/30/35/38 G2 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD15/18/20/25/30/35/38 серии G2",
+      "en": "Electric forklift trucks HELI CPD15/18/20/25/30/35/38 G2 series"
     },
     "fullDesc": {
-      "uz": "Og'irroq yuklar bilan ishlash uchun kuchli elektr platforma.",
-      "en": "Powerful electric platform for handling heavier loads.",
-      "ru": "Мощная электрическая платформа для более тяжелых нагрузок."
+      "uz": "1,5–3,8 tonnalik G2 seriyali litiy-ion batareyali forkliftlar og‘ir sharoitlardan qo‘rqmaydi — HELI yangi avlod litiy forkliftlari siz uchun eng to‘g‘ri tanlovdir. Kuchli ishlash va yuqori samaradorlik yuqori quvvat hamda maksimal ish unumdorligini ta’minlaydi. Aqlli va xavfsiz boshqaruv hamda ilg‘or xavfsizlik tizimlari har jihatdan qulay foydalanishni ta’minlaydi. Optimallashtirilgan ergonomik dizayn operator uchun maksimal qulaylik yaratadi va haydash komfortini oshiradi. Yuqori sifat va yuqori ishonchlilik mustahkam konstruksiya hamda uzoq muddatli barqaror ishlashni kafolatlaydi. Og‘ir ish sharoitlarida sinovdan o‘tgan bo‘lib, qattiq va murakkab muhitlarda ishlash uchun maxsus testlardan o‘tkazilgan. Markazlashtirilgan tekshiruv nuqtalari texnik xizmat ko‘rsatishni tez, qulay va samarali qiladi.",
+      "ru": "О литий-ионных вилочных погрузчиках серии G2 грузоподъёмностью 1,5–3,8 т. Новая серия литиевых погрузчиков HELI не боится самых тяжёлых условий эксплуатации и является вашим лучшим выбором. Мощная производительность и высокая эффективность обеспечивают высокую тягу и максимальную производительность в работе. Интеллектуальное управление и современные технологии безопасности делают эксплуатацию удобной и безопасной. Оптимизированный эргономичный дизайн создаёт максимальный комфорт для оператора при длительной работе. Высокое качество и высокая надёжность обеспечиваются прочной конструкцией и стабильной работой в любых условиях. Погрузчик протестирован в жёстких условиях эксплуатации и прошёл испытания в тяжёлой рабочей среде. Централизованные точки контроля обеспечивают быстрое, удобное и эффективное техническое обслуживание.",
+      "en": "About the 1.5–3.8 t G2 series lithium-ion battery forklift trucks. Fearless in harsh working conditions, the new HELI lithium forklift series is your best choice. Powerful performance and high efficiency deliver strong power output and excellent productivity for demanding applications. Smart and safe operation is ensured through intelligent control systems and advanced safety protection. The optimized ergonomic design improves operator comfort and provides better driving experience during long working hours. High quality and high reliability are guaranteed through premium components, solid structure, and stable long-term performance. Tested in harsh operating environments, the forklifts are fully validated under tough working conditions to ensure durability. Centralized inspection checkpoints allow fast, convenient, and efficient maintenance."
     },
     "images": [
-      "assets/products/heli-cpd30-1.webp",
-      "assets/products/heli-cpd30-2.webp"
+      "assets/products/c1p4.jpg",
+      "assets/products/c1p4.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      { "key": "capacity", "unit": "kg", "values": ["5000", "6000", "7000", "8000", "9000", "10000"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3550", "3630", "3670", "3800", "3960", "4220"] },
+      { "key": "width", "unit": "mm", "values": ["2044", "2044", "2044", "2124", "2164", "2164"] },
+      { "key": "height", "unit": "mm", "values": ["2450", "2450", "2450", "2510", "2560", "2560"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
       "capacity": "3000 kg",
@@ -258,18 +258,18 @@
     "categoryId": 2,
     "name": { "uz": "HELI CPCD25", "en": "HELI CPCD25", "ru": "HELI CPCD25" },
     "shortDesc": {
-      "uz": "2.5t dizel forklift — ko'p qirrali ishlash.",
-      "en": "2.5t diesel forklift — versatile performance.",
-      "ru": "Дизельный погрузчик 2.5т — универсальная работа."
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD20/25/30/35/38 K2 seriyali",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD20/25/30/35/38 серии K2",
+      "en": "Diesel forklift trucks HELI CPCD20/25/30/35/38 K2 series"
     },
     "fullDesc": {
-      "uz": "Og'ir ish sharoitlarida ham barqarorlik va samaradorlikni ta'minlaydi.",
-      "en": "Delivers stability and productivity in heavy conditions.",
-      "ru": "Обеспечивает стабильность и производительность в тяжелых условиях."
+      "uz": "1.0–10 tonna ichki yonuv dvigatelli forkliftlar HELI kompaniyasining eng ko‘p sotiladigan modellari bo‘lib, K seriyali ichki yonuv forkliftlarining yangilangan versiyasidir. U mustahkam va baquvvat tashqi ko‘rinishga ega bo‘lib, zamonaviy va chiroyli dizayni bilan ajralib turadi. Asosiy komponentlari bozor tomonidan to‘liq sinovdan o‘tgan, yetuk va ishonchlidir. Butun mashina deyarli yarim asrlik muhandislik tajribasi va dizayn innovatsiyalarini o‘zida mujassam etgan bo‘lib, eng so‘nggi texnologik va ishlab chiqarish yutuqlarini jamlagan, bardoshlilik va yuqori tejamkorlik kabi an’anaviy afzalliklarni namoyon etadi. Transmissiya tizimi mustaqil tarzda ishlab chiqilgan va ishlab chiqarilgan bo‘lib, juda yuqori ishonchlilik va uzoq xizmat muddati bilan ajralib turadi. Forkliftning umumiy dizayni oddiy, lekin soddalikdan yiroq bo‘lib, mustahkam va uzoq muddat xizmat qiladigan yagona uslubdagi dizayn asosida yaratilgan. Dvigatellar tanlovi keng bo‘lib, ko‘plab kuchli dvigatel variantlari mavjud va ular Xitoy, Yevropa, AQSh hamda past emissiya talab qilinadigan boshqa hududlar ekologik me’yorlariga to‘liq javob beradi. Seriyadagi barcha modellar keng ko‘rish burchagiga ega machtalar bilan jihozlangan bo‘lib, haydovchining ko‘rish maydonini sezilarli darajada kengaytiradi va ishni qulay hamda xavfsiz qiladi. Mashinada sovitish tizimi optimallashtirilgan bo‘lib, dvigatel va uzatmalar qutisi kabi muhim uzellarning xizmat muddatini sezilarli darajada oshiradi hamda og‘ir ish sharoitlariga moslashish imkonini beradi. Jihozlanishi boy: barcha modellarga kabina, konditsioner, telematika o‘rnatish mumkin, 4–10 tonnalik modellarga esa nam tormozli yetakchi o‘q o‘rnatish imkoniyati mavjud. K2 seriyasi ijaraga berish, konteynerlar bilan ishlash va tosh sanoati kabi maxsus sohalar uchun moslashtirilgan segmentlangan modellarni ham o‘z ichiga oladi.",
+      "en": "K2 series 1–10 t internal combustion forklift is HELI's best-selling series model and an upgraded product of the K series internal combustion forklift. It has a tough and sturdy appearance, as well as a modern and beautiful style. The core components have been fully verified by the market and are mature and reliable. The whole machine embodies the technological exploration and design innovation of HELI in the field of internal combustion forklifts for nearly half a century, incorporating the latest technological and process development achievements, highlighting the traditional attributes of durability and high cost-effectiveness. The transmission system is independently designed and manufactured, with high reliability and durability. The overall design of the vehicle is simple yet not simplistic, adopting a family-oriented design style that is durable and long-lasting. Rich power supply with multiple powerful engines to choose from meets the emission requirements of China, Europe, America, low-emission regions and other places. All models in the series adopt wide field-of-view masts, effectively improving the driver's visibility, making operation more convenient and safe. The optimized overall vehicle cooling design significantly improves the service life of key components such as the engine and gearbox and enables adaptation to relatively harsh working conditions. With rich configuration, all models can be equipped with driver’s cab, air conditioning, vehicle telematics, etc., and 4–10 t models can be equipped with wet brake axle. The K2 series has also developed segmented market models such as rental, container handling, and stone industry models to meet the needs of specific industries.",
+      "ru": "Серия K2 внутренних погрузчиков грузоподъёмностью 1–10 тонн является самой продаваемой серией компании HELI и представляет собой обновлённую версию погрузчиков серии K. Модель отличается прочным и мощным внешним видом, а также современным и эстетичным дизайном. Основные компоненты полностью проверены рынком, являются зрелыми и надёжными. Вся машина воплощает в себе почти полувековой технологический опыт и инновации в области погрузчиков с ДВС, объединяя новейшие достижения в технологиях и производственных процессах, подчёркивая традиционные преимущества — долговечность и высокую экономическую эффективность. Трансмиссионная система разработана и изготовлена самостоятельно, отличается высокой надёжностью и долговечностью. Общий дизайн погрузчика прост, но не примитивен, выполнен в едином фирменном стиле, ориентированном на прочность и длительный срок службы. Широкий выбор мощных двигателей соответствует экологическим требованиям Китая, Европы, США, регионов с низким уровнем выбросов и других стран. Все модели серии оснащены мачтами с широким обзором, что значительно улучшает видимость для водителя, делая работу более удобной и безопасной. Оптимизированная система охлаждения всей машины значительно увеличивает срок службы ключевых компонентов, таких как двигатель и коробка передач, а также позволяет работать в достаточно жёстких условиях эксплуатации. Богатая комплектация: все модели могут оснащаться кабиной, кондиционером, системой телематики, а модели грузоподъёмностью 4–10 тонн могут комплектоваться ведущим мостом с мокрыми тормозами. Серия K2 также включает в себя специализированные модели для арендного бизнеса, контейнерных перевозок и камнеобрабатывающей промышленности, разработанные для удовлетворения потребностей конкретных отраслей."
     },
     "images": [
-      "assets/products/heli-cpcd25-1.webp",
-      "assets/products/heli-cpcd25-2.webp"
+      "assets/products/c2p2.png",
+      "assets/products/c2p2.png"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -295,18 +295,18 @@
     "categoryId": 2,
     "name": { "uz": "HELI CPCD30", "en": "HELI CPCD30", "ru": "HELI CPCD30" },
     "shortDesc": {
-      "uz": "3.0t dizel forklift — og'ir yuklarga mos.",
-      "en": "3.0t diesel forklift — for heavier loads.",
-      "ru": "Дизельный погрузчик 3.0т — для тяжелых грузов."
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD40/45/50/55 K2 seriyali",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD40/45/50/55 серии K2",
+      "en": "Diesel forklift trucks HELI CPCD40/45/50/55 K2 series"
     },
     "fullDesc": {
-      "uz": "Katta yuklarni tashish va ochiq maydonlarda ishlash uchun mos.",
-      "en": "Suitable for heavy lifting and outdoor operations.",
-      "ru": "Подходит для тяжелых подъемов и наружных работ."
+      "uz": "K2 seriyasiga mansub 1–10 tonnalik ichki yonuv dvigatelli forkliftlar HELI kompaniyasining eng ko‘p sotiladigan modellari bo‘lib, K seriyali ichki yonuv forkliftlarining yangilangan versiyasidir. U mustahkam va baquvvat tashqi ko‘rinishga ega bo‘lib, zamonaviy va chiroyli dizayni bilan ajralib turadi. Asosiy komponentlari bozor tomonidan to‘liq sinovdan o‘tgan, yetuk va ishonchlidir. Butun mashina deyarli yarim asrlik muhandislik tajribasi va dizayn innovatsiyalarini o‘zida mujassam etgan bo‘lib, eng so‘nggi texnologik va ishlab chiqarish yutuqlarini jamlagan, bardoshlilik va yuqori tejamkorlik kabi an’anaviy afzalliklarni namoyon etadi. Transmissiya tizimi mustaqil tarzda ishlab chiqilgan va ishlab chiqarilgan bo‘lib, juda yuqori ishonchlilik va uzoq xizmat muddati bilan ajralib turadi. Forkliftning umumiy dizayni oddiy, lekin soddalikdan yiroq bo‘lib, mustahkam va uzoq muddat xizmat qiladigan yagona uslubdagi dizayn asosida yaratilgan. Dvigatellar tanlovi keng bo‘lib, ko‘plab kuchli dvigatel variantlari mavjud va ular Xitoy, Yevropa, AQSh hamda past emissiya talab qilinadigan boshqa hududlar ekologik me’yorlariga to‘liq javob beradi. Seriyadagi barcha modellar keng ko‘rish burchagiga ega machtalar bilan jihozlangan bo‘lib, haydovchining ko‘rish maydonini sezilarli darajada kengaytiradi va ishni qulay hamda xavfsiz qiladi. Mashinada sovitish tizimi optimallashtirilgan bo‘lib, dvigatel va uzatmalar qutisi kabi muhim uzellarning xizmat muddatini sezilarli darajada oshiradi hamda og‘ir ish sharoitlariga moslashish imkonini beradi. Jihozlanishi boy: barcha modellarga kabina, konditsioner, telematika o‘rnatish mumkin, 4–10 tonnalik modellarga esa nam tormozli yetakchi o‘q o‘rnatish imkoniyati mavjud. K2 seriyasi ijaraga berish, konteynerlar bilan ishlash va tosh sanoati kabi maxsus sohalar uchun moslashtirilgan segmentlangan modellarni ham o‘z ichiga oladi.",
+      "en": "K2 series 1–10 t internal combustion forklift is HELI's best-selling series model and an upgraded product of the K series internal combustion forklift. It has a tough and sturdy appearance, as well as a modern and beautiful style. The core components have been fully verified by the market and are mature and reliable. The whole machine embodies the technological exploration and design innovation of HELI in the field of internal combustion forklifts for nearly half a century, incorporating the latest technological and process development achievements, highlighting the traditional attributes of durability and high cost-effectiveness. The transmission system is independently designed and manufactured, with high reliability and durability. The overall design of the vehicle is simple yet not simplistic, adopting a family-oriented design style that is durable and long-lasting. Rich power supply with multiple powerful engine options meets the emission requirements of China, Europe, America, low-emission regions and other places. All models in the series adopt wide field-of-view masts, effectively improving the driver's visibility, making operation more convenient and safe. The optimized overall vehicle cooling design significantly improves the service life of key components such as the engine and gearbox and allows adaptation to relatively harsh working conditions. With rich configuration, all models can be equipped with driver’s cab, air conditioning, vehicle networking, etc., and 4–10 t models can be equipped with wet brake axle. The K2 series has developed segmented market models such as rental, container handling, and stone industry models to meet the needs of specific industries.",
+      "ru": "Серия K2 внутренних погрузчиков грузоподъёмностью 1–10 тонн является самой продаваемой серией компании HELI и представляет собой обновлённую версию погрузчиков серии K. Модель отличается прочным и мощным внешним видом, а также современным и эстетичным дизайном. Основные компоненты полностью проверены рынком, являются зрелыми и надёжными. Вся машина воплощает в себе почти полувековой технологический опыт и инновации в области погрузчиков с ДВС, объединяя новейшие достижения в технологиях и производственных процессах, подчёркивая традиционные преимущества — долговечность и высокую экономическую эффективность. Трансмиссионная система разработана и изготовлена самостоятельно, отличается высокой надёжностью и долговечностью. Общий дизайн погрузчика прост, но не примитивен, выполнен в едином фирменном стиле, ориентированном на прочность и длительный срок службы. Широкий выбор мощных двигателей соответствует экологическим требованиям Китая, Европы, США, регионов с низким уровнем выбросов и других стран. Все модели серии оснащены мачтами с широким обзором, что значительно улучшает видимость для водителя, делая работу более удобной и безопасной. Оптимизированная система охлаждения всей машины значительно увеличивает срок службы ключевых компонентов, таких как двигатель и коробка передач, а также позволяет работать в достаточно жёстких условиях эксплуатации. Богатая комплектация: все модели могут оснащаться кабиной, кондиционером, системой телематики, а модели грузоподъёмностью 4–10 тонн могут комплектоваться ведущим мостом с мокрыми тормозами. Серия K2 также включает в себя специализированные модели для арендного бизнеса, контейнерных перевозок и камнеобрабатывающей промышленности, разработанные для удовлетворения потребностей конкретных отраслей."
     },
     "images": [
-      "assets/products/heli-cpcd30-1.webp",
-      "assets/products/heli-cpcd30-2.webp"
+      "assets/products/c2p3.jpg",
+      "assets/products/c2p3.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -332,18 +332,18 @@
     "categoryId": 2,
     "name": { "uz": "HELI CPCD35", "en": "HELI CPCD35", "ru": "HELI CPCD35" },
     "shortDesc": {
-      "uz": "3.5t dizел forklift — балансланган quvvat ва chidamlilik.",
-      "en": "3.5t diesel forklift — balanced power and durability.",
-      "ru": "Дизельный погрузчик 3.5т — баланс мощности и прочности."
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD60/70/80/90/100 K2 seriyali",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD60/70/80/90/100 серии K2",
+      "en": "Diesel forklift trucks HELI CPCD60/70/80/90/100 K2 series"
     },
     "fullDesc": {
-      "uz": "Dag'al sharoitlarda ishlashga moslangan konstruktsiya.",
-      "en": "Built for tough working environments with reinforced design.",
-      "ru": "Создан для сложных условий эксплуатации с усиленной конструкцией."
+      "uz": "K2 seriyasiga mansub 1–10 tonnalik ichki yonuv dvigatelli forkliftlar HELI kompaniyasining eng ko‘p sotiladigan modellari bo‘lib, K seriyali ichki yonuv forkliftlarining yangilangan versiyasidir. U mustahkam va baquvvat tashqi ko‘rinishga ega bo‘lib, zamonaviy va chiroyli dizayni bilan ajralib turadi. Asosiy komponentlari bozor tomonidan to‘liq sinovdan o‘tgan, yetuk va ishonchlidir. Butun mashina deyarli yarim asrlik muhandislik tajribasi va dizayn innovatsiyalarini o‘zida mujassam etgan bo‘lib, eng so‘nggi texnologik va ishlab chiqarish yutuqlarini jamlagan, bardoshlilik va yuqori tejamkorlik kabi an’anaviy afzalliklarni namoyon etadi. Transmissiya tizimi mustaqil tarzda ishlab chiqilgan va ishlab chiqarilgan bo‘lib, juda yuqori ishonchlilik va uzoq xizmat muddati bilan ajralib turadi. Forkliftning umumiy dizayni oddiy, lekin soddalikdan yiroq bo‘lib, mustahkam va uzoq muddat xizmat qiladigan yagona uslubdagi dizayn asosida yaratilgan. Dvigatellar tanlovi keng bo‘lib, ko‘plab kuchli dvigatel variantlari mavjud va ular Xitoy, Yevropa, AQSh hamda past emissiya talab qilinadigan boshqa hududlar ekologik me’yorlariga to‘liq javob beradi. Seriyadagi barcha modellar keng ko‘rish burchagiga ega machtalar bilan jihozlangan bo‘lib, haydovchining ko‘rish maydonini sezilarli darajada kengaytiradi va ishni qulay hamda xavfsiz qiladi. Mashinada sovitish tizimi optimallashtirilgan bo‘lib, dvigatel va uzatmalar qutisi kabi muhim uzellarning xizmat muddatini sezilarli darajada oshiradi hamda og‘ir ish sharoitlariga moslashish imkonini beradi. Jihozlanishi boy: barcha modellarga kabina, konditsioner, telematika o‘rnatish mumkin, 4–10 tonnalik modellarga esa nam tormozli yetakchi o‘q o‘rnatish imkoniyati mavjud. K2 seriyasi ijaraga berish, konteynerlar bilan ishlash va tosh sanoati kabi maxsus sohalar uchun moslashtirilgan segmentlangan modellarni ham o‘z ichiga oladi.",
+      "ru": "Серия K2 внутренних погрузчиков грузоподъёмностью 1–10 тонн является самой продаваемой серией компании HELI и представляет собой обновлённую версию погрузчиков серии K. Модель отличается прочным и мощным внешним видом, а также современным и эстетичным дизайном. Основные компоненты полностью проверены рынком, являются зрелыми и надёжными. Вся машина воплощает в себе почти полувековой технологический опыт и инновации в области погрузчиков с ДВС, объединяя новейшие достижения в технологиях и производственных процессах, подчёркивая традиционные преимущества — долговечность и высокую экономическую эффективность. Трансмиссионная система разработана и изготовлена самостоятельно, отличается высокой надёжностью и долговечностью. Общий дизайн погрузчика прост, но не примитивен, выполнен в едином фирменном стиле, ориентированном на прочность и длительный срок службы. Широкий выбор мощных двигателей соответствует экологическим требованиям Китая, Европы, США, регионов с низким уровнем выбросов и других стран. Все модели серии оснащены мачтами с широким обзором, что значительно улучшает видимость для водителя, делая работу более удобной и безопасной. Оптимизированная система охлаждения всей машины значительно увеличивает срок службы ключевых компонентов, таких как двигатель и коробка передач, а также позволяет работать в достаточно жёстких условиях эксплуатации. Богатая комплектация: все модели могут оснащаться кабиной, кондиционером, системой телематики, а модели грузоподъёмностью 4–10 тонн могут комплектоваться ведущим мостом с мокрыми тормозами. Серия K2 также включает в себя специализированные модели для арендного бизнеса, контейнерных перевозок и камнеобрабатывающей промышленности, разработанные для удовлетворения потребностей конкретных отраслей.",
+      "en": "K2 series 1–10 t internal combustion forklift is HELI's best-selling series model and an upgraded product of the K series internal combustion forklift. It has a tough and sturdy appearance, as well as a modern and beautiful style. The core components have been fully verified by the market and are mature and reliable. The whole machine embodies the technological exploration and design innovation of HELI in the field of internal combustion forklifts for nearly half a century, incorporating the latest technological and process development achievements, highlighting the traditional attributes of durability and high cost-effectiveness. The transmission system is independently designed and manufactured, with high reliability and durability. The overall design of the vehicle is simple yet not simplistic, adopting a family-oriented design style that is durable and long-lasting. Rich power supply with multiple powerful engine options meets the emission requirements of China, Europe, America, low-emission regions and other places. All models in the series adopt wide field-of-view masts, effectively improving the driver's visibility, making operation more convenient and safe. The optimized overall vehicle cooling design significantly improves the service life of key components such as the engine and gearbox and allows adaptation to relatively harsh working conditions. With rich configuration, all models can be equipped with driver’s cab, air conditioning, vehicle networking, etc., and 4–10 t models can be equipped with wet brake axle. The K2 series has developed segmented market models such as rental, container handling, and stone industry models to meet the needs of specific industries."
     },
     "images": [
-      "assets/products/heli-cpcd35-1.webp",
-      "assets/products/heli-cpcd35-2.webp"
+      "assets/products/c2p4.png",
+      "assets/products/c2p4.png"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -369,18 +369,18 @@
     "categoryId": 2,
     "name": { "uz": "HELI CPCD50", "en": "HELI CPCD50", "ru": "HELI CPCD50" },
     "shortDesc": {
-      "uz": "5.0t dizel forklift — og'ir sanoat ishlari uchun.",
-      "en": "5.0t diesel forklift — for heavy industrial work.",
-      "ru": "Дизельный погрузчик 5.0т — для тяжелой промышленности."
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD60/70/80/100 konteyner ichida ishlash uchun K2 seriyali",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD60/70/80/100 для работы в контейнерах серии K2",
+      "en": "Diesel forklift trucks HELI CPCD60/70/80/100 for container operation K2 series"
     },
     "fullDesc": {
-      "uz": "Kuchли dvигател ва мустahкам transmissiya.",
-      "en": "Comes with a powerful engine and stout transmission.",
-      "ru": "Оснащен мощным двигателем и прочной трансмиссией."
+      "uz": "K2 seriyasiga mansub 1–10 tonnalik ichki yonuv dvigatelli forkliftlar HELI kompaniyasining eng ko‘p sotiladigan modellari bo‘lib, K seriyali ichki yonuv forkliftlarining yangilangan versiyasidir. U mustahkam va baquvvat tashqi ko‘rinishga ega bo‘lib, zamonaviy va chiroyli dizayni bilan ajralib turadi. Asosiy komponentlari bozor tomonidan to‘liq sinovdan o‘tgan, yetuk va ishonchlidir. Butun mashina deyarli yarim asrlik muhandislik tajribasi va dizayn innovatsiyalarini o‘zida mujassam etgan bo‘lib, eng so‘nggi texnologik va ishlab chiqarish yutuqlarini jamlagan, bardoshlilik va yuqori tejamkorlik kabi an’anaviy afzalliklarni namoyon etadi. Transmissiya tizimi mustaqil tarzda ishlab chiqilgan va ishlab chiqarilgan bo‘lib, juda yuqori ishonchlilik va uzoq xizmat muddati bilan ajralib turadi. Forkliftning umumiy dizayni oddiy, lekin soddalikdan yiroq bo‘lib, mustahkam va uzoq muddat xizmat qiladigan yagona uslubdagi dizayn asosida yaratilgan. Dvigatellar tanlovi keng bo‘lib, ko‘plab kuchli dvigatel variantlari mavjud va ular Xitoy, Yevropa, AQSh hamda past emissiya talab qilinadigan boshqa hududlar ekologik me’yorlariga to‘liq javob beradi. Seriyadagi barcha modellar keng ko‘rish burchagiga ega machtalar bilan jihozlangan bo‘lib, haydovchining ko‘rish maydonini sezilarli darajada kengaytiradi va ishni qulay hamda xavfsiz qiladi. Mashinada sovitish tizimi optimallashtirilgan bo‘lib, dvigatel va uzatmalar qutisi kabi muhim uzellarning xizmat muddatini sezilarli darajada oshiradi hamda og‘ir ish sharoitlariga moslashish imkonini beradi. Jihozlanishi boy: barcha modellarga kabina, konditsioner, telematika o‘rnatish mumkin, 4–10 tonnalik modellarga esa nam tormozli yetakchi o‘q o‘rnatish imkoniyati mavjud. K2 seriyasi ijaraga berish, konteynerlar bilan ishlash va tosh sanoati kabi maxsus sohalar uchun moslashtirilgan segmentlangan modellarni ham o‘z ichiga oladi.",
+      "ru": "Серия K2 внутренних погрузчиков грузоподъёмностью 1–10 тонн является самой продаваемой серией компании HELI и представляет собой обновлённую версию погрузчиков серии K. Модель отличается прочным и мощным внешним видом, а также современным и эстетичным дизайном. Основные компоненты полностью проверены рынком, являются зрелыми и надёжными. Вся машина воплощает в себе почти полувековой технологический опыт и инновации в области погрузчиков с ДВС, объединяя новейшие достижения в технологиях и производственных процессах, подчёркивая традиционные преимущества — долговечность и высокую экономическую эффективность. Трансмиссионная система разработана и изготовлена самостоятельно, отличается высокой надёжностью и долговечностью. Общий дизайн погрузчика прост, но не примитивен, выполнен в едином фирменном стиле, ориентированном на прочность и длительный срок службы. Широкий выбор мощных двигателей соответствует экологическим требованиям Китая, Европы, США, регионов с низким уровнем выбросов и других стран. Все модели серии оснащены мачтами с широким обзором, что значительно улучшает видимость для водителя, делая работу более удобной и безопасной. Оптимизированная система охлаждения всей машины значительно увеличивает срок службы ключевых компонентов, таких как двигатель и коробка передач, а также позволяет работать в достаточно жёстких условиях эксплуатации. Богатая комплектация: все модели могут оснащаться кабиной, кондиционером, системой телематики, а модели грузоподъёмностью 4–10 тонн могут комплектоваться ведущим мостом с мокрыми тормозами. Серия K2 также включает в себя специализированные модели для арендного бизнеса, контейнерных перевозок и камнеобрабатывающей промышленности, разработанные для удовлетворения потребностей конкретных отраслей.",
+      "en": "K2 series 1–10 t internal combustion forklift is HELI's best-selling series model and an upgraded product of the K series internal combustion forklift. It has a tough and sturdy appearance, as well as a modern and beautiful style. The core components have been fully verified by the market and are mature and reliable. The whole machine embodies the technological exploration and design innovation of HELI in the field of internal combustion forklifts for nearly half a century, incorporating the latest technological and process development achievements, highlighting the traditional attributes of durability and high cost-effectiveness. The transmission system is independently designed and manufactured, with high reliability and durability. The overall design of the vehicle is simple yet not simplistic, adopting a family-oriented design style that is durable and long-lasting. Rich power supply with multiple powerful engine options meets the emission requirements of China, Europe, America, low-emission regions and other places. All models in the series adopt wide field-of-view masts, effectively improving the driver's visibility, making operation more convenient and safe. The optimized overall vehicle cooling design significantly improves the service life of key components such as the engine and gearbox and allows adaptation to relatively harsh working conditions. With rich configuration, all models can be equipped with driver’s cab, air conditioning, vehicle networking, etc., and 4–10 t models can be equipped with wet brake axle. The K2 series has developed segmented market models such as rental, container handling, and stone industry models to meet the needs of specific industries."
     },
     "images": [
-      "assets/products/heli-cpcd50-1.webp",
-      "assets/products/heli-cpcd50-2.webp"
+      "assets/products/c2p5.jpg",
+      "assets/products/c2p5.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
