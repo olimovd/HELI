@@ -274,13 +274,13 @@
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      { "key": "capacity", "unit": "kg", "values": ["2000", "2500", "3000", "3500", "3800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["2530", "2615", "2792", "2798", "2800"] },
+      { "key": "width", "unit": "mm", "values": ["1160", "1160", "1225", "1225", "1225"] },
+      { "key": "height", "unit": "mm", "values": ["2120", "2120", "2140", "2140", "2140"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
       "capacity": "2500 kg",
@@ -311,13 +311,13 @@
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      { "key": "capacity", "unit": "kg", "values": ["4000", "4500", "5000", "5500"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3250", "3250", "3250", "3300"] },
+      { "key": "width", "unit": "mm", "values": ["1530", "1530", "1530", "1530"] },
+      { "key": "height", "unit": "mm", "values": ["2350", "2350", "2350", "2350"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
       "capacity": "3000 kg",
@@ -348,13 +348,13 @@
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      { "key": "capacity", "unit": "kg", "values": ["5000", "6000", "7000", "8000", "9000", "10000"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3550", "3630", "3670", "3800", "3960", "4220"] },
+      { "key": "width", "unit": "mm", "values": ["2044", "2044", "2044", "2124", "2164", "2164"] },
+      { "key": "height", "unit": "mm", "values": ["2450", "2450", "2450", "2510", "2560", "2560"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
       "capacity": "3500 kg",
@@ -385,13 +385,13 @@
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      { "key": "capacity", "unit": "kg", "values": ["6000", "7000", "8000", "10000"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3630", "3670", "3800", "4220"] },
+      { "key": "width", "unit": "mm", "values": ["2044", "2044", "2044", "2020"] },
+      { "key": "height", "unit": "mm", "values": ["2200", "2200", "2200", "2230"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
       "capacity": "5000 kg",
