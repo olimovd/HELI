@@ -271,7 +271,7 @@
       "assets/products/c2p2.png",
       "assets/products/c2p2.png"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPCD20", "CPCD25", "CPCD30", "CPCD35", "CPCD38"],
 
     "specTable": [
       { "key": "capacity", "unit": "kg", "values": ["2000", "2500", "3000", "3500", "3800"] },
@@ -285,7 +285,7 @@
     "specs": {
       "capacity": "2500 kg",
       "engine": "Diesel",
-      "liftingHeight": "45 kW"
+      "liftingHeight": "3 m"
     }
   },
 
@@ -293,7 +293,7 @@
     "id": 203,
     "slug": "heli-cpcd30",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD30", "en": "HELI CPCD30", "ru": "HELI CPCD30" },
+    "name": { "uz": "HELI CPCD40", "en": "HELI CPCD40", "ru": "HELI CPCD40" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD40/45/50/55 K2 seriyali",
       "ru": "Дизельные вилочные погрузчики HELI CPCD40/45/50/55 серии K2",
@@ -308,7 +308,7 @@
       "assets/products/c2p3.jpg",
       "assets/products/c2p3.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPCD40", "CPCD45", "CPCD50", "CPCD55"],
 
     "specTable": [
       { "key": "capacity", "unit": "kg", "values": ["4000", "4500", "5000", "5500"] },
@@ -320,9 +320,9 @@
       { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
-      "capacity": "3000 kg",
+      "capacity": "4000 kg",
       "engine": "Diesel",
-      "power": "55 kW"
+      "liftingHeight": "3 m"
     }
   },
 
@@ -330,7 +330,7 @@
     "id": 204,
     "slug": "heli-cpcd35",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD35", "en": "HELI CPCD35", "ru": "HELI CPCD35" },
+    "name": { "uz": "HELI CPCD60", "en": "HELI CPCD60", "ru": "HELI CPCD60" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD60/70/80/90/100 K2 seriyali",
       "ru": "Дизельные вилочные погрузчики HELI CPCD60/70/80/90/100 серии K2",
@@ -345,7 +345,7 @@
       "assets/products/c2p4.png",
       "assets/products/c2p4.png"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPCD60", "CPCD70", "CPCD80", "CPCD90", "CPCD100"],
 
     "specTable": [
       { "key": "capacity", "unit": "kg", "values": ["5000", "6000", "7000", "8000", "9000", "10000"] },
@@ -357,9 +357,9 @@
       { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
-      "capacity": "3500 kg",
+      "capacity": "5000 kg",
       "engine": "Diesel",
-      "power": "67 kW"
+      "liftingHeight": "3 m"
     }
   },
 
@@ -367,7 +367,7 @@
     "id": 205,
     "slug": "heli-cpcd50",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD50", "en": "HELI CPCD50", "ru": "HELI CPCD50" },
+    "name": { "uz": "HELI CPCD60", "en": "HELI CPCD60", "ru": "HELI CPCD60" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD60/70/80/100 konteyner ichida ishlash uchun K2 seriyali",
       "ru": "Дизельные вилочные погрузчики HELI CPCD60/70/80/100 для работы в контейнерах серии K2",
@@ -382,7 +382,7 @@
       "assets/products/c2p5.jpg",
       "assets/products/c2p5.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPCD60", "CPCD70", "CPCD80", "CPCD100"],
 
     "specTable": [
       { "key": "capacity", "unit": "kg", "values": ["6000", "7000", "8000", "10000"] },
@@ -394,9 +394,9 @@
       { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
     ],
     "specs": {
-      "capacity": "5000 kg",
+      "capacity": "6000 kg",
       "engine": "Diesel",
-      "power": "92 kW"
+      "liftingHeight": "3 m"
     }
   },
 
