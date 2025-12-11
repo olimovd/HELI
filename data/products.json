@@ -3,7 +3,7 @@
     "id": 101,
     "slug": "heli-cpd15",
     "categoryId": 1,
-    "name": { "uz": "HELI CPD15", "en": "HELI CPD15", "ru": "HELI CPD15" },
+    "name": { "uz": "HELI CPD08-12 SQ H4", "en": "HELI CPD08-12 SQ H4", "ru": "HELI CPD08-12 SQ H4" },
     "shortDesc": {
       "uz": "Elektr vilkali yuklovchilar HELI CPD08/10/12 SQ H4 seriyali",
       "ru": "Электрические вилочные погрузчики HELI CPD08/10/12 SQ серии H4",
@@ -39,7 +39,7 @@
     "id": 102,
     "slug": "heli-cpd20",
     "categoryId": 1,
-    "name": { "uz": "HELI CPD20", "en": "HELI CPD20", "ru": "HELI CPD20" },
+    "name": { "uz": "HELI CPD15-38 H4", "en": "HELI CPD15-38 H4", "ru": "HELI CPD15-38 H4" },
     "shortDesc": {
       "uz": "Elektr vilkali yuklovchilar HELI CPD15/18/20/25/30/35/38 H4 seriyali",
       "ru": "Электрические вилочные погрузчики HELI CPD15/18/20/25/30/35/38 серии H4",
@@ -75,7 +75,7 @@
     "id": 103,
     "slug": "heli-cpd25",
     "categoryId": 1,
-    "name": { "uz": "HELI CPD25", "en": "HELI CPD25", "ru": "HELI CPD25" },
+    "name": { "uz": "HELI CPD13-20 SQ G3", "en": "HELI CPD13-20 SQ G3", "ru": "HELI CPD13-20 SQ G3" },
     "shortDesc": {
       "uz": "Elektr vilkali yuklovchilar HELI CPD13/15/16/18/20 SQ G3 seriyali",
       "ru": "Электрические вилочные погрузчики HELI CPD13/15/16/18/20 SQ серии G3",
@@ -111,7 +111,7 @@
     "id": 104,
     "slug": "heli-cpd30",
     "categoryId": 1,
-    "name": { "uz": "HELI CPCD18", "en": "HELI CPD30", "ru": "HELI CPD30" },
+    "name": { "uz": "HELI CPD15-38 G2", "en": "HELI CPD15-38 G2", "ru": "HELI CPD15-38 G2" },
     "shortDesc": {
       "uz": "Elektr vilkali yuklovchilar HELI CPD15/18/20/25/30/35/38 G2 seriyali",
       "ru": "Электрические вилочные погрузчики HELI CPD15/18/20/25/30/35/38 серии G2",
