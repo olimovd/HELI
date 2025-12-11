@@ -219,7 +219,7 @@
     "id": 201,
     "slug": "heli-cpcd20",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD10/15/18 K2", "en": "HELI CPCD10/15/18 K2", "ru": "HELI CPCD10/15/18 K2" },
+    "name": { "uz": "HELI CPCD10-18 K2", "en": "HELI CPCD10-18 K2", "ru": "HELI CPCD10-18 K2" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD10/15/18 K2 seriyali",
       "en": "Diesel forklift trucks HELI CPCD10/15/18 K2 series",
@@ -256,7 +256,7 @@
     "id": 202,
     "slug": "heli-cpcd25",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD25", "en": "HELI CPCD25", "ru": "HELI CPCD25" },
+    "name": { "uz": "HELI CPCD20-38 K2", "en": "HELI CPCD20-38 K2", "ru": "HELI CPCD20-38 K2" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD20/25/30/35/38 K2 seriyali",
       "ru": "Дизельные вилочные погрузчики HELI CPCD20/25/30/35/38 серии K2",
@@ -293,7 +293,7 @@
     "id": 203,
     "slug": "heli-cpcd30",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD40", "en": "HELI CPCD40", "ru": "HELI CPCD40" },
+    "name": { "uz": "HELI CPCD40-55 K2", "en": "HELI CPCD40-55 K2", "ru": "HELI CPCD40-55 K2" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD40/45/50/55 K2 seriyali",
       "ru": "Дизельные вилочные погрузчики HELI CPCD40/45/50/55 серии K2",
@@ -330,7 +330,7 @@
     "id": 204,
     "slug": "heli-cpcd35",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD60", "en": "HELI CPCD60", "ru": "HELI CPCD60" },
+    "name": { "uz": "HELI CPCD50-100 K2", "en": "HELI CPCD50-100 K2", "ru": "HELI CPCD50-100 K2" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD60/70/80/90/100 K2 seriyali",
       "ru": "Дизельные вилочные погрузчики HELI CPCD60/70/80/90/100 серии K2",
@@ -367,7 +367,7 @@
     "id": 205,
     "slug": "heli-cpcd50",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD60", "en": "HELI CPCD60", "ru": "HELI CPCD60" },
+    "name": { "uz": "HELICPCD60X-100X K2", "en": "HELICPCD60X-100X K2", "ru": "HELICPCD60X-100X K2" },
     "shortDesc": {
       "uz": "Dizelli vilkali yuklovchilar HELI CPCD60/70/80/100 konteyner ichida ishlash uchun K2 seriyali",
       "ru": "Дизельные вилочные погрузчики HELI CPCD60/70/80/100 для работы в контейнерах серии K2",
