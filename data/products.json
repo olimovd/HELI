@@ -18,19 +18,19 @@
       "assets/products/c1p1.jpg",
       "assets/products/c1p1.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPD08 SQ H4","CPD10 SQ H4","CPD12 SQ H4"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    {"key":"capacity","unit":"kg","values":["800","1000","1200"]},
+    {"key":"loadCenter","unit":"mm","values":["400","400","400"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["1670","1690","1710"]},
+    {"key":"width","unit":"mm","values":["900","900","900"]},
+    {"key":"height","unit":"mm","values":["1960","1960","1960"]},
+    {"key":"tires","unit":"","values":["Solid/solid tyres","Solid/solid tyres","Solid/solid tyres"]}
     ],
     "specs": {
-      "capacity": "1500 kg",
+      "capacity": "1000 kg",
       "engine": "Electric"
     }
   },
@@ -54,16 +54,16 @@
       "assets/products/c1p2.png",
       "assets/products/c1p2.png"
     ],
-   "variants": ["CPCD10", "CPCD15", "CPCD18"],
+   "variants": ["CPD15 H4","CPD18 H4","CPD20 H4","CPD25 H4","CPD30 H4","CPD35 H4","CPD38 H4"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["2000", "2500", "3000", "3500", "3800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["2530", "2615", "2792", "2798", "2800"] },
-      { "key": "width", "unit": "mm", "values": ["1160", "1160", "1225", "1225", "1225"] },
-      { "key": "height", "unit": "mm", "values": ["2120", "2120", "2140", "2140", "2140"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
+    {"key":"capacity","unit":"kg","values":["1500","1800","2000","2500","3000","3500","3800"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500","500","500","500","500"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["2200","2200","2434","2434","2567","2572","2612"]},
+    {"key":"width","unit":"mm","values":["1120","1120","1180","1180","1260","1260","1260"]},
+    {"key":"height","unit":"mm","values":["2130","2130","2170","2170","2180","2180","2185"]},
+    {"key":"tires","unit":"","values":["Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/solid tyres","Pneumatic/solid tyres","Pneumatic/solid tyres"]}
     ],
     "specs": {
       "capacity": "2000 kg",
@@ -90,19 +90,19 @@
       "assets/products/c1p3.jpg",
       "assets/products/c1p3.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPD13 SQ G3","CPD15 SQ G3","CPD16 SQ G3","CPD18 SQ G3","CPD20 SQ G3"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["4000", "4500", "5000", "5500"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3250", "3250", "3250", "3300"] },
-      { "key": "width", "unit": "mm", "values": ["1530", "1530", "1530", "1530"] },
-      { "key": "height", "unit": "mm", "values": ["2350", "2350", "2350", "2350"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
+    {"key":"capacity","unit":"kg","values":["1300","1500","1600","1800","2000"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500","500","500"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["1845","1890","1905","1935","2055"]},
+    {"key":"width","unit":"mm","values":["1076","1076","1076","1120","1120"]},
+    {"key":"height","unit":"mm","values":["2025","2025","2025","2025","2025"]},
+    {"key":"tires","unit":"","values":["Solid/solid tyres","Solid/solid tyres","Solid/solid tyres","Solid/solid tyres","Solid/solid tyres"]}
     ],
     "specs": {
-      "capacity": "2500 kg",
+      "capacity": "2000 kg",
       "engine": "Electric"
     }
   },
@@ -126,16 +126,16 @@
       "assets/products/c1p4.jpg",
       "assets/products/c1p4.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPD15 G2","CPD18 G2","CPD20 G2","CPD25 G2","CPD30 G2","CPD35 G2","CPD38 G2"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["5000", "6000", "7000", "8000", "9000", "10000"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500", "500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000", "3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3550", "3630", "3670", "3800", "3960", "4220"] },
-      { "key": "width", "unit": "mm", "values": ["2044", "2044", "2044", "2124", "2164", "2164"] },
-      { "key": "height", "unit": "mm", "values": ["2450", "2450", "2450", "2510", "2560", "2560"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres", "Pneumatic tyres"] }
+    {"key":"capacity","unit":"kg","values":["1500","1800","2000","2500","3000","3500","3800"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500","500","500","500","500"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["2140","2140","2140","2432","2569","2574","2622"]},
+    {"key":"width","unit":"mm","values":["1120","1120","1120","1160","1225","1225","1393"]},
+    {"key":"height","unit":"mm","values":["2140","2140","2140","2170","2180","2180","2180"]},
+    {"key":"tires","unit":"","values":["Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/solid tyres","Pneumatic/solid tyres","Pneumatic/solid tyres"]}
     ],
     "specs": {
       "capacity": "3000 kg",
@@ -147,31 +147,31 @@
     "id": 105,
     "slug": "heli-cpd35",
     "categoryId": 1,
-    "name": { "uz": "HELI CPD35", "en": "HELI CPD35", "ru": "HELI CPD35" },
+    "name": { "uz": "HELI CPD25-35 G3", "en": "HELI CPD25-35 G3", "ru": "HELI CPD25-35 G3" },
     "shortDesc": {
-      "uz": "3.5t elektr forklift — sanoat samaradorligi.",
-      "en": "3.5t electric forklift — industrial productivity.",
-      "ru": "Электрический погрузчик 3.5т — промышленная производительность."
+      "uz": "Elektr vilkali yuklovchilar HELI CPD25/30/35 G3 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD25/30/35 серии G3",
+      "en": "Electric forklift trucks HELI CPD25/30/35 G3 series"
     },
     "fullDesc": {
-      "uz": "Doimiy ishlatiladigan omborlar va logistika markazlari uchun mo'ljallangan.",
-      "en": "Designed for continuous operation in warehouses and logistics centers.",
-      "ru": "Разработан для непрерывной работы на складах и логистических центрах."
+      "uz": "2,5–3,5 tonnalik G3 seriyali ikki yurituvli (dual-drive) litiy batareyali forkliftlar kuchli ishlash va yuqori samaradorlikni ta’minlaydi. Old g‘ildiraklarda ikki dona yurituvchi motor qo‘llanilishi yuqori tortish quvvati va unumdorlikni kafolatlaydi. Forklift HELI yoki ZF ikki motorli yuritma bloki, yuqori tezlik nisbatiga ega reduktor, IP54 himoya darajasidagi yuqori quvvatli AC motor va moy bilan sovutiladigan ko‘p diskli tormoz bilan jihozlangan bo‘lib, kuchli, ishonchli, texnik xizmat talab qilmaydigan va past shovqinli ishlashni ta’minlaydi. Ixcham korpus va tor konstruksiya forkliftni tor yo‘laklarda ishlash uchun qulay qiladi, katta burilish burchagiga ega rul ko‘prigi esa burilish radiusini 2,06 metrgacha kamaytiradi. Aqlli xavfsizlik tizimlari avtomatik burilishda sekinlashish, rul orqali ishga tushuvchi boshqaruv, rangli ikki tilli displey, past haroratda avtomatik isitiladigan litiy batareya, aqlli cheklovchi amortizatsiya, to‘liq OPS tizimi, Yevropa Ittifoqi xavfsizlik talablariga mos ikki yadroli kontroller hamda batareya qutisi qulflanmagan holatda ishga tushishni bloklovchi tizimni o‘z ichiga oladi. Optimallashtirilgan ergonomik dizayn haydovchi uchun maksimal qulaylik yaratadi va uzoq ishlashda charchoqlikni kamaytiradi. Kuchaytirilgan quyma yuritma va rul ko‘prigi, optimallashtirilgan mast konstruktsiyasi chidamlilik sinovlaridan o‘tgan bo‘lib, forkliftlar og‘ir va murakkab ish sharoitlarida yuqori darajadagi ishonchlilikni namoyon etadi.",
+      "ru": "О вилочных погрузчиках серии G3 грузоподъёмностью 2,5–3,5 т с литий-ионной батареей и двойным приводом. Два приводных двигателя на передних колёсах обеспечивают высокую тяговую мощность и эффективность. Погрузчик оснащается двухмоторным приводным узлом HELI или ZF, редуктором с высоким передаточным числом, мощным AC-двигателем с классом защиты IP54 и масляно-охлаждаемыми многодисковыми тормозами, что обеспечивает высокую мощность, надёжность, отсутствие необходимости обслуживания и низкий уровень шума. Компактная и узкая конструкция идеально подходит для работы в ограниченных пространствах, а рулевой мост с большим углом поворота уменьшает радиус разворота до 2,06 м. Интеллектуальная система безопасности включает автоматическое замедление при повороте, рулевое управление с прямым управлением, цветной двуязычный дисплей, литий-ионную батарею с автоматическим подогревом, интеллектуальный ограничительный буфер мачты, полный комплекс OPS, двухъядерный контроллер, соответствующий требованиям ЕС, а также систему контроля блокировки батарейного отсека. Эргономичная компоновка рабочего места повышает комфорт и снижает утомляемость оператора. Усиленные литые мосты и оптимизированная конструкция мачты прошли испытания на долговечность, подтверждая высокую надёжность даже в тяжёлых условиях эксплуатации.",
+      "en": "About 2.5–3.5 t G3 series dual-drive lithium battery forklift trucks. Front-wheel dual drive motors deliver strong traction and high operating efficiency. The truck is equipped with HELI or ZF dual-motor drive units, high-ratio reducers, high-power IP54-rated AC motors, and oil-cooled multi-disc brakes, providing powerful, efficient, reliable, maintenance-free, and low-noise operation. The compact and narrow truck body is ideal for narrow aisle applications, while the large-angle steering axle reduces the minimum turning radius to as low as 2.06 m. Intelligent safety systems include automatic cornering deceleration, steering-wheel-activated control, a bilingual color display, lithium batteries with automatic heating for cold conditions, intelligent mast limit buffering, a complete OPS system, a dual-core controller compliant with the latest EU safety requirements, and battery box locking detection to prevent unsafe start-up. Optimized ergonomic design enhances driving comfort and reduces operator fatigue during long working hours. Reinforced cast drive and steering axles and an optimized mast structure have passed durability tests, ensuring high quality and reliable performance even in harsh operating environments."
     },
     "images": [
-      "assets/products/heli-cpd35-1.webp",
-      "assets/products/heli-cpd35-2.webp"
+      "assets/products/c1p5.jpg",
+      "assets/products/c1p5.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPD25 G3","CPD30 G3","CPD35 G3"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    {"key":"capacity","unit":"kg","values":["2500","3000","3500"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["2425","2470","2475"]},
+    {"key":"width","unit":"mm","values":["1195/1197","1195/1222","1195/1222"]},
+    {"key":"height","unit":"mm","values":["2260","2260","2260"]},
+    {"key":"tires","unit":"","values":["Solid/solid tyres","Solid/solid tyres","Solid/solid tyres"]}
     ],
     "specs": {
       "capacity": "3500 kg",
@@ -183,34 +183,106 @@
     "id": 106,
     "slug": "heli-cpd50",
     "categoryId": 1,
-    "name": { "uz": "HELI CPD50", "en": "HELI CPD50", "ru": "HELI CPD50" },
+    "name": { "uz": "HELI CPD40-50 K2", "en": "HELI CPD40-50 K2", "ru": "HELI CPD40-50 K2" },
     "shortDesc": {
-      "uz": "5.0t elektr forklift — katta yuklar uchun optimallashtirilgan.",
-      "en": "5.0t electric forklift — optimized for large loads.",
-      "ru": "Электрический погрузчик 5.0т — оптимизирован для больших грузов."
+      "uz": "Elektr vilkali yuklovchilar HELI CPD40/45/50 K2 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD40/45/50 серии K2",
+      "en": "Electric forklift trucks HELI CPD40/45/50 K2 series"
     },
     "fullDesc": {
-      "uz": "Yuqori samaradorlik va bardoshli konstruktsiya bilan katta hajmli yuklar uchun.",
-      "en": "High performance and robust construction for heavy-duty applications.",
-      "ru": "Высокая производительность и прочная конструкция для тяжелых условий."
+      "uz": "4–5 tonnalik K2 seriyali litiy-ion batareyali, qarshi og‘irlikli (counterbalanced) forkliftlar zamonaviy texnologiyalar asosida ishlab chiqilgan bo‘lib, yuqori xavfsizlik, qulaylik va samaradorlikni ta’minlaydi. Aqlli xavfsizlik tizimlari haydovchini to‘liq himoya qiladi va ish jarayonida ishonchli boshqaruvni kafolatlaydi. Qulaylik va energiya tejamkorligi haydash komfortini oshiradi hamda energiya sarfini sezilarli darajada kamaytiradi. Barqaror va samarali ishlash butun forklift tizimlarining yuqori ishonchliligini ta’minlaydi. Qulay texnik xizmat ko‘rsatish esa boshqaruvni soddalashtiradi va haydovchi uchun foydalanishni yanada oson qiladi.",
+      "ru": "О вилочных погрузчиках серии K2 грузоподъёмностью 4–5 т с литий-ионной батареей и противовесом (counterbalanced). Интеллектуальная система безопасности обеспечивает полную защиту водителя. Комфорт и энергосбережение повышают удобство управления и снижают энергопотребление. Стабильная и эффективная работа гарантирует высокую производительность и надёжность всех систем погрузчика. Удобное техническое обслуживание делает эксплуатацию простой и комфортной для оператора.",
+      "en": "About 4–5 t K2 series lithium-ion battery powered counterbalanced forklift trucks. Intelligent safety systems ensure full driver protection and safe operation. Comfort and energy-saving features improve driving comfort while reducing energy consumption. Stable and efficient performance guarantees high reliability and productivity of the entire truck. Convenient maintenance makes operation simple and user-friendly for the operator."
     },
     "images": [
-      "assets/products/heli-cpd50-1.webp",
-      "assets/products/heli-cpd50-2.webp"
+      "assets/products/c1p6.jpg",
+      "assets/products/c1p6.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPD40 K2","CPD45 K2","CPD50 K2","CPD50-06 K2"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    {"key":"capacity","unit":"kg","values":["4000","4500","5000","5000"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500","600"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["3250","3250","3250","3300"]},
+    {"key":"width","unit":"mm","values":["1530","1530","1530","1530"]},
+    {"key":"height","unit":"mm","values":["2350","2350","2350","2350"]},
+    {"key":"tires","unit":"","values":["Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres","Pneumatic/pneumatic tyres"]}
     ],
     "specs": {
       "capacity": "5000 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "107": {
+    "id": 107,
+    "slug": "heli-cpd60",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD40-50 G3", "en": "HELI CPD40-50 G3", "ru": "HELI CPD40-50 G3" },
+    "shortDesc": {
+      "uz": "Elektr vilkali yuklovchilar HELI CPD40/45/50 G3 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD40/45/50 серии G3",
+      "en": "Electric forklift trucks HELI CPD40/45/50 G3 series"
+    },
+    "fullDesc": {
+      "uz": "4–5 tonnalik G3 seriyali litiy batareyali, qarshi og‘irlikli (counterbalanced) forkliftlar estetika va funksional dizaynning mukammal uyg‘unligini namoyon etadi. Aqlli, xavfsiz, yuqori samarador, energiya tejamkor va ekologik toza xususiyatlarga ega ushbu yangi avlod forkliftlar texnik xizmat talab qilmaydigan (maintenance free) yechimlar asosida ishlab chiqilgan: suyuqlik qo‘shish va changdan himoyalash talab etilmaydi, kundalik va qo‘lda texnik xizmatga ehtiyoj yo‘q. Yuqori ishonchlilik yuqori IP himoya darajasi, bozorda sinovdan o‘tgan integratsiyalashgan o‘q, yog‘ bilan sovutiladigan ho‘l diskli tormoz tizimi, texnik xizmat talab qilmaydigan AC motorlar, jahon miqyosida mashhur kontroller va katta aqlli displey orqali ta’minlanadi. Uzoq xizmat muddati bir xil sharoitda qo‘rg‘oshin-kislotali batareyaga nisbatan ustun bo‘lib, yuqori samarali litiy batareya majmuasi uchun 5 yil yoki 10 000 soat kafolat beriladi va quvvatning 75% dan ortig‘i saqlanib qoladi. Yuqori xavfsizlik tail-free konstruksiya, integratsiyalashgan payvandlangan overhead guard, yon tomondan tortib chiqariladigan batareya almashtirish tizimi, markaziy joylashtirilgan batareya, orqa o‘qning yuqori aylanish nuqtasi, avtomatik burilishda sekinlashish va mast amortizatsiyasi orqali ta’minlanadi. Forklift –25°C dan +55°C gacha bo‘lgan muhitlarda samarali ishlaydi, ENEROC litiy batareya PACK esa past harorat uchun oldindan isitish tizimiga ega. Yuqori samaradorlik va energiya tejamkorligi 2–3 soat zaryadlash bilan 6–8 soat ishlash, <1% oylik o‘z-o‘zidan zaryad yo‘qotish va 95% energiya aylantirish samaradorligi orqali namoyon bo‘ladi. Inson–mashina o‘zaro qulayligi past joylashtirilgan pedal, keng kirish-chiqish maydoni, amortizatsiyali o‘rindiq, keng ko‘rishli mast, optimal batareya va qarshi og‘irlik dizayni bilan yaxshilangan. Elektr boshqaruv tizimining qarshi og‘irlik ichida joylashtirilishi hamda olinadigan moy baki va pastki panel texnik xizmat ko‘rsatishni yanada qulay qiladi.",
+      "ru": "О вилочных погрузчиках серии G3 грузоподъёмностью 4–5 т с литий-ионной батареей и противовесом (counterbalanced). Это новое поколение погрузчиков, сочетающее эстетику и функциональный дизайн, интеллектуальность, безопасность, высокую эффективность, энергосбережение и экологичность. Конструкция Maintenance Free не требует долива жидкостей, защиты от пыли, ежедневного или ручного обслуживания. Высокая надёжность обеспечивается высоким уровнем IP-защиты, интегрированным необслуживаемым мостом, масляно-охлаждаемой мокрой многодисковой тормозной системой, необслуживаемыми AC-двигателями, контроллером мирового бренда и большим интеллектуальным дисплеем. Длительный срок службы превосходит свинцово-кислотные батареи при равных условиях, а на литиевый аккумуляторный блок предоставляется гарантия 5 лет или 10 000 часов с сохранением более 75% ёмкости. Высокая безопасность достигается конструкцией без заднего свеса, интегрированной сварной защитной крышей, боковой системой выдвижной замены батареи, центральным размещением батареи, высокой точкой вращения заднего моста, автоматическим замедлением при повороте и амортизацией мачты. Погрузчик эффективно работает в диапазоне температур от –25°C до +55°C, а аккумулятор ENEROC оснащён системой предварительного подогрева. Высокая эффективность и энергосбережение выражаются в 2–3 часах зарядки на 6–8 часов работы, саморазряде менее 1% в месяц и коэффициенте преобразования энергии 95%. Улучшенный комфорт обеспечивается низкой высотой педали, увеличенным пространством входа-выхода, амортизированным сиденьем, мачтой с широким обзором и оптимальной компоновкой батареи и противовеса. Размещение электрической системы управления внутри противовеса, съёмный масляный бак и нижняя панель упрощают обслуживание.",
+      "en": "About 4–5 t G3 series lithium battery powered counterbalanced forklift trucks. These new-generation forklifts represent a perfect combination of aesthetics and functional design, integrating intelligence, safety, high efficiency, energy saving, and eco-friendliness. The Maintenance-Free concept eliminates the need for fluid refilling, dustproofing, daily or manual servicing. High reliability is ensured by a high overall IP protection level, a market-proven maintenance-free integrated axle, oil-cooled wet disc brakes, maintenance-free AC motors for drive and pump, a world-renowned controller, and a large intelligent display for full status monitoring. Long service life exceeds that of lead-acid batteries under the same conditions, with a 5-year or 10,000-hour warranty on the high-performance lithium battery pack retaining over 75% capacity. High safety is achieved through a tail-free structure, high-strength integrated welded overhead guard, standard side-pull battery replacement system, centrally positioned battery, high rear-axle pivot point, automatic deceleration during steering, and mast lifting buffering. The forklift performs efficiently in environments from –25°C to +55°C, supported by an ENEROC lithium battery pack with low-temperature pre-heating. High efficiency and energy saving are demonstrated by 2–3 hours of charging for 6–8 hours of operation, less than 1% monthly self-discharge, and 95% energy conversion efficiency. Improved human-machine comfort includes a lower pedal height, wider ingress/egress space, suspension seat, wide-view mast, and optimized battery and counterweight layout. The electric control system located inside the counterweight, along with a removable oil tank and bottom plate, further enhances maintenance convenience."
+    },
+    "images": [
+      "assets/products/c1p7.jpg",
+      "assets/products/c1p7.jpg"
+    ],
+    "variants": ["CPD40 G3","CPD45 G3","CPD50 G3","CPD50-06 G3"],
+
+    "specTable": [
+    {"key":"capacity","unit":"kg","values":["4000","4500","5000","5000"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500","600"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["2920","2920","2920","3060"]},
+    {"key":"width","unit":"mm","values":["1350/1370","1350/1370","1500","1500"]},
+    {"key":"height","unit":"mm","values":["2275","2275","2270","2270"]},
+    {"key":"tires","unit":"","values":["Solid/solid tyres","Solid/solid tyres","Solid/solid tyres","Solid/solid tyres"]}
+    ],
+    "specs": {
+      "capacity": "5000 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "108": {
+    "id": 108,
+    "slug": "heli-cpd60",
+    "categoryId": 1,
+    "name": { "uz": "HELI CPD60-100 G3", "en": "HELI CPD60-100 G3", "ru": "HELI CPD60-100 G3" },
+    "shortDesc": {
+      "uz": "Elektr vilkali yuklovchilar HELI CPD60/70/85/100 G3 seriyali",
+      "ru": "Электрические вилочные погрузчики HELI CPD60/70/85/100 серии G3",
+      "en": "Electric forklift trucks HELI CPD60/70/85/100 G3 series"
+    },
+    "fullDesc": {
+      "uz": "6–10 tonnalik G3 seriyali elektr batareyali forkliftlar tizimda mos, dizaynda esa o‘ziga xos yechimlarni mujassam etadi. Bu model imkoniyatlarni ko‘z-ko‘z qilishdan ko‘ra, mukammal uyg‘unlik va muvozanatli ishlashga e’tibor qaratadi. Forklift litiy-ion yoki qo‘rg‘oshin-kislotali batareyalar bilan jihozlanishi mumkin bo‘lib, foydalanuvchiga ish sharoitiga mos tanlov imkonini beradi. Integratsiyalashgan dizayn ichki yonuv dvigatelli forkliftlar va elektr forkliftlarning insoniylashtirilgan dizayn afzalliklarini birlashtiradi hamda HELI oilaviy dizayn an’analarining mantiqiy davomchisidir. Samarali va energiya tejamkor ikki tomonlama yuritma (dual drive) tizimi yuqori ko‘tarilish qobiliyatini ta’minlaydi, ikki qurolli zaryadlash tez va samarali ishlash imkonini beradi, ko‘p konfiguratsiya variantlari esa energiya sarfini kamaytiradi. Aqlli boshqaruv va himoya tizimlari forkliftning xavfsiz ishlashini kafolatlaydi. Operator uchun qulaylik va ergonomika yuqori darajada ta’minlangan bo‘lib, uzoq muddatli ishlashda ham komfort saqlanadi. Mustahkam konstruksiya barqaror va ishonchli ishlashni, texnik xizmat ko‘rsatishning oddiy va qulay bo‘lishi esa ekspluatatsiya xarajatlarini kamaytiradi.",
+      "ru": "О электрических вилочных погрузчиках серии G3 грузоподъёмностью 6–10 т. Эти погрузчики совместимы по системе и уникальны по стилю, делая акцент не на показной мощности, а на гармоничной и сбалансированной работе. Возможна комплектация как литий-ионными, так и свинцово-кислотными аккумуляторами — в зависимости от потребностей эксплуатации. Интегрированная конструкция объединяет преимущества гуманизированного дизайна дизельных и электрических вилочных погрузчиков и продолжает фирменный стиль семейства HELI. Эффективная и энергосберегающая двухприводная система обеспечивает отличную проходимость и способность преодолевать подъёмы, двухпистолетная зарядка делает процесс быстрым и удобным, а различные конфигурации позволяют снизить энергопотребление. Современные интеллектуальные системы управления и защиты обеспечивают высокий уровень безопасности. Эргономичное рабочее место оператора повышает комфорт эксплуатации. Прочная конструкция гарантирует стабильную и надёжную работу, а простое и удобное техническое обслуживание снижает затраты на содержание техники.",
+      "en": "About 6–10 t G3 series electric battery forklift trucks. These models are compatible in system and distinctive in style, focusing on balanced performance rather than showy capability. Both lithium-ion and lead-acid battery options are available, allowing users to choose according to their operational requirements. The integrated design combines the human-centered design advantages of internal combustion forklifts and electric forklifts, continuing the HELI family design language. Efficient and energy-saving performance is delivered by a powerful dual-drive system with excellent gradeability, fast and efficient dual-gun charging, and multiple configuration options that help reduce energy consumption. Advanced intelligent control and protection systems ensure safe operation. Operator comfort and ergonomics are carefully considered to provide a pleasant working experience. A robust structure guarantees stable and reliable long-term performance, while easy and convenient maintenance helps reduce operating costs."
+    },
+    "images": [
+      "assets/products/c1p8.jpg",
+      "assets/products/c1p8.jpg"
+    ],
+    "variants": ["CPD60 G3","CPD70 G3","CPD85 G3","CPD100 G3"],
+
+    "specTable": [
+    {"key":"capacity","unit":"kg","values":["6000","7000","8500","10000"]},
+    {"key":"loadCenter","unit":"mm","values":["600","600","600","600"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["3437","3442","3650","3842"]},
+    {"key":"width","unit":"mm","values":["2045","2045","2165","2165"]},
+    {"key":"height","unit":"mm","values":["2500","2491","2470","2470"]},
+    {"key":"tires","unit":"","values":["Solid/solid tyres","Solid/solid tyres","Solid/solid tyres","Solid/solid tyres"]}
+    ],
+    "specs": {
+      "capacity": "6000 kg",
       "engine": "Electric"
     }
   },
@@ -404,36 +476,35 @@
     "id": 206,
     "slug": "heli-cpcd70",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD70", "en": "HELI CPCD70", "ru": "HELI CPCD70" },
+    "name": { "uz": "HELI CPCD20-35 G3", "en": "HELI CPCD20-35 G3", "ru": "HELI CPCD20-35 G3" },
     "shortDesc": {
-      "uz": "7.0t дизел forklift — yuqori quvvatli model.",
-      "en": "7.0t diesel forklift — high-power model.",
-      "ru": "Дизельный погрузчик 7.0т — мощная модель."
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD20/25/30/35 G3 seriyali",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD20/25/30/35 серии G3",
+      "en": "Diesel forklift trucks HELI CPCD20/25/30/35 G3 series"
     },
     "fullDesc": {
-      "uz": "Порт ва омбор ишлари учун юқори самарадорлик.",
-      "en": "Delivers productivity for port and yard operations.",
-      "ru": "Повышает производительность в портах."
-    },
+    "uz": "HELI 2–3,5 tonnalik G3 seriyali ichki yonuv dvigatelli forkliftlar yangi avlod mahsulotlari hisoblanadi. Forkliftning tashqi ko‘rinishi to‘liq yangilanib, HELI kompaniyasining mutlaqo yangi oilaviy PI dizayn konsepsiyasi qo‘llanilgan bo‘lib, dizayn nafaqat tashqi ko‘rinishda, balki mazmunida ham o‘z ifodasini topgan. Xitoycha “bronza uchoyoqli qozon” shaklidan ilhomlangan dizayn kompaniyaning chuqur tarixiy va texnologik asosga ega ekanini namoyon etadi. HELI innovatsion rang uyg‘unligi, zamonaviy va o‘ziga xos dizayni bilan yuqori sifatli mahsulotlar orqali jamiyatga hissa qo‘shadi hamda forkliftning brendni tanib olish darajasi juda yuqori. Xavfsizlik kafolatlangan bo‘lib, kuchaytirilgan OPS boshqaruv tizimi bilan jihozlangan: haydovchi o‘rindiqni tark etganda forklift harakati va machtani ko‘tarish-tushirish funksiyalari avtomatik bloklanadi; samarali va ishonchli qo‘l tormozi tizimi to‘xtash vaqtida yuqori xavfsizlikni ta’minlaydi; shaxsiy ehtiyojlarga moslashtirilgan tezlikni boshqarish tizimi (ixtiyoriy) mavjud; uzatmada turgan holatda dvigatelni ishga tushirishni oldini olish va dvigatelning qayta ishga tushishiga yo‘l qo‘ymaslik funksiyalari joriy etilgan; aqlli asboblar paneli forklift holatini to‘liq monitoring qilish imkonini beradi; kartochka yoki parol orqali ishga tushirish hamda texnik xizmat eslatmalari mavjud; HELI professional flot boshqaruv tizimi bilan moslashtirilganda boshqaruv yanada samarali va moslashuvchan bo‘ladi; integral kabina xavfsizlik himoyasini yanada kuchaytiradi.",
+    "ru": "О вилочных погрузчиках HELI серии G3 грузоподъёмностью 2–3,5 т с двигателем внутреннего сгорания. Это новое поколение продукции. Внешний облик погрузчика полностью обновлён с применением совершенно новых фирменных семейных PI-элементов дизайна HELI, в которых гармонично сочетаются внешний вид и внутреннее содержание. Форма, вдохновлённая китайским «бронзовым треножником», подчёркивает глубокие исторические и технологические основы компании. HELI вносит вклад в развитие общества, предлагая высококачественную продукцию с инновационным цветовым оформлением, модным и уникальным дизайном, а погрузчик отличается высокой узнаваемостью бренда. Безопасность гарантирована благодаря усиленной системе управления OPS: при покидании водителем сиденья движение погрузчика и функции подъёма и опускания мачты автоматически блокируются; эффективная и надёжная стояночная тормозная система повышает безопасность парковки; доступна индивидуально настраиваемая система контроля скорости (опция); реализованы функции предотвращения запуска двигателя при включённой передаче и защиты от повторного запуска двигателя; интеллектуальная приборная панель обеспечивает комплексный контроль состояния погрузчика; поддерживается запуск по карте или паролю и функции напоминания о техническом обслуживании; при интеграции с профессиональной системой управления парком HELI управление техникой становится более эффективным и гибким; интегральная кабина значительно повышает уровень защиты и безопасности.",
+    "en": "About HELI 2–3.5 t G3 series internal combustion forklift trucks. This is a new generation of products. The overall appearance of the truck has been fully upgraded, adopting HELI’s brand-new family-based PI design features that combine visual appeal with deeper meaning. The Chinese bronze tripod-inspired shape reflects the company’s profound historical and technological foundation. HELI contributes to society by offering high-quality products with innovative color matching and a fashionable, distinctive design, giving the truck a high level of brand recognition. Safety is guaranteed with an enhanced OPS control system: when the operator leaves the seat, travelling as well as mast lifting and lowering functions are locked; an efficient and reliable parking brake system ensures safer parking; a customized speed control system is available to meet personalized needs (optional); functions are provided to prevent engine starting while a gear is engaged and to prevent secondary engine ignition; the intelligent instrument panel enables comprehensive monitoring of the truck’s operating status; start-up by card or password and maintenance reminder functions are supported; when integrated with HELI’s professional fleet management system, truck management becomes more efficient and flexible; the integral cab further enhances safety protection."
+  },
     "images": [
-      "assets/products/heli-cpcd70-1.webp",
-      "assets/products/heli-cpcd70-2.webp"
+      "assets/products/c2p6.jpg",
+      "assets/products/c2p6.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPCD20", "CPCD25", "CPCD30", "CPCD35"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+      {"key":"capacity","unit":"kg","values":["2000","2500","3000","3500"]},
+      {"key":"loadCenter","unit":"mm","values":["500","500","500","500"]},
+      {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000"]},
+      {"key":"length","unit":"mm","values":["2590","2675","2800","2825"]},
+      {"key":"width","unit":"mm","values":["1160","1160","1225","1225"]},
+      {"key":"height","unit":"mm","values":["2160","2160","2180","2180"]},
+      {"key":"tires","unit":"","values":["Pneumatic tyres","Pneumatic tyres","Pneumatic tyres","Pneumatic tyres"]}
     ],
     "specs": {
-      "capacity": "7000 kg",
-      "engine": "Diesel",
-      "power": "120 kW"
+      "capacity": "3000 kg",
+      "engine": "Diesel"
     }
   },
 
@@ -441,36 +512,71 @@
     "id": 207,
     "slug": "heli-cpcd100",
     "categoryId": 2,
-    "name": { "uz": "HELI CPCD100", "en": "HELI CPCD100", "ru": "HELI CPCD100" },
+    "name": { "uz": "HELI CPCD40-55 G3", "en": "HELI CPCD40-55 G3", "ru": "HELI CPCD40-55 G3" },
     "shortDesc": {
-      "uz": "10t дизел forklift — og'ir sanoat uchun.",
-      "en": "10t diesel forklift — for heavy industry.",
-      "ru": "Дизельный погрузчик 10т — для промышленности."
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD40/45/50/55 G3 seriyali",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD40/45/50/55 серии G3",
+      "en": "Diesel forklift trucks HELI CPCD40/45/50/55 G3 series"
     },
     "fullDesc": {
-      "uz": "Юқори юк кўтариш имконияти.",
-      "en": "High lifting capacity for industrial applications.",
-      "ru": "Высокая грузоподъемность."
+      "uz": "4–5,5 tonnalik G3 seriyali ichki yonuv dvigatelli (counterbalanced) forkliftlar HELI kompaniyasining yangi avlod mahsulotlaridir. Yangi oilaviy PI dizayn uslubi, yangilangan tashqi ko‘rinish, optimallashtirilgan konstruktiv tuzilma va yuqori darajadagi konfiguratsiya har bir detalda qulay va komfortli ishlashni ta’minlaydi. Energiya tejamkor va ekologik toza yechimlar qo‘llanilgan: yuk sezuvchi load sensing tizimi rul boshqaruviga ustuvorlik berib energiya sarfini 5% gacha kamaytiradi, ikki nasosli kombinatsiyalangan gidravlik tizim oqimni ehtiyojga qarab yetkazib yoqilg‘i sarfini kamaytiradi, LED chiroqlar esa energiya tejamkorligi, uzoq xizmat muddati va yuqori ishonchlilikni ta’minlaydi. Yuqori samaradorlik kattalashtirilgan havo qabul qilish panjarasi orqali dvigatel quvvatidan samarali foydalanish hamda orqa tomoni chiqintisiz rama yordamida barqarorlik va yuk ko‘tarish qobiliyatining oshirilishi bilan ta’minlanadi. Xavfsiz va ishonchli konstruktsiya standart gidravlik kuchaytirgichli tormoz tizimi, elektro-gidravlik uzatma, suv o‘tkazmaydigan ulagichlar, kengaytirilgan gidravlik quvurlar, kattalashtirilgan alyuminiy radiator, signalizatsiyali 8 dyuymli havo filtri, mustahkam quyma rul boshqaruv mosti, yuqori mustahkamlikka ega to‘liq payvandlangan overhead guard, optimallashtirilgan counterweight, 14 qatlamli Zhengxin shinalari, sirpanishga qarshi metall pog‘ona va optimallashtirilgan tormoz tizimi orqali ta’minlanadi. Oson texnik xizmat ko‘rsatish 80° ochilish burchagi, qulay ochish mexanizmi va elektr tizimining modulli dizayni orqali xizmat xarajatlarini kamaytiradi.",
+      "ru": "О вилочных погрузчиках HELI серии G3 грузоподъёмностью 4–5,5 т с двигателем внутреннего сгорания (контрбалансные). Это новое поколение продукции. Новый семейный дизайн PI, обновлённый внешний вид, оптимизированная конструкция и высококлассная комплектация обеспечивают комфортную эксплуатацию. Энергосберегающие и экологичные решения включают стандартную систему Load Sensing, снижающую энергопотребление до 5%, комбинированную гидравлическую систему с двумя насосами и светодиодные фары с высокой надёжностью и длительным сроком службы. Повышенная эффективность достигается за счёт увеличенной решётки воздухозаборника и рамы без заднего свеса, что улучшает устойчивость и грузонесущую способность. Безопасность и надёжность обеспечиваются гидравлической тормозной системой с усилителем, электрогидравлической коробкой реверса, водонепроницаемыми разъёмами, увеличенным диаметром гидравлических труб, алюминиевым радиатором, 8-дюймовым воздушным фильтром с сигнализацией засорения, литым рулевым мостом повышенной прочности, цельносварной защитной крышей, оптимизированным противовесом, 14-слойными шинами Zhengxin, противоскользящей металлической ступенькой и оптимизированной тормозной системой. Простое техническое обслуживание обеспечивается углом открытия 80°, удобным механизмом доступа и модульной конструкцией электрической системы.",
+      "en": "About 4–5.5 t G3 series internal combustion counterbalanced forklift trucks. This is a new generation of products. The new family-style PI design, upgraded appearance, optimized structural design, and high-end configuration ensure comfortable operation in every detail. Energy-saving and environmentally friendly solutions include a standard load-sensing system that prioritizes steering and reduces energy consumption by up to 5%, a dual-pump combined hydraulic system that supplies flow on demand to reduce fuel consumption, and standard LED lights with long service life and high reliability. Higher efficiency is achieved through an enlarged air intake grille for better engine power utilization and a tail-free frame design that lowers the center of gravity and improves stability and load-bearing capacity. Safety and reliability are ensured by a hydraulic power-assisted braking system, electro-hydraulic reversing unit, waterproof connectors, enlarged hydraulic pipe diameters, an aluminum plate-fin radiator, a standard 8-inch air filter with blockage alarm, a high-strength cast steering axle, an integral welded overhead guard, an optimized counterweight, standard Zhengxin 14-ply rear tires, an anti-slip metal step, and an optimized braking system. Easy maintenance is supported by an 80° opening angle, convenient access mechanism, and a modular electrical system design that reduces maintenance costs."
     },
     "images": [
-      "assets/products/heli-cpcd100-1.webp",
-      "assets/products/heli-cpcd100-2.webp"
+      "assets/products/c2p7.jpg",
+      "assets/products/c2p7.jpg"
     ],
-    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+    "variants": ["CPCD40","CPCD45","CPCD50","CPCD55"],
 
     "specTable": [
-      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
-      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
-      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
-      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
-      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
-      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
-      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    {"key":"capacity","unit":"kg","values":["4000","4500","5000","5500"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500","500"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["3185","3205","3255","3305"]},
+    {"key":"width","unit":"mm","values":["1510","1510","1510","1510"]},
+    {"key":"height","unit":"mm","values":["2350","2350","2350","2350"]},
+    {"key":"tires","unit":"","values":["Pneumatic tyres","Pneumatic tyres","Pneumatic tyres","Pneumatic tyres"]}
+    ],
+    "specs": {
+      "capacity": "5000 kg",
+      "engine": "Diesel"
+    }
+  },
+
+  "208": {
+    "id": 208,
+    "slug": "heli-cpcd100",
+    "categoryId": 2,
+    "name": { "uz": "HELI CPCD50-100 G3", "en": "HELI CPCD50-100 G3", "ru": "HELI CPCD50-100 G3" },
+    "shortDesc": {
+      "uz": "Dizelli vilkali yuklovchilar HELI CPCD50/60/70/90/100 G3 seriyali",
+      "ru": "Дизельные вилочные погрузчики HELI CPCD50/60/70/90/100 серии G3",
+      "en": "Diesel forklift trucks HELI CPCD50/60/70/90/100 G3 series"
+    },
+    "fullDesc": {
+      "uz": "5–10 tonnalik G3 seriyali ichki yonuv dvigatelli (counterbalanced) forkliftlar HELI kompaniyasining kuchi va ishonchini ifodalaydi. Nafis tashqi ko‘rinish va yuqori samaradorlikka ega bo‘lgan ushbu forkliftlar ishonchli va yuqori sifatli mahsulotlar asosida yaratilgan. Kuchli dvigatel klassik konstruksiyaga ega bo‘lib, energiya tejamkor va ishonchli ishlashni ta’minlaydi. DANFOSS gidravlik o‘zgaruvchan tizimi va yuk sezuvchi rul boshqaruvi tizimi standart tarzda o‘rnatilgan bo‘lib, yuqori samaradorlik va energiya tejamkorligini kafolatlaydi. Ushbu model uchun HELI tomonidan maxsus ishlab chiqilgan va ishlab chiqarilgan transmissiya qutisi o‘rnatilgan bo‘lib, 20 yildan ortiq global tajriba bilan tasdiqlangan ishonchlilikka ega. LCD displeyli asboblar paneli operatorga forklift holatini real vaqt rejimida kuzatish imkonini beradi, gidravlik silindrning pastga tushish amortizatori esa ishlash qulayligini oshiradi. Dvigatel, transmissiya, most va gidravlik nasosda faol shovqin kamaytirish hamda forklift bo‘ylab shovqin yutuvchi va muhrlovchi materiallardan foydalanish forkliftning umumiy shovqin darajasini sezilarli kamaytiradi. Yuqori samaradorlik va xavfsizlik transmissiya va dvigatel uchun aqlli himoya tizimlari, dvigatel sovutish suvi harorati, moy bosimi, havo kirish bosimi va harorati uchun himoya funksiyalari orqali ta’minlanadi. Standart LED chiroqlar energiya tejamkor va uzoq xizmat muddatiga ega, yuk sezuvchi rul boshqaruvi va ikki nasosli oqim birlashtirish texnologiyasi energiya sarfini 10% gacha kamaytiradi. Forklift katta sig‘imli havo filtri, xavfsizlik filtri elementi va bosim signalizatsiyasi bilan jihozlangan, kuch agregatining optimallashtirilgan osma dizayni esa tasodifiy zarbalardan himoya qiladi. Ixtiyoriy xavfsizlik tizimlariga orqaga yurish kamerasi va ogohlantiruvchi chiroqlar kiradi. HELI uzoq yillar davomida forkliftlar ishonchliligini tadqiq qilib kelmoqda, asosiy komponentlar bozor tomonidan sinovdan o‘tgan va har bir forklift sotuvga chiqarilishidan oldin yuqori standartdagi ishonchlilik sinovlaridan o‘tkaziladi.",
+      "ru": "О вилочных погрузчиках HELI серии G3 грузоподъёмностью 5–10 т с двигателем внутреннего сгорания (контрбалансные). Сила и уверенность HELI основаны на надёжной и высококачественной продукции. Погрузчики отличаются элегантным внешним видом и высокими эксплуатационными характеристиками. Классический двигатель энергоэффективен и надёжен, а стандартная гидравлическая система с переменной подачей DANFOSS и рулевое управление с Load Sensing обеспечивают высокую эффективность и энергосбережение. Погрузчик оснащён коробкой передач, специально разработанной и произведённой HELI для данной модели, надёжность которой подтверждена более чем 20-летним опытом эксплуатации на мировом рынке. ЖК-панель приборов позволяет оператору контролировать состояние машины в реальном времени, а стандартный демпфер опускания гидроцилиндра повышает комфорт работы. Комплексная оптимизация нескольких систем и применение шумоизоляционных материалов значительно снижают уровень шума. Высокая эффективность и безопасность обеспечиваются интеллектуальными системами защиты двигателя и трансмиссии, контролем температуры охлаждающей жидкости, давления масла и параметров воздуха на впуске. Светодиодные фары в стандартной комплектации энергоэффективны и долговечны, рулевое управление с Load Sensing и технология объединения потоков двух насосов снижают энергопотребление до 10%. Погрузчик оснащён воздушным фильтром большой ёмкости с сигнализацией, а оптимизированная подвеска силового агрегата защищает его от ударных нагрузок. Доступны опциональные системы безопасности, включая камеру заднего вида и сигнальные огни. Каждый погрузчик проходит высокостандартные испытания на надёжность и последующий контроль качества.",
+      "en": "About 5–10 t G3 series internal combustion counterbalanced forklift trucks. HELI’s strength and confidence come from reliable, high-quality products. These trucks combine elegant appearance with outstanding performance. The classic engine design is energy-saving and reliable, while the standard DANFOSS variable hydraulic system and load-sensing steering system ensure high efficiency and reduced energy consumption. The truck is equipped with a transmission specially designed and manufactured by HELI for this model, proven by more than 20 years of global market experience. The LCD instrument panel allows operators to monitor truck status in real time, and the standard hydraulic cylinder lowering buffer ensures smoother operation. Multi-system integrated optimization, including active noise reduction and the use of sound-insulating and sealing materials, significantly reduces operating noise. High efficiency and safety are ensured by intelligent protection systems for the engine and gearbox, monitoring of coolant temperature, oil pressure, and intake air parameters. Standard LED lamps are energy-saving, brighter, and long-lasting, while load-sensing steering combined with dual-pump flow confluence technology reduces energy consumption by up to 10%. The truck is equipped with a large-capacity air filter with a safety filter element and pressure alarm, and the optimized powertrain suspension design protects against accidental impacts. Optional safety systems include rear-view cameras and warning lights. HELI conducts high-standard reliability testing before market launch, followed by long-term quality tracking and strict control of all key performance indicators."
+    },
+    "images": [
+      "assets/products/c2p8.jpg",
+      "assets/products/c2p8.jpg"
+    ],
+    "variants": ["CPCD50","CPCD60","CPCD70","CPCD90","CPCD100"],
+
+    "specTable": [
+    {"key":"capacity","unit":"kg","values":["5000","6000","7000","8000","10000"]},
+    {"key":"loadCenter","unit":"mm","values":["500","500","500","500","500"]},
+    {"key":"liftingHeight","unit":"mm","values":["3000","3000","3000","3000","3000"]},
+    {"key":"length","unit":"mm","values":["3485","3575","3645","3952","4202"]},
+    {"key":"width","unit":"mm","values":["2045","2045","2045","2165","2165"]},
+    {"key":"height","unit":"mm","values":["2450","2450","2450","2560","2560"]},
+    {"key":"tires","unit":"","values":["Pneumatic tyres","Pneumatic tyres","Pneumatic tyres","Pneumatic tyres","Pneumatic tyres"]}
     ],
     "specs": {
       "capacity": "10000 kg",
-      "engine": "Diesel",
-      "power": "170 kW"
+      "engine": "Diesel"
     }
   },
 
@@ -478,20 +584,20 @@
     "id": 301,
     "slug": "heli-cqd16",
     "categoryId": 3,
-    "name": { "uz": "HELI CQD16", "en": "HELI CQD16", "ru": "HELI CQD16" },
+    "name": { "uz": "HELI CQD16-20 G2", "en": "HELI CQD16-20 G2", "ru": "HELI CQD16-20 G2" },
     "shortDesc": {
-      "uz": "1.6t reach truck — tor yo'laklar uchun.",
-      "en": "1.6t reach truck — for narrow aisles.",
-      "ru": "Ричтрак 1.6т — для узких проходов."
+      "uz": "Elektr Reach trucklar HELI CQD16/20 G2 seriyali",
+      "ru": "Электрические ричтраки HELI CQD16/20 серии G2",
+      "en": "Electric reach trucks HELI CQD16/20 G2 series"
     },
     "fullDesc": {
-      "uz": "Ombор ички вертикал жойлашувда самарадорлик оширади.",
-      "en": "Improves efficiency in vertical storage spaces.",
-      "ru": "Повышает эффективность вертикального хранения."
+      "uz": "1,6–2,0 tonnalik G2 seriyali litiy batareyali Reach Trucklar (o‘tirib boshqariladigan tur) yuqori unumdorlik, xavfsizlik va ergonomik qulaylikni o‘zida mujassam etadi. Ko‘tarish tezligi 10% ga oshirilgan bo‘lib, bir xil ish sharoitida ko‘proq yuk bilan ishlash imkonini beradi. Yuqori yurish va ko‘tarish tezligi ish samaradorligini sezilarli darajada oshiradi. Forklift eng so‘nggi Yevropa Ittifoqi talablariga mos ikki yadroli (Dual CPU) kontroller va yangi dizayndagi kuchli 80V yuqori samarali motor bilan jihozlangan. Aqlli xavfsizlik tizimlari turli ish sharoitlari uchun tezlikni avtomatik cheklaydi, mast ko‘tarilishi va tushirilishini sezgir nazorat qilib, keskin zarbalarni oldini oladi. To‘liq OPS tizimi noto‘g‘ri boshqaruvdan himoya qiladi, burilishda avtomatik sekinlashish esa ag‘darilish xavfini kamaytiradi. Ilg‘or EPS elektr rul boshqaruvi yengil, shovqinsiz va yuqori aniqlikda ishlaydi, avtomatik markazlash hamda burilish paytida tezlik va tezlanishni cheklash funksiyalariga ega. Yangi dizayndagi gidravlik tizim yuqori quvvatli ko‘tarish motori, MOSFET asosidagi elektron kontroller va past shovqinli tishli nasos bilan jihozlangan bo‘lib, yuksiz holatda ko‘tarish tezligini 15% ga, yuk bilan esa 25% ga oshiradi. Ergonomik optimallashtirish doirasida yangi overhead guard kengroq ko‘rish imkonini beradi, standart qo‘l tutqichlari chiqib-kirishni qulaylashtiradi hamda operator uchun oyoq va o‘tirish joyi kengaytirilgan.",
+      "ru": "Ричтраки серии G2 грузоподъёмностью 1,6–2,0 т с литий-ионной батареей (сидячий тип управления) сочетают в себе высокую производительность, безопасность и эргономичный комфорт. Скорость подъёма увеличена на 10%, что позволяет обрабатывать больше грузов при тех же условиях работы. Высокая скорость движения и подъёма повышает общую эффективность. Машина оснащена двухъядерным контроллером (Dual CPU), соответствующим последним стандартам ЕС, а также новым высокоэффективным электродвигателем напряжением 80 В. Интеллектуальная система безопасности автоматически ограничивает скорость в зависимости от условий эксплуатации, контролирует подъём и опускание мачты, предотвращая резкие удары, и снижает риск опрокидывания за счёт автоматического замедления при повороте. Полный комплекс системы OPS исключает ошибочные действия оператора. Современное электрическое рулевое управление EPS обеспечивает лёгкое, точное и бесшумное управление, имеет функцию автоматического возврата руля в центральное положение и ограничение скорости и ускорения при повороте. Новая гидравлическая система включает мощный подъёмный двигатель, электронный контроллер регулирования скорости на базе MOSFET и малошумный шестерёнчатый насос, увеличивая скорость подъёма без груза на 15%, а с грузом — на 25%. Эргономичная оптимизация предусматривает новую конструкцию защитной крыши с улучшенным обзором, стандартные поручни для удобного входа и выхода, а также увеличенное пространство для посадки и ног оператора.",
+      "en": "The 1.6–2.0 t G2 Series lithium battery powered reach trucks (sit-down type) combine high performance, advanced safety, and ergonomic comfort. Lifting speed is increased by 10%, enabling more goods to be handled under the same working conditions, while fast driving and lifting speeds significantly improve overall efficiency. The trucks are equipped with a dual-core (Dual CPU) controller compliant with the latest EU standards and a newly designed high-performance 80V motor delivering strong power output. Intelligent safety systems automatically limit speed according to different operating scenarios, provide smart buffering during mast lifting and lowering to avoid harsh impacts, and reduce rollover risk through automatic deceleration when steering. A complete OPS system prevents misoperation and ensures operator safety. Advanced EPS electric power steering delivers light, precise, and quiet operation, featuring automatic centering and automatic limitation of speed and acceleration during turns. The newly designed hydraulic system includes a high-power lifting motor, a MOSFET-based electronic lifting speed controller, and a low-noise gear pump, increasing maximum lifting speed by 15% without load and by 25% with load. Ergonomic optimization features a new overhead guard design for improved visibility, standard handrails for easier entry and exit, and increased boarding and legroom for enhanced operator comfort."
     },
     "images": [
-      "assets/products/heli-cqd16-1.webp",
-      "assets/products/heli-cqd16-2.webp"
+      "assets/products/c3p1.jpg",
+      "assets/products/c3p1.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -514,20 +620,56 @@
     "id": 302,
     "slug": "heli-cqd20",
     "categoryId": 3,
-    "name": { "uz": "HELI CQD20", "en": "HELI CQD20", "ru": "HELI CQD20" },
+    "name": { "uz": "HELI CQD16-20 CS G2", "en": "HELI CQD16-20 CS G2", "ru": "HELI CQD16-20 CS G2" },
     "shortDesc": {
-      "uz": "2.0t reach truck — yuqori samaradorlik.",
-      "en": "2.0t reach truck — high efficiency.",
-      "ru": "Ричтрак 2.0т — высокая эффективность."
+      "uz": "Elektr Reach trucklar HELI CQD16/20 G2 seriyali (sovutgichli omborlar uchun)",
+      "ru": "Электрические ричтраки HELI CQD16/20 серии G2 (для холодильных складов)",
+      "en": "Electric reach trucks HELI CQD16/20 G2 series (for cold storage)"
     },
     "fullDesc": {
-      "uz": "Tor йўлакларда ҳам катта юкни бошқаради.",
-      "en": "Handles heavier loads in narrow aisles.",
-      "ru": "Работает с тяжелыми грузами в узких проходах."
+      "uz": "1,6–2,0 tonnalik G2 seriyali litiy batareyali Reach Trucklar (o‘tirib boshqariladigan tur) sovutgichli omborlarda ishlash uchun maxsus ishlab chiqilgan professional texnikadir. Butun mashina past haroratli muhitlarga moslashtirilgan bo‘lib, suv o‘tkazmaydi, sovuqqa va korroziyaga yuqori darajada chidamli. Sovutkichli omborlar uchun maxsus litiy batareya qo‘llanilgan bo‘lib, u suv o‘tkazmaydi, past haroratga chidamli va elektr isitish funksiyasiga ega. Maxsus motor va elektron boshqaruv tizimi sovuq sharoitlarda barqaror ishlashni ta’minlaydi, sirpanishga qarshi va korroziyaga chidamli yurish g‘ildiraklari esa xavfsiz harakatni kafolatlaydi. Butun mashinada korroziyaga va zangga qarshi maxsus bo‘yash texnologiyasi qo‘llanilgan, muhim uzellar zanglamaydigan po‘lat boltlar bilan mahkamlangan, silindr shtoklari ikki qatlamli xrom qoplama bilan himoyalangan, zanjirlar esa Dacromet texnologiyasi asosida ishlov berilgan. Past haroratlar uchun maxsus surkov moylari, transmissiya va gidravlik moylar ishlatiladi. Forklift ekologik toza bo‘lib, nol emissiya, past shovqin darajasi va zararli bug‘larning yo‘qligi bilan ajralib turadi. Texnik xizmat talab qilmaydi, kundalik xizmat ko‘rsatish zarur emas. 4000 smenadan so‘ng ham batareya quvvatining 75% dan ortig‘i saqlanadi, litiy batareya uchun 5 yil yoki 10 000 soat kafolat beriladi. Yuqori samaradorlik 1–2 soatlik zaryad bilan 6–8 soat ishlash imkonini beradi. Ko‘p darajali xavfsizlik dizayni, yopiq xavfsizlik zanjiri, zaryadlashda blokirovkani tasdiqlash va favqulodda to‘xtatish tugmasi maksimal xavfsizlikni ta’minlaydi.",
+      "ru": "Ричтраки серии G2 грузоподъёмностью 1,6–2,0 т с литий-ионной батареей (сидячий тип управления) специально разработаны для эксплуатации в холодильных складах с низкими температурами. Вся машина адаптирована к холодным условиям, обладает водонепроницаемой конструкцией, высокой морозостойкостью и коррозионной устойчивостью. Применяется специальная литиевая батарея для холодных складов — влагозащищённая, устойчивая к низким температурам и оснащённая функцией электрического подогрева. Специальный электродвигатель и электронная система управления обеспечивают стабильную работу в холодной среде, а противоскользящие и коррозионно-стойкие приводные колёса гарантируют безопасное движение. Вся машина обработана антикоррозийным покрытием, ключевые узлы закреплены болтами из нержавеющей стали, штоки подъёмных цилиндров имеют двухслойное хромирование, а цепи защищены технологией Dacromet. Используются специальные смазочные материалы, трансмиссионные и гидравлические масла для низких температур. Погрузчик экологичен: нулевые выбросы, низкий уровень шума, отсутствие тяжёлых металлов и кислотных испарений. Машина не требует технического обслуживания и ежедневного сервиса. Более 75% ёмкости батареи сохраняется после 4000 смен, на литий-ионную батарею предоставляется гарантия 5 лет или 10 000 моточасов. Высокая эффективность позволяет работать 6–8 часов после зарядки в течение 1–2 часов. Комплексная система безопасности с многоузловой замкнутой защитой, функцией подтверждения блокировки при зарядке и аварийной кнопкой остановки обеспечивает максимальную безопасность эксплуатации.",
+      "en": "The 1.6–2.0 t G2 Series lithium battery powered reach trucks (sit-on type) are professional solutions specially designed for low-temperature cold storage environments. The entire truck is engineered for cold conditions, featuring a waterproof structure, excellent low-temperature resistance, and strong corrosion protection. A special lithium battery for cold storage is used, which is waterproof, resistant to low temperatures, and equipped with an electric heating function. Special motors and electronic control systems ensure stable performance in cold environments, while anti-skid and corrosion-resistant drive wheels guarantee safe operation. The whole truck is treated with anti-corrosion coating, key components are secured with stainless steel bolts, lifting cylinder piston rods feature double-layer chromium plating, and chains are protected using the Dacromet process. Special low-temperature lubricants, transmission oil, and hydraulic oil are applied. The truck is environmentally friendly, offering zero emissions, low noise levels, no heavy metals, and no acid mist. It is maintenance-free, requiring no daily servicing. More than 75% battery capacity is retained after 4,000 shifts, with a 5-year or 10,000-hour warranty on the high-performance lithium battery. High efficiency allows 6–8 hours of operation after just 1–2 hours of charging. Comprehensive safety design, including multi-node closed-loop protection, charging lock confirmation, and a whole-system emergency stop button, ensures maximum operational safety."
     },
     "images": [
-      "assets/products/heli-cqd20-1.webp",
-      "assets/products/heli-cqd20-2.webp"
+      "assets/products/c3p2.jpg",
+      "assets/products/c3p2.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "2000 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "303": {
+    "id": 303,
+    "slug": "heli-cqd20",
+    "categoryId": 3,
+    "name": { "uz": "HELI CQD16-20 HD G2", "en": "HELI CQD16-20 HD G2", "ru": "HELI CQD16-20 HD G2" },
+    "shortDesc": {
+      "uz": "Elektr Reach trucklar HELI CQD16/20 G2 seriyali (og‘ir yuklar uchun)",
+      "ru": "Электрические ричтраки HELI CQD16/20 серии G2 (для тяжёлых условий эксплуатации)",
+      "en": "Electric reach trucks HELI CQD16/20 G2 series (heavy-duty type)"
+    },
+    "fullDesc": {
+      "uz": "1,6–2,0 tonnalik G2 seriyali litiy batareyali Reach Trucklar (o‘tirib boshqariladigan tur, Heavy-Duty) og‘ir yuklar va intensiv ekspluatatsiya sharoitlari uchun mo‘ljallangan. Ko‘tarish tezligi 10% ga oshirilgan bo‘lib, bir xil sharoitda ko‘proq yuk bilan ishlash imkonini beradi. Yurish va ko‘tarish tezliklarining yuqoriligi umumiy ish samaradorligini sezilarli darajada oshiradi. Forklift eng so‘nggi Yevropa Ittifoqi standartlariga mos ZAPI ikki yadroli (Dual CPU) kontroller bilan jihozlangan. So‘nggi avlod ZAPI displeyi balandlikni oldindan belgilash (height preset) funksiyasi bilan ishlashi mumkin bo‘lib, bitta tugma orqali kerakli balandlikka yetish imkonini beradi. Kichik burilish radiusi forkliftni tor joylarda ham moslashuvchan va oson boshqarish imkonini yaratadi. Aqlli barqarorlashtirish tizimi ko‘tarish balandligi va yuk holatiga qarab mast va harakat tezligini avtomatik sozlab, balandlikda taxlash xavfsizligini oshiradi. Aqlli tezlik cheklovi, cheklovli amortizatsiya, to‘liq OPS tizimi va burilishda avtomatik sekinlashish yuqori darajadagi xavfsizlikni ta’minlaydi. Ilg‘or EPS elektr rul boshqaruvi 180° va 360° rejimlar o‘rtasida real vaqt rejimida almashish imkonini beradi. Yangi dizayndagi gidravlik tizim yuqori quvvatli ko‘tarish motori, MOSFET asosidagi boshqaruv kontrolleri va past shovqinli tishli nasos bilan jihozlangan. Ergonomik dizayn, qulay bosh barmoq tugmalari va aniq boshqaruv elementlari operator uchun maksimal qulaylikni ta’minlaydi.",
+      "ru": "Ричтраки серии G2 грузоподъёмностью 1,6–2,0 т с литий-ионной батареей (сидячий тип управления, Heavy-Duty) предназначены для тяжёлых условий эксплуатации и интенсивных нагрузок. Скорость подъёма увеличена на 10%, что позволяет обрабатывать больше грузов при тех же условиях. Высокая скорость движения и подъёма повышает общую производительность. Погрузчик оснащён двухъядерным контроллером ZAPI (Dual CPU), соответствующим последним стандартам ЕС. Современный дисплей ZAPI поддерживает функцию предустановки высоты, позволяя достигать заданного уровня одной кнопкой. Малый радиус поворота обеспечивает гибкое и лёгкое управление в ограниченном пространстве. Интеллектуальная система стабилизации автоматически регулирует мачту и скорость движения в зависимости от высоты подъёма и состояния груза, повышая безопасность штабелирования. Интеллектуальные функции ограничения скорости, буферизации подъёма, полная система OPS и автоматическое замедление при повороте обеспечивают высокий уровень безопасности. Современное электрическое рулевое управление EPS поддерживает переключение между режимами 180° и 360° в реальном времени. Новая гидравлическая система с мощным подъёмным мотором, MOSFET-контроллером и малошумным шестерёнчатым насосом обеспечивает стабильную и эффективную работу. Эргономичная компоновка и удобные органы управления повышают комфорт оператора.",
+      "en": "The 1.6–2.0 t G2 Series lithium battery powered reach trucks (sit-down type, heavy-duty) are designed for demanding applications and intensive operating conditions. Lifting speed is increased by 10%, allowing more goods to be handled under the same conditions. High travel and lifting speeds significantly improve overall productivity. The truck is equipped with a ZAPI dual-core (Dual CPU) controller compliant with the latest EU standards. The latest ZAPI display supports a height preset function, enabling one-key access to the required lifting height. A small turning radius ensures flexible and easy operation in confined spaces. The intelligent stabilization system automatically adjusts mast operation and travel speed according to lifting height and load condition, improving high-level stacking safety. Intelligent speed limitation, limit buffering, a complete OPS system, and automatic deceleration during steering provide enhanced safety. Advanced EPS electric power steering supports real-time switching between 180° and 360° steering modes. The newly designed hydraulic system features a high-power lifting motor, MOSFET-based control, and a low-noise gear pump, ensuring stable and efficient performance. Ergonomic design with thumb-operated controls and clear operating elements delivers maximum operator comfort."
+    },
+    "images": [
+      "assets/products/c3p3.jpg",
+      "assets/products/c3p3.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -550,20 +692,20 @@
     "id": 401,
     "slug": "heli-cdd10",
     "categoryId": 4,
-    "name": { "uz": "HELI CDD10", "en": "HELI CDD10", "ru": "HELI CDD10" },
+    "name": { "uz": "HELI CBS10-20J", "en": "HELI CBS10-20J", "ru": "HELI CBS10-20J" },
     "shortDesc": {
-      "uz": "1.0t stacker — oddiy pallet ishlari uchun.",
-      "en": "1.0t stacker — for simple pallet tasks.",
-      "ru": "Штабелер 1.0т — для простых задач."
+      "uz": "Yarim elektr pallet stacker HELI CBS10J/15J/20J",
+      "ru": "Полуэлектрические штабелёры HELI CBS10J/15J/20J",
+      "en": "Semi-electric pallet stackers HELI CBS10J/15J/20J"
     },
     "fullDesc": {
-      "uz": "Иқтиcодий ва осон бошқариладиган stacker.",
-      "en": "Economic and easy-to-operate stacker.",
-      "ru": "Экономичный и простой штабелер."
+      "uz": "1,0–2,0 tonnalik yarim elektr pallet stackerlar yuklarni omborlarda va ishlab chiqarish hududlarida samarali va xavfsiz ko‘tarish hamda joylashtirish uchun mo‘ljallangan. Gidravlik quvvat bloki ixcham konstruksiyaga ega bo‘lib, sezgir va tezkor javob beradi, uning asosiy komponentlari asosan dunyoga mashhur yetkazib beruvchilardan olinadi. Import qilingan motor relesi tezkor ishlashi, mukammal kontakt sifati va uzoq xizmat muddati bilan ajralib turadi. Yuqori sifatli gidravlik silindr va optimallashtirilgan gidravlik sxema tizimi barqaror hamda ishonchli ishlashni ta’minlaydi. Tashqi zaryadlovchi qurilma yaxshilangan sovitish samaradorligiga ega bo‘lib, ish jarayonidagi tebranishlar sababli yuzaga kelishi mumkin bo‘lgan shikastlanishlarning oldini oladi. Aviatsion raz’yom orqali zaryadlovchi va batareya xavfsiz, qulay va mustahkam tarzda ulanadi. Favqulodda to‘xtatish tugmasi esa favqulodda holatlarda elektr quvvatini darhol uzib, operator xavfsizligini ta’minlaydi.",
+      "ru": "Полуэлектрические штабелёры грузоподъёмностью 1,0–2,0 т предназначены для эффективной и безопасной обработки грузов на складах и производственных объектах. Гидравлический силовой блок имеет компактную конструкцию и высокую чувствительность, а его ключевые компоненты в основном поставляются известными мировыми производителями. Импортное реле электродвигателя обеспечивает быстрый отклик, отличное качество контактов и длительный срок службы. Высококачественный гидравлический цилиндр и оптимизированная гидравлическая схема гарантируют стабильную и надёжную работу. Внешнее зарядное устройство обладает улучшенными характеристиками охлаждения и помогает предотвратить повреждения, вызванные вибрацией во время эксплуатации. Для соединения зарядного устройства и аккумулятора используется авиационный разъём, обеспечивающий удобство, безопасность и долговечность. Кнопка аварийного отключения позволяет мгновенно обесточить оборудование в экстренной ситуации, повышая уровень безопасности оператора.",
+      "en": "The 1.0–2.0 t semi-electric pallet stackers are designed for efficient and safe material handling in warehouses and industrial facilities. The hydraulic power unit features a compact structure with sensitive and fast response, and its key components are mainly sourced from globally renowned suppliers. The imported motor relay provides quick response, excellent contact performance, and a long service life. High-quality hydraulic cylinders and an optimized hydraulic circuit system ensure stable and reliable operation. The external charger offers improved cooling performance and helps prevent damage caused by vibration during operation. An aviation plug is used to connect the charger and battery, providing convenient operation, high safety, and durability. An emergency stop button can immediately cut off the power supply in emergency situations, ensuring operator safety."
     },
     "images": [
-      "assets/products/heli-cdd10-1.webp",
-      "assets/products/heli-cdd10-2.webp"
+      "assets/products/c4p1.jpg",
+      "assets/products/c4p1.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -586,20 +728,20 @@
     "id": 402,
     "slug": "heli-cdd12",
     "categoryId": 4,
-    "name": { "uz": "HELI CDD12", "en": "HELI CDD12", "ru": "HELI CDD12" },
+    "name": { "uz": "HELI CBS05J", "en": "HELI CBS05J", "ru": "HELI CBS05J" },
     "shortDesc": {
-      "uz": "1.2t stacker — kuchliroq model.",
-      "en": "1.2t stacker — stronger model.",
-      "ru": "Штабелер 1.2т — мощнее."
+      "uz": "Yarim elektr stacker HELI CBS05J",
+      "ru": "Полуэлектрический штабелёр HELI CBS05J",
+      "en": "Semi-electric stacker HELI CBS05J"
     },
     "fullDesc": {
-      "uz": "Урта омборлар учун кучли stacker.",
-      "en": "Strong stacker for mid-size warehouses.",
-      "ru": "Мощный штабелер для складов."
+      "uz": "0,5 tonnalik yarim elektr stacker HELI CBS05J kichik hajmdagi yuklarni omborlar va ishlab chiqarish hududlarida samarali va xavfsiz ko‘tarish uchun mo‘ljallangan. Yuqori sifatli gidravlik moy silindri va optimallashtirilgan gidravlik sxema tizimi barqaror hamda ishonchli ishlashni ta’minlaydi. Favqulodda quvvatni o‘chirish tugmasi favqulodda holatlarda elektr ta’minotini darhol uzib, operator xavfsizligini ta’minlaydi. Tashqi joylashtirilgan zaryadlovchi qurilma sovitish samaradorligi yuqori bo‘lib, ichki zaryadlovchilarga nisbatan ish jarayonidagi tebranishlar sababli yuzaga keladigan shikastlanishlarning oldini oladi. Mashina oddiy va chaqqon konstruksiyaga ega, vazni yengil bo‘lib, boshqarish juda oson va qulay.",
+      "ru": "Полуэлектрический штабелёр HELI CBS05J грузоподъёмностью 0,5 т предназначен для эффективной и безопасной обработки небольших грузов на складах и производственных площадках. Высококачественный гидравлический цилиндр и оптимизированная гидравлическая система обеспечивают стабильную и надёжную работу. Кнопка аварийного отключения питания позволяет мгновенно обесточить оборудование в экстренной ситуации, повышая уровень безопасности оператора. Внешне расположенное зарядное устройство обладает лучшей эффективностью охлаждения и, по сравнению с внутренним зарядным устройством, предотвращает повреждения, вызванные вибрацией при эксплуатации. Простая и манёвренная конструкция, небольшой вес и удобство управления делают этот штабелёр практичным решением для повседневных задач.",
+      "en": "The 0.5 t semi-electric stacker HELI CBS05J is designed for efficient and safe handling of small loads in warehouses and industrial facilities. A high-quality hydraulic cylinder and optimized hydraulic circuit system ensure stable and reliable operation. The emergency power-off button immediately cuts off the power supply in emergency situations, ensuring operator safety. The externally positioned charger offers better cooling performance and, compared with an internally positioned charger, helps prevent damage caused by vibration during operation. Featuring a simple and agile design, light weight, and easy operation, this stacker is a practical solution for daily material handling tasks."
     },
     "images": [
-      "assets/products/heli-cdd12-1.webp",
-      "assets/products/heli-cdd12-2.webp"
+      "assets/products/c4p2.jpg",
+      "assets/products/c4p2.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -622,20 +764,56 @@
     "id": 403,
     "slug": "heli-cdd15",
     "categoryId": 4,
-    "name": { "uz": "HELI CDD15", "en": "HELI CDD15", "ru": "HELI CDD15" },
+    "name": { "uz": "HELI CDD12J", "en": "HELI CDD12J", "ru": "HELI CDD12J" },
     "shortDesc": {
-      "uz": "1.5t stacker — kuchli ва ишончли.",
-      "en": "1.5t stacker — strong and reliable.",
-      "ru": "Штабелер 1.5т — мощный и надежный."
+      "uz": "Elektr pallet stacker HELI CDD12J",
+      "ru": "Электрический паллетный штабелёр HELI CDD12J",
+      "en": "Electric pallet stacker HELI CDD12J"
     },
     "fullDesc": {
-      "uz": "Тез ва самарали pallet кўтариш учун идеал.",
-      "en": "Fast and efficient pallet lifting.",
-      "ru": "Быстрая и эффективная работа."
+      "uz": "1,2 tonnalik elektr pallet stacker HELI CDD12J ombor va ishlab chiqarish muhitlarida samarali, qulay va xavfsiz yuk ko‘tarish uchun mo‘ljallangan. Yuqori quvvatli ko‘tarish nasosi yuqori ish samaradorligini ta’minlaydi. Yon tomondan boshqariladigan (side driving) dizayn kichik burilish radiusini va keng ko‘rish maydonini ta’minlab, tor joylarda ishlashni osonlashtiradi. Doimiy magnitli motorli yurish tizimi ixcham o‘lcham, yengil vazn va past energiya sarfi bilan ajralib turadi. Germaniyada ishlab chiqarilgan suv o‘tkazmaydigan inching tugmasi sovuq, namlik va chang kabi og‘ir ish sharoitlariga to‘liq mos keladi. To‘rt rangli LED zaryad ko‘rsatkichi batareya holatini aniq va oson o‘qiladigan tarzda ko‘rsatadi. Tashqi zaryadlovchi qurilma yaxshilangan sovitish samaradorligiga ega. Operator uchun qulay boshqaruv ergonomik uzun tutqich orqali ta’minlanadi, unda ko‘tarish tugmasi, kalit va zaryad ko‘rsatkichi birlashtirilgan. “Turtle speed” tugmasi aniq tezlik nazoratini ta’minlaydi, yuqori sifatli gaz-prujinalar esa mustahkamlik va tutqichning sekin hamda avtomatik qaytishini kafolatlaydi. Yuqori zichlikdagi temir-po‘lat himoya panjarasi mustahkam va ishonchli himoya beradi. Forklift texnik xizmat talab qilmaydigan batareya bilan jihozlangan.",
+      "ru": "Электрический паллетный штабелёр HELI CDD12J грузоподъёмностью 1,2 т предназначен для эффективной, удобной и безопасной работы на складах и производственных площадках. Подъёмный насос высокой мощности обеспечивает высокую производительность. Боковая схема управления (side driving design) уменьшает радиус поворота и обеспечивает широкий обзор, облегчая работу в ограниченном пространстве. Приводная система с двигателем на постоянных магнитах отличается компактными размерами, малым весом и низким энергопотреблением. Влагозащищённая inching-кнопка немецкого производства полностью соответствует требованиям тяжёлых условий эксплуатации, включая холод, повышенную влажность и запылённость. Четырёхцветный светодиодный индикатор заряда обеспечивает простое и наглядное отображение состояния батареи. Внешнее зарядное устройство обладает улучшенными характеристиками охлаждения. Удобство оператора обеспечивается удлинённой эргономичной рукояткой, объединяющей кнопку подъёма, замок зажигания и индикатор заряда. Переключатель «черепашьего хода» позволяет точно контролировать скорость, а высококачественные газовые пружины обеспечивают плавный и автоматический возврат рукоятки. Защитный кожух из высокопрочной стали обеспечивает надёжную защиту. Аккумулятор не требует технического обслуживания.",
+      "en": "The 1.2 t electric pallet stacker HELI CDD12J is designed for efficient, convenient, and safe material handling in warehouses and industrial environments. A high-power lifting pump ensures high working efficiency. The side driving design provides a smaller turning radius and a wide field of view, making operation in narrow spaces easier. The drive system with a permanent magnet motor features a compact structure, light weight, and low energy consumption. The German-made waterproof inching switch meets the requirements of harsh working conditions such as cold, humidity, and dusty environments. A four-color LED battery indicator clearly and easily displays the battery status. The external charger offers improved cooling performance. Operator comfort is enhanced by an extra-long ergonomic handle that integrates the lifting button, key switch, and battery indicator. The turtle speed switch allows precise speed control, while high-quality gas springs ensure durability and smooth, automatic handle return. A high-density steel protection guard provides strong and reliable protection. The stacker is equipped with a maintenance-free battery."
     },
     "images": [
-      "assets/products/heli-cdd15-1.webp",
-      "assets/products/heli-cdd15-2.webp"
+      "assets/products/c4p3.jpg",
+      "assets/products/c4p3.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "404": {
+    "id": 404,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD15J", "en": "HELI CDD15J", "ru": "HELI CDD15J" },
+    "shortDesc": {
+      "uz": "Elektr pallet stacker HELI CDD15J",
+      "ru": "Электрический паллетный штабелёр HELI CDD15J",
+      "en": "Electric pallet stacker HELI CDD15J"
+    },
+    "fullDesc": {
+      "uz": "1,5 tonnalik elektr pallet stacker HELI CDD15J ombor va ishlab chiqarish muhitlarida samarali, qulay va xavfsiz yuk ko‘tarish uchun mo‘ljallangan. Yuqori quvvatli ko‘tarish nasosi yuqori ish samaradorligini ta’minlaydi. Yon tomondan boshqariladigan (side driving) dizayn kichik burilish radiusini va keng ko‘rish maydonini ta’minlab, tor joylarda ishlashni osonlashtiradi. Doimiy magnitli motorli yurish tizimi ixcham o‘lcham, yengil vazn va past energiya sarfi bilan ajralib turadi. Germaniyada ishlab chiqarilgan suv o‘tkazmaydigan inching tugmasi sovuq, namlik va chang kabi og‘ir ish sharoitlariga to‘liq mos keladi. To‘rt rangli LED zaryad ko‘rsatkichi batareya holatini sodda va aniq tarzda ko‘rsatadi. Tashqi zaryadlovchi qurilma yaxshilangan sovitish samaradorligiga ega. Operator uchun qulay boshqaruv juda uzun ergonomik tutqich orqali ta’minlanadi, unda ko‘tarish tugmasi, kalit va zaryad ko‘rsatkichi birlashtirilgan. “Turtle speed” tugmasi aniq tezlik nazoratini ta’minlaydi, yuqori sifatli gaz-prujinalar esa mustahkamlik va tutqichning sekin hamda avtomatik qaytishini kafolatlaydi. Yuqori zichlikdagi temir-po‘lat himoya panjarasi mustahkam, bardoshli va yuqori darajada himoya ta’minlaydi. Forklift texnik xizmat talab qilmaydigan batareya bilan jihozlangan.",
+      "ru": "Электрический паллетный штабелёр HELI CDD15J грузоподъёмностью 1,5 т предназначен для эффективной, удобной и безопасной работы на складах и производственных площадках. Подъёмный насос высокой мощности обеспечивает высокую производительность. Боковая схема управления (side driving design) уменьшает радиус поворота и обеспечивает широкий обзор, облегчая работу в ограниченном пространстве. Приводная система с двигателем на постоянных магнитах отличается компактными размерами, малым весом и низким энергопотреблением. Влагозащищённая inching-кнопка немецкого производства полностью соответствует требованиям тяжёлых условий эксплуатации, включая холод, повышенную влажность и запылённость. Четырёхцветный светодиодный индикатор заряда обеспечивает простое и наглядное отображение состояния батареи. Внешнее зарядное устройство обладает улучшенными характеристиками охлаждения. Комфорт оператора обеспечивается удлинённой эргономичной рукояткой, объединяющей кнопку подъёма, замок зажигания и индикатор заряда. Переключатель «черепашьего хода» позволяет точно контролировать скорость, а высококачественные газовые пружины обеспечивают плавный и автоматический возврат рукоятки. Защитный кожух из высокопрочной стали высокой плотности обеспечивает надёжную защиту. Аккумулятор не требует технического обслуживания.",
+      "en": "The 1.5 t electric pallet stacker HELI CDD15J is designed for efficient, convenient, and safe material handling in warehouses and industrial environments. A high-power lifting pump ensures high working efficiency. The side driving design provides a smaller turning radius and a wide field of view, making operation in narrow spaces easier. The drive system with a permanent magnet motor features a compact structure, light weight, and low energy consumption. The German-made waterproof inching switch meets the requirements of harsh working conditions such as cold, humidity, and dusty environments. A four-color LED battery indicator clearly and easily displays the battery status. The external charger offers improved cooling performance. Operator comfort is enhanced by an extra-long ergonomic handle that integrates the lifting button, key switch, and battery indicator. The turtle speed switch allows more accurate speed control, while high-quality gas springs ensure durability and smooth, automatic handle return. A high-density steel protection guard provides superior strength and protection. The stacker is equipped with a maintenance-free battery."
+    },
+    "images": [
+      "assets/products/c4p4.jpg",
+      "assets/products/c4p4.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 

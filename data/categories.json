@@ -13,7 +13,7 @@
       "en": "Silent, eco-friendly, energy-efficient forklifts.",
       "ru": "Тихие, экологичные и энергоэффективные погрузчики."
     },
-    "products": [101, 102, 103, 104, 105, 106]
+    "products": [101, 102, 103, 104, 105, 106, 107, 108]
   },
 
   "2": {
@@ -30,7 +30,7 @@
       "en": "Powerful forklifts for outdoor and heavy-duty operations.",
       "ru": "Мощные погрузчики для тяжелых условий и улицы."
     },
-    "products": [201, 202, 203, 204, 205, 206, 207]
+    "products": [201, 202, 203, 204, 205, 206, 207, 208]
   },
 
   "3": {
@@ -47,7 +47,7 @@
       "en": "Ideal for narrow-aisle warehouse environments.",
       "ru": "Идеальны для работы в узких складских проходах."
     },
-    "products": [301, 302]
+    "products": [301, 302, 303]
   },
 
   "4": {
@@ -64,7 +64,7 @@
       "en": "Economic equipment for lifting and pallet stacking.",
       "ru": "Экономичное оборудование для подъема и штабелирования."
     },
-    "products": [401, 402, 403]
+    "products": [401, 402, 403, 404]
   },
 
   "5": {
