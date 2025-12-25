@@ -206,7 +206,34 @@
   "spec_width": "Width",
   "spec_turnRadius": "Turning Radius",
   "spec_height": "Height",
-  "spec_tires": "Tires"
+  "spec_tires": "Tires", 
+
+  "nav_automation": "Automation",
+
+  "automation_title": "Warehouse Automation",
+  "automation_sub": "Intelligent logistics solutions for modern warehouses",
+
+  "automation_intro_title": "Automate Your Logistics",
+  "automation_intro_text1": "HELI Uzbekistan provides complete warehouse automation solutions including AGV forklifts, AMR robots, conveyors and intelligent control systems.",
+  "automation_intro_text2": "Our solutions reduce operational costs, minimize human error and significantly increase warehouse productivity.",
+
+  "automation_solutions_title": "Our Automation Solutions",
+
+  "automation_solution_1_title": "AGV & AMR Systems",
+  "automation_solution_1_text": "Autonomous forklifts and mobile robots for unmanned logistics",
+
+  "automation_solution_2_title": "WMS Integration",
+  "automation_solution_2_text": "Integration of equipment with warehouse management systems",
+
+  "automation_solution_3_title": "Conveyor Systems",
+  "automation_solution_3_text": "Automatic transportation, sorting and material handling",
+
+  "automation_solution_4_title": "Process Optimization",
+  "automation_solution_4_text": "Analysis and redesign of warehouse processes using data",
+
+  "automation_cta_title": "Ready to Automate Your Warehouse?",
+  "automation_cta_text": "Request a consultation with our automation engineers",
+  "automation_cta_btn": "Request Consultation"
 
   
 }

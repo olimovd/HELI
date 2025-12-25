@@ -64,7 +64,7 @@
       "en": "Economic equipment for lifting and pallet stacking.",
       "ru": "Экономичное оборудование для подъема и штабелирования."
     },
-    "products": [401, 402, 403, 404]
+    "products": [401, 402, 403, 404, 405, 406, 407, 408, 409, 410]
   },
 
   "5": {
@@ -115,7 +115,7 @@
       "en": "Efficient tractors for moving large quantities of goods.",
       "ru": "Эффективные тягачи для перемещения больших грузов."
     },
-    "products": [701, 702]
+    "products": [701, 702, 703]
   },
 
   "8": {

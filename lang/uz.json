@@ -207,5 +207,31 @@
   "spec_width": "Kengligi",
   "spec_turnRadius": "Burilish radiusi",
   "spec_height": "Balandlik",
-  "spec_tires": "Shinalar"
+  "spec_tires": "Shinalar", 
+
+  "nav_automation": "Avtomatlashtirish", 
+  "automation_title": "Ombor avtomatlashtirish",
+  "automation_sub": "Zamonaviy omborlar uchun aqlli logistika yechimlari",
+
+  "automation_intro_title": "Logistikangizni avtomatlashtiring",
+  "automation_intro_text1": "HELI Uzbekistan AGV yuk ko‘targichlar, AMR robotlar, konveyer tizimlari va aqlli boshqaruv platformalari orqali to‘liq ombor avtomatlashtirish yechimlarini taklif qiladi.",
+  "automation_intro_text2": "Bizning yechimlar xarajatlarni kamaytiradi, inson xatosini minimallashtiradi va ombor unumdorligini oshiradi.",
+
+  "automation_solutions_title": "Avtomatlashtirish bo‘yicha yechimlarimiz",
+
+  "automation_solution_1_title": "AGV va AMR tizimlari",
+  "automation_solution_1_text": "Avtonom yuk ko‘targichlar va mobil robotlar yordamida boshqaruvsiz logistika",
+
+  "automation_solution_2_title": "WMS integratsiyasi",
+  "automation_solution_2_text": "Ombor boshqaruv tizimlari bilan to‘liq integratsiya",
+
+  "automation_solution_3_title": "Konveyer tizimlari",
+  "automation_solution_3_text": "Avtomatik tashish, saralash va yuklarni qayta ishlash",
+
+  "automation_solution_4_title": "Jarayonlarni optimallashtirish",
+  "automation_solution_4_text": "Ma’lumotlarga asoslangan ombor jarayonlarini takomillashtirish",
+
+  "automation_cta_title": "Omboringizni avtomatlashtirishga tayyormisiz?",
+  "automation_cta_text": "Mutaxassislarimizdan bepul maslahat oling",
+  "automation_cta_btn": "Maslahat so‘rash"
 }

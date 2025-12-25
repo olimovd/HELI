@@ -832,6 +832,222 @@
     }
   },
 
+  "405": {
+    "id": 405,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD15J-RE", "en": "HELI CDD15J-RE", "ru": "HELI CDD15J-RE" },
+    "shortDesc": {
+      "uz": "Platformali elektr pallet stacker (iqtisodiy tur) HELI CDD15J-RE",
+      "ru": "Электрический штабелёр с платформой (экономичный вариант) HELI CDD15J-RE",
+      "en": "Electric pallet stacker with platform (economical) HELI CDD15J-RE"
+    },
+    "fullDesc": {
+      "uz": "Platformali elektr pallet stacker (iqtisodiy tur) CDD15J-RE haqida: Texnika ixcham konstruksiyaga ega, mustahkam va bardoshli bo‘lib, uzoq masofaga yuk tashish ishlarini bemalol bajarishga mos. Yetuk yurish va gidravlik quvvat bloklari, ishonchli ulagichlar hamda elektr tizimi yuqori samaradorlik va barqaror ishlashni ta’minlaydi. Yuk ma’lum balandlikka ko‘tarilganda, harakat tezligi avtomatik ravishda sekin rejimga o‘tadi, bu esa ish xavfsizligini oshiradi. Ko‘tarish uchun elektron cheklov funksiyasi texnikaning barqaror ishlashini, energiya tejamkorligini va yuqori samaradorligini ta’minlaydi. Texnik xizmat talab qilmaydigan batareya va ichki zaryadlovchi qurilma texnikadan foydalanishni juda qulay qiladi.",
+      "ru": "Электрический штабелёр с платформой (экономичный вариант) CDD15J-RE: Машина имеет компактную конструкцию, отличается прочностью и долговечностью, подходит для длительных транспортировочных операций. Проверенный привод и гидравлический силовой агрегат, надёжные разъёмы и электрическая система обеспечивают высокую эффективность и стабильную работу. При подъёме груза на определённую высоту скорость движения автоматически переключается в медленный режим, что гарантирует безопасность эксплуатации. Электронная система ограничения подъёма обеспечивает стабильную работу техники, энергосбережение и высокую производительность. Необслуживаемая аккумуляторная батарея и встроенное зарядное устройство делают штабелёр простым и удобным в использовании.",
+      "en": "About Electric Pallet Stacker With Platform (economical) CDD15J-RE: The truck has a compact structure and is strong and durable, suitable for long-distance handling operations. Mature drive and hydraulic power unit, reliable connectors and electrical design ensure high efficiency and stability. When the truck is lifted to a certain height, the driving speed automatically switches to slow mode to ensure safe operation. The lifting electronic limit function ensures stable operation, energy saving and high efficiency. Maintenance-free battery and built-in charger make the truck easy to use."
+    },
+    "images": [
+      "assets/products/c4p5.jpg",
+      "assets/products/c4p5.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "406": {
+    "id": 406,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD20J", "en": "HELI CDD20J", "ru": "HELI CDD20J" },
+    "shortDesc": {
+      "uz": "Elektr pallet stacker HELI CDD20J",
+      "ru": "Электрический паллетный штабелёр HELI CDD20J",
+      "en": "Electric pallet stacker HELI CDD20J"
+    },
+    "fullDesc": {
+      "uz": "HELI CDD20J elektr pallet stackeri haqida: AC yurish tizimi — cho‘tka (carbon-brush) ishlatilmaydi, texnik xizmat talab qilmaydi. ZF transmissiya qutisi yuqori unumdorlikka ega bo‘lib, ish samaradorligi va energiya tejamkorligi yuqori. Texnika yon tomondan boshqarish usulida ishlaydi, burilish radiusi kichik va ko‘rish maydoni keng. Import qilingan suv o‘tkazmaydigan inching switch sovuq, namlik va chang kabi og‘ir ish sharoitlarida ishonchli ishlash uchun mo‘ljallangan. To‘rt rangli LED quvvat ko‘rsatkichi o‘qishga qulay va aniq. Tashqi joylashtirilgan zaryadlovchi qurilma sovitish samaradorligini oshiradi. Uzaytirilgan boshqaruv dastagi ko‘tarish tugmalari, kalit va quvvat ko‘rsatkichini o‘zida mujassam etgan bo‘lib, ergonomik talablarni to‘liq qondiradi va boshqaruvni yengillashtiradi; past tezlik rejimi tezlikni aniq boshqarish imkonini beradi; havo bosimli qaytish mexanizmi dastakni avtomatik va sekin qaytaradi, mustahkam va uzoq xizmat qiladi. Yuqori zichlikdagi himoya panjarasi mustahkam va bardoshli bo‘lib, texnikani ishonchli himoya qiladi.",
+      "ru": "Электрический штабелёр HELI CDD20J: Привод переменного тока (AC) — без угольных щёток, не требует технического обслуживания. Трансмиссия ZF обеспечивает высокую производительность, а также высокую рабочую и энергетическую эффективность. Штабелёр выполнен с боковым управлением, имеет малый радиус разворота и широкий обзор. Импортный влагозащищённый inching-переключатель подходит для работы в тяжёлых условиях: холод, высокая влажность и запылённая среда. Светодиодный индикатор уровня заряда с четырёхцветной индикацией удобен для считывания информации. Внешне расположенное зарядное устройство обеспечивает лучшую эффективность охлаждения. Удлинённая рукоятка управления, объединяющая кнопки подъёма, замок зажигания и индикатор заряда, соответствует эргономическим требованиям и упрощает управление; переключатель пониженной скорости обеспечивает более точный контроль скорости; пневматический механизм возврата автоматически и плавно возвращает рукоятку в исходное положение и отличается долговечностью. Защитный кожух высокой плотности прочный и износостойкий, обеспечивает надёжную защиту оборудования.",
+      "en": "About Electric Pallet Stacker HELI CDD20J: AC drive system is carbon-brush free and maintenance free. ZF transmission box delivers excellent performance with high working efficiency and energy efficiency. The truck adopts side operation mode, features small turning radius and wide view. Imported waterproof inching switch is suitable for harsh environments such as cold, humidity and dust. Four-color LED electricity meter is easy to read. Externally placed charger provides better cooling performance. Over-length operation handle integrates lifting buttons, key switch and electricity meter, meets ergonomic requirements and makes operation easier; low speed switch enables more precise speed control; air pressure return mechanism resets automatically and smoothly and is durable. High-density protection guard is solid, durable and ensures reliable protection of the equipment."
+    },
+    "images": [
+      "assets/products/c4p6.jpg",
+      "assets/products/c4p6.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "407": {
+    "id": 407,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELI CQDM20J", "en": "HELI CQDM20J", "ru": "HELI CQDM20J" },
+    "shortDesc": {
+      "uz": "Elektr reach truck HELI CQDM20J",
+      "ru": "Электрический ричтрак HELI CQDM20J",
+      "en": "Electric reach truck HELI CQDM20J"
+    },
+    "fullDesc": {
+      "uz": "HELI CQDM20J modeli haqida: Vertikal joylashtirilgan AC yurish tizimi kuchli quvvatga ega bo‘lib, uzluksiz va yuqori intensivlikdagi ishlarga mos keladi. Suzuvchi kronshteyn va kuchaytiruvchi gidrotsilindr og‘ir yuk ostida sirpanishni oldini oladi, zarbani kamaytiradi va yuqori tezlikdagi burilishda og‘ishni cheklaydi. Elektron kuchaytirgichli rul boshqaruvi (EPS) boshqaruvni yengil va qulay qiladi. Ko‘tarish uchun elektron cheklov funksiyasi barqaror ishlash, energiya tejamkorlik va yuqori samaradorlikni ta’minlaydi. Favqulodda to‘xtatish tugmasi, favqulodda orqaga yurish tugmasi va elektromagnit tormoz tizimi yuqori darajada xavfsizlikni ta’minlaydi. Yuk yuqoriga ko‘tarilganda tezlikni avtomatik pasaytiruvchi tizim mavjud bo‘lib, mast balandligiga qarab harakat tezligini kamaytiradi. To‘liq erkin ko‘tarish (Full Free Lift) konfiguratsiyasi ixtiyoriy bo‘lib, konteynerlar va ship balandligi cheklangan joylarda ishlash uchun mos.",
+      "ru": "Электрический ричтрак HELI CQDM20J: Вертикально расположенная AC-приводная система обладает высокой мощностью и подходит для непрерывной работы высокой интенсивности. Плавающий кронштейн с гидроцилиндром усиления предотвращает пробуксовку под большой нагрузкой, снижает ударное воздействие на поверхность и исключает наклон при поворотах на высокой скорости. Оснащён системой электронного усилителя рулевого управления (EPS), что обеспечивает лёгкое и комфортное управление. Электронная система ограничения подъёма обеспечивает стабильную работу техники, энергосбережение и высокую эффективность. Наличие кнопки аварийной остановки, аварийного реверса и электромагнитной тормозной системы обеспечивает максимальную безопасность эксплуатации. Система автоматического снижения скорости при подъёме груза на большую высоту уменьшает скорость движения в зависимости от высоты мачты для безопасной работы. Конфигурация полного свободного подъёма (Full Free Lift) доступна опционально и подходит для контейнеров и помещений с ограниченной высотой потолка.",
+      "en": "About Electric Reach Truck HELI CQDM20J: The vertical AC drive system provides strong power and is suitable for continuous high-intensity operation. A floating bracket integrated into the drive system with a supercharging hydraulic cylinder effectively prevents slipping under heavy loads, reduces ground impact, and avoids tilting during high-speed turning. Equipped with an electronic power steering (EPS) system for light and comfortable steering. The electronic lifting limit function ensures stable operation, energy saving, and high efficiency. Equipped with an emergency stop switch, emergency reverse switch, and electromagnetic braking system to maximize safety. A speed deceleration device automatically reduces travel speed according to mast height when the load is lifted high to ensure safe operation. The optional Full Free Lift configuration allows operation inside containers or other areas with limited ceiling height."
+    },
+    "images": [
+      "assets/products/c4p7.jpg",
+      "assets/products/c4p7.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "408": {
+    "id": 408,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELICDD16-D930/950/350", "en": "HELICDD16-D930/950/350", "ru": "HELICDD16-D930/950/350" },
+    "shortDesc": {
+      "uz": "1.6 tonnalik elektr pallet stacker HELI",
+      "ru": "Электрический паллетный штабелёр HELI 1,6 т",
+      "en": "1.6-ton HELI electric pallet stacker"
+    },
+    "fullDesc": {
+      "uz": "1.6 tonna HELI elektr pallet stackeri haqida: Elektron kuchaytirgichli rul boshqaruvi (EPS) yengil boshqaruv va past shovqinni ta’minlaydi. Ikki yo‘nalishli magnit klapan uch xil tushirish tezligi rejimini taklif etadi. Patentlangan konstruksiyaga ega suzuvchi yurish bloki mavjud. AC yurish tizimi uglerod cho‘tka talab qilmaydi va texnik xizmat talab qilmaydi. Elektromagnit va regenerativ tormoz tizimi bilan jihozlangan. Avtomatik ko‘tarish cheklovi, yaqinlik datchigi va uzoq xizmat muddati ta’minlangan. Xavfsizlik bo‘yicha: burilishda avtomatik sekinlashtirish tizimi mavjud, yuk baland ko‘tarilganda tezlik avtomatik kamayadi. Bosqichsiz tezlikni boshqarish tizimi xavfsiz va jim ishlashni ta’minlaydi. Boshqaruv kontrolleri bir nechta avtomatik himoya funksiyalariga ega. Favqulodda orqaga qaytish qurilmasi va favqulodda tormoz tugmasi mavjud. Yuqori holatda avtomatik tezlikni kamaytirish tizimi o‘rnatilgan. Opsiya sifatida litiy batareya mavjud.",
+      "ru": "Об электрическом паллетном штабелёре HELI грузоподъёмностью 1,6 т: Электронная система усиления рулевого управления (EPS) обеспечивает лёгкое управление и низкий уровень шума. Двухходовой электромагнитный клапан с тремя режимами скорости опускания. Плавающий приводной узел с запатентованной конструкцией. Привод переменного тока (AC) не имеет угольных щёток и не требует технического обслуживания. Электромагнитная и рекуперативная тормозная система. Автоматическое ограничение подъёма, датчик приближения и длительный срок службы. По безопасности: система автоматического замедления при повороте, автоматическое снижение скорости при высоком подъёме груза, бесступенчатая регулировка скорости для тихой и безопасной работы. Контроллер оснащён несколькими функциями автоматической защиты. Имеются устройство аварийного реверса и кнопка аварийного торможения. Система автоматического снижения скорости на большой высоте подъёма. В качестве опции доступна литиевая аккумуляторная батарея.",
+      "en": "About the 1.6-ton HELI Electric Pallet Stacker: Electronic Power Steering (EPS) provides light steering and low noise. A two-way solenoid valve offers three lowering speed modes. The floating drive unit has a patented design. The AC drive system is carbon-brush free and maintenance-free. It is equipped with electromagnetic and regenerative braking systems. Automatic lifting limit, proximity switch and long service life are ensured. In terms of safety, there is an automatic deceleration system when turning; when the load is lifted high, the traveling speed is automatically reduced. The stepless speed control system enables quiet and safe operation. The controller features multiple automatic protection functions. An emergency reverse device and emergency brake switch are provided. An automatic speed reduction system at high lifting positions is available. Lithium battery is optional."
+    },
+    "images": [
+      "assets/products/c4p8.jpg",
+      "assets/products/c4p8.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "409": {
+    "id": 409,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD16-20 A2LiH", "en": "HELI CDD16-20 A2LiH", "ru": "HELI CDD16-20 A2LiH" },
+    "shortDesc": {
+      "uz": "HELI CDD16–20 A2LiH elektr pallet stacker (piyoda boshqaruv)",
+      "ru": "Электрический штабелёр HELI CDD16–20 A2LiH (пешеходного типа)",
+      "en": "HELI CDD16–20 A2LiH pedestrian electric pallet stacker"
+    },
+    "fullDesc": {
+      "uz": "HELI CDD16–20 A2LiH piyoda boshqariladigan elektr pallet stacker haqida: Tashqi ko‘rinish — H seriyali pallet stacker professional sanoat dizayniga ega, silliq chiziqlar va zamonaviy tashqi ko‘rinish bilan ajralib turadi, mustahkam konstruktsiya ekologik talablar va atrof-muhit me’yorlariga mos keladi. Ishonchlilik — H-tipdagi rama egilishga chidamli, umumiy mustahkamlikni oshiradi va operator uchun keng ko‘rish maydonini ta’minlaydi; kontaktsiz yaqinlik datchigi uzoq xizmat muddati va barqaror ishlashni kafolatlaydi; yuk ko‘taruvchi juft g‘ildiraklar standart; vilkalar turli palletlar bilan ishlashga mos. Xavfsizlik — elektromagnit tormozni bo‘shatish qurilmasi nosozlik holatida texnikani siljitish va ta’mirlashni osonlashtiradi; favqulodda to‘xtatish tugmasi va favqulodda orqaga qaytish funksiyasi mavjud; mast baland ko‘tarilganda avtomatik sekin yurish rejimi ish xavfsizligini oshiradi. Texnik xizmat — barcha aylanuvchi nuqtalarda yuqori mustahkam po‘lat asosli podshipniklar ishlatilgan, texnik xizmat talab qilmaydi; yordamchi g‘ildirak balandligi sozlanadi va uni 60° burib yuqoridan oson almashtirish mumkin. Yuqori samaradorlik — yuqori unumli gidravlik quvvat bloki past shovqinli va tez ko‘tarish-tushirishni ta’minlaydi; AC yurish dvigateli va ZF reduktori yaxshi tezlanish va ko‘tarilish qobiliyatini beradi; ZAPI boshqaruvchisi aniq va silliq boshqaruvni ta’minlaydi; mashina mustahkamlangan va to‘liq sinovdan o‘tkazilgan; standart turtle speed funksiyasi va tik holatda yurish mavjud; CE sertifikati talablariga to‘liq javob beradi.",
+      "ru": "О пешеходном электрическом штабелёре HELI CDD16–20 A2LiH: Внешний вид — штабелёр серии H выполнен в профессиональном промышленном дизайне, отличается плавными линиями и современным внешним видом, прочная конструкция полностью соответствует экологическим требованиям. Надёжность — рама H-типа из швеллерной стали устойчива к изгибу, повышает общую прочность и обеспечивает более широкий обзор; бесконтактный датчик приближения гарантирует длительный срок службы и стабильную работу; грузовые колёса в стандартной комплектации сдвоенные; вилы подходят для широкого спектра паллет. Безопасность — устройство принудительного разблокирования электромагнитного тормоза позволяет перемещать и обслуживать технику при неисправности; стандартные кнопка аварийной остановки и функция аварийного реверса обеспечивают безопасную эксплуатацию; при подъёме мачты на большую высоту техника автоматически переходит в режим замедленного хода. Техническое обслуживание — подшипники с высокопрочной стальной основой в поворотных узлах не требуют обслуживания и служат долго; регулируемая высота вспомогательного колеса, его можно повернуть на 60° и вынуть сверху, что упрощает замену. Высокая производительность — высокоэффективный гидравлический силовой блок с низким уровнем шума и высокой скоростью подъёма и опускания; AC тяговый двигатель и редуктор ZF обеспечивают отличную динамику и способность преодолевать подъёмы; контроллер ZAPI гарантирует точное и плавное управление и высокую энергоэффективность; машина усилена и полностью протестирована; предусмотрена функция «черепашьей скорости» и движение в вертикальном положении; техника соответствует требованиям CE.",
+      "en": "About HELI CDD16–20 A2LiH pedestrian electric pallet stacker truck: Appearance — the H series pallet stacker features professional industrial design with smooth lines and a modern appearance, and its robust construction fully meets environmental standards. Reliability — the H-type channel steel frame offers high bending resistance, increases overall structural strength and provides a wider field of view; non-contact proximity switch ensures long service life and reliable operation; load wheels are standard double wheels; forks are suitable for handling a wide range of pallets. Safety — a manual electromagnetic brake release device allows the truck to be moved and serviced in case of failure; standard emergency stop switch and emergency reverse function ensure safe operation; when the mast is raised to a certain height, the truck automatically switches to slow travelling mode to improve safety. Maintenance — all pivot points use high-strength steel-backed bearings that are maintenance-free and durable; the height-adjustable auxiliary wheel can be rotated 60 degrees and removed from the top, making replacement very convenient. High performance — high-performance hydraulic power unit ensures low noise and fast lifting and lowering; AC traction motor combined with ZF gearbox provides excellent acceleration and climbing ability; ZAPI controller enables precise and smooth control with high efficiency; the whole truck is reinforced and fully tested; standard turtle speed and upright walking operation are available; the truck fully complies with CE certification requirements."
+    },
+    "images": [
+      "assets/products/c4p9.jpg",
+      "assets/products/c4p9.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric"
+    }
+  },
+
+  "410": {
+    "id": 410,
+    "slug": "heli-cdd15",
+    "categoryId": 4,
+    "name": { "uz": "HELI CDD16-20 A2FLiH", "en": "HELI CDD16-20 A2FLiH", "ru": "HELI CDD16-20 A2FLiH" },
+    "shortDesc": {
+      "uz": "Platformali elektr pallet truck HELI CDD16–20 A2FLiH",
+      "ru": "Платформенная электрическая тележка HELI CDD16–20 A2FLiH",
+      "en": "Platform electric pallet truck HELI CDD16–20 A2FLiH"
+    },
+    "fullDesc": {
+      "uz": "Platformali elektr pallet truck HELI CDD16–20 A2FLiH haqida: Ishlash ko‘rsatkichlari — 24V AC platforma va proportsional boshqaruv yuqori samaradorlik, silliq harakat va yuqori ish unumdorligini ta’minlaydi. Tashqi ko‘rinish — silliq va mustahkam tashqi chiziqlar, ergonomik sanoat dizayni operator uchun qulay va komfortli boshqaruv yaratadi. Ishonchlilik — mustahkam shassi va H-nurli po‘lat mast yuqori barqarorlikni kafolatlaydi; brend komponentlar barqaror sifatni saqlaydi va CE/UKCA talablariga mos keladi; yon tomonda joylashgan zaryadlash porti butun qurilmani uzmasdan qulay zaryadlash imkonini beradi. Texnik ustunliklar — 7,6 soatlik bitta ish smenasi 8 soatlik jadval talablarini qoplaydi; batareya elektr isitish funksiyasi sovuq muhitda ishonchli ishlashni ta’minlaydi; standart tezkor zaryadlovchi bilan jihozlangan; batareya ko‘tarish va almashtirish uchun qulay konstruksiyaga ega bo‘lib, texnik xizmatni osonlashtiradi.",
+      "ru": "О платформенной электрической тележке HELI CDD16–20 A2FLiH: Производительность — платформа 24V AC с пропорциональным управлением обеспечивает высокую производительность, плавное движение и повышенную эффективность работы. Внешний вид — машина имеет плавные и прочные линии, в промышленном дизайне применены эргономические принципы, обеспечивающие более удобное и комфортное управление для оператора. Надёжность — прочное шасси и мачта из H-образной стальной балки гарантируют высокую устойчивость; фирменные компоненты обеспечивают стабильное качество и полное соответствие требованиям CE/UKCA; боковое расположение зарядного порта позволяет удобно заряжать технику без отключения всего устройства. Технические преимущества — одна смена продолжительностью 7,6 часа полностью удовлетворяет требованиям восьмичасового графика; аккумулятор оснащён функцией электрического подогрева для работы в холодной среде; в стандартной комплектации предусмотрено быстрое зарядное устройство; аккумулятор имеет удобную конструкцию для подъёма и замены, что облегчает обслуживание.",
+      "en": "About the platform electric pallet truck HELI CDD16–20 A2FLiH: Performance — the 24V AC platform combined with proportional control ensures high efficiency, smooth operation and greater productivity. Appearance — the truck features smooth and robust exterior lines, and ergonomic principles in the industrial design provide more comfortable and user-friendly operation for the operator. Reliability — a strong chassis and H-beam steel mast guarantee excellent stability; branded components ensure consistent quality and fully meet CE/UKCA requirements; the side charging port allows convenient charging without disconnecting the entire unit. Technical advantages — a single working shift of 7.6 hours fully meets the requirements of an 8-hour schedule; the battery is equipped with an electric heating function for reliable operation in cold environments; a fast charger is supplied as standard; the battery is designed for easy lifting and replacement, simplifying maintenance."
+    },
+    "images": [
+      "assets/products/c4p10.jpg",
+      "assets/products/c4p10.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "1500 kg",
+      "engine": "Electric"
+    }
+  },
+
   "501": {
     "id": 501,
     "slug": "heli-csd12n",
@@ -980,20 +1196,20 @@
     "id": 701,
     "slug": "heli-qdd30",
     "categoryId": 7,
-    "name": { "uz": "HELI QDD30", "en": "HELI QDD30", "ru": "HELI QDD30" },
+    "name": { "uz": "HELI QYD30S-50S", "en": "HELI QYD30S-50S", "ru": "HELI QYD30S-50S" },
     "shortDesc": {
-      "uz": "3.0t tortish traktori.",
-      "en": "3.0t tow tractor.",
-      "ru": "Тягач 3.0т."
+      "uz": "Platformali elektr pallet truck HELI CDD16–20 A2FLiH",
+      "ru": "Платформенная электрическая тележка HELI CDD16–20 A2FLiH",
+      "en": "Platform electric pallet truck HELI CDD16–20 A2FLiH"
     },
     "fullDesc": {
-      "uz": "Юк арраларини тортиш uchun идеал.",
-      "en": "Ideal for towing multiple carts.",
-      "ru": "Идеален для буксировки тележек."
+      "uz": "Platformali elektr pallet truck HELI CDD16–20 A2FLiH haqida: Ishlash ko‘rsatkichlari — 24V AC platforma va proportsional boshqaruv yuqori samaradorlik, silliq harakat va yuqori ish unumdorligini ta’minlaydi. Tashqi ko‘rinish — silliq va mustahkam tashqi chiziqlar, ergonomik sanoat dizayni operator uchun qulay va komfortli boshqaruv yaratadi. Ishonchlilik — mustahkam shassi va H-nurli po‘lat mast yuqori barqarorlikni kafolatlaydi; brend komponentlar barqaror sifatni saqlaydi va CE/UKCA talablariga mos keladi; yon tomonda joylashgan zaryadlash porti butun qurilmani uzmasdan qulay zaryadlash imkonini beradi. Texnik ustunliklar — 7,6 soatlik bitta ish smenasi 8 soatlik jadval talablarini qoplaydi; batareya elektr isitish funksiyasi sovuq muhitda ishonchli ishlashni ta’minlaydi; standart tezkor zaryadlovchi bilan jihozlangan; batareya ko‘tarish va almashtirish uchun qulay konstruksiyaga ega bo‘lib, texnik xizmatni osonlashtiradi.",
+      "ru": "О платформенной электрической тележке HELI CDD16–20 A2FLiH: Производительность — платформа 24V AC с пропорциональным управлением обеспечивает высокую производительность, плавное движение и повышенную эффективность работы. Внешний вид — машина имеет плавные и прочные линии, в промышленном дизайне применены эргономические принципы, обеспечивающие более удобное и комфортное управление для оператора. Надёжность — прочное шасси и мачта из H-образной стальной балки гарантируют высокую устойчивость; фирменные компоненты обеспечивают стабильное качество и полное соответствие требованиям CE/UKCA; боковое расположение зарядного порта позволяет удобно заряжать технику без отключения всего устройства. Технические преимущества — одна смена продолжительностью 7,6 часа полностью удовлетворяет требованиям восьмичасового графика; аккумулятор оснащён функцией электрического подогрева для работы в холодной среде; в стандартной комплектации предусмотрено быстрое зарядное устройство; аккумулятор имеет удобную конструкцию для подъёма и замены, что облегчает обслуживание.",
+      "en": "About the platform electric pallet truck HELI CDD16–20 A2FLiH: Performance — the 24V AC platform combined with proportional control ensures high efficiency, smooth operation and greater productivity. Appearance — the truck features smooth and robust exterior lines, and ergonomic principles in the industrial design provide more comfortable and user-friendly operation for the operator. Reliability — a strong chassis and H-beam steel mast guarantee excellent stability; branded components ensure consistent quality and fully meet CE/UKCA requirements; the side charging port allows convenient charging without disconnecting the entire unit. Technical advantages — a single working shift of 7.6 hours fully meets the requirements of an 8-hour schedule; the battery is equipped with an electric heating function for reliable operation in cold environments; a fast charger is supplied as standard; the battery is designed for easy lifting and replacement, simplifying maintenance."
     },
     "images": [
-      "assets/products/heli-qdd30-1.webp",
-      "assets/products/heli-qdd30-2.webp"
+      "assets/products/c7p1.jpg",
+      "assets/products/c7p1.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 
@@ -1017,20 +1233,57 @@
     "id": 702,
     "slug": "heli-qdd50",
     "categoryId": 7,
-    "name": { "uz": "HELI QDD50", "en": "HELI QDD50", "ru": "HELI QDD50" },
+    "name": { "uz": "HELI QYD20S-QYD70S", "en": "HELI QYD20S-QYD70S", "ru": "HELI QYD20S-QYD70S" },
     "shortDesc": {
-      "uz": "5.0t tortish traktori.",
-      "en": "5.0t tow tractor.",
-      "ru": "Тягач 5.0т."
+      "uz": "2–7 tonnalik G2 seriyali litiy akkumulyatorli tortuvchi traktorlar",
+      "ru": "Тягачи серии G2 с литий-ионной батареей грузоподъёмностью 2–7 т",
+      "en": "2–7 t G2 series lithium battery towing tractors"
     },
     "fullDesc": {
-      "uz": "Катта завод ва терминаллар учун.",
-      "en": "For plants and terminals.",
-      "ru": "Для заводов и терминалов."
+      "uz": "2–7 tonnalik G2 seriyali akkumulyatorli (litiy) tortuvchi traktorlari haqida: G2 seriyali 2–7 tonnalik litiy batareyali traktor HELI tomonidan ishlab chiqilgan yangi mahsulot bo‘lib, joylashuv va ishlash ko‘rsatkichlari sezilarli darajada yaxshilangan. Past pog‘ona balandligi tufayli u turib boshqariladigan traktorlarning qulay kirib-chiqish afzalliklari va o‘tirib boshqariladigan traktorlarning komfortli haydash hamda charchoqlarni kamaytirish ustunliklarini uyg‘unlashtiradi. HELI ning bozor talabi asosida yo‘naltirilgan R&D tizimi va “inson manfaatlari ustuvor” tamoyillari ushbu modellarda to‘liq aks etadi. Traktorlar avtomobil sanoati, pochta, farmatsevtika, tamaki va boshqa logistika sohalarida qo‘llaniladi. Asosiy xususiyatlar: Yevropa bozori va yuqori segment talablariga mos ishlab chiqilgan; ergonomik kabina boshqaruv elementlaridan oson foydalanishni ta’minlaydi; past pog‘ona balandligi kirib-chiqishni yengillashtiradi; harakat va rul boshqaruvida AC boshqaruv tizimi qo‘llanilib, yuqori samaradorlik va past energiya sarfini ta’minlaydi; oldinga va orqaga inching tugmalari har ikki tomonda joylashgan; burilishda tezlikni cheklash funksiyasi mavjud; samarali transmissiya tizimi ko‘tarilishlarda kuchli tortish kuchini ta’minlaydi; opsional qulay tortish mexanizmi operatorga o‘rindiqdan turmasdan pinni boshqarish imkonini beradi.",
+      "ru": "О тягачах серии G2 с литий-ионной батареей грузоподъёмностью 2–7 т: Тягач серии G2 грузоподъёмностью 2–7 тонн с литий-ионной батареей является новой разработкой HELI с существенно улучшенными компоновкой и эксплуатационными характеристиками. Низкая высота ступени сочетает преимущества тягачей с управлением стоя (удобный вход и выход) и сидя, обеспечивая комфортное вождение и снижение утомляемости оператора. Система НИОКР HELI, ориентированная на рыночный спрос, и ключевые ценности компании полностью воплощены в тягачах серии G2. Области применения: автомобильная промышленность, почтовые службы, фармацевтика, табачная отрасль и другие логистические направления. Основные характеристики: разработан для европейского и внутреннего премиального рынка; эргономичное рабочее место обеспечивает лёгкий доступ ко всем органам управления; низкая высота ступени облегчает вход и выход; применяется AC-система управления движением и рулевым управлением, обеспечивающая высокую эффективность и низкое энергопотребление; кнопки inching вперёд/назад расположены с обеих сторон; функция ограничения скорости при повороте повышает безопасность; эффективная трансмиссия обеспечивает мощную тягу на подъёмах; опциональный удобный сцепной механизм позволяет управлять пальцем, не покидая сиденье оператора.",
+      "en": "About 2–7 t G2 Series Battery Tractors: The G2 series 2–7 ton lithium-ion battery tractor is a new product developed by HELI with significantly improved layout and operating performance. The low step height combines the advantages of stand-on tractors, such as easy entry and exit, with the comfort of sit-down tractors and reduced operator fatigue. HELI’s market-oriented R&D system and core people-oriented values are fully reflected in this series. These tractors are mainly used in the automotive industry, postal services, pharmaceuticals, tobacco industry and other logistics fields. Main characteristics: designed for the European and high-end domestic markets; ergonomically designed operator compartment allows easy use of all controls and pedals, reducing fatigue; low step height enables easy entry and exit; an AC control system is adopted for driving and steering, providing high efficiency and low energy consumption; forward and backward inching buttons on both sides allow the operator to connect and release the pin independently; speed limitation during turning improves safety and reliability; efficient transmission system provides strong traction when climbing; with the optional convenient towing mechanism, the operator can control the pin without leaving the seat."
     },
     "images": [
-      "assets/products/heli-qdd50-1.webp",
-      "assets/products/heli-qdd50-2.webp"
+      "assets/products/c7p2.jpg",
+      "assets/products/c7p2.jpg"
+    ],
+    "variants": ["CPCD10", "CPCD15", "CPCD18"],
+
+    "specTable": [
+      { "key": "capacity", "unit": "kg", "values": ["1000", "1500", "1800"] },
+      { "key": "loadCenter", "unit": "mm", "values": ["500", "500", "500"] },
+      { "key": "liftingHeight", "unit": "mm", "values": ["3000", "3000", "3000"] },
+      { "key": "length", "unit": "mm", "values": ["3197/2277", "3201/2281", "3219/2299"] },
+      { "key": "width", "unit": "mm", "values": ["1070", "1070", "1070"] },
+      { "key": "turnRadius", "unit": "mm", "values": ["1875", "1910", "1930"] },
+      { "key": "tires", "unit": "", "values": ["Pneumatic", "Pneumatic", "Pneumatic"] }
+    ],
+    "specs": {
+      "capacity": "5000 kg towing",
+      "engine": "Electric",
+      "power": "12 kW"
+    }
+  },
+
+  "703": {
+    "id": 703,
+    "slug": "heli-qdd50",
+    "categoryId": 7,
+    "name": { "uz": "HELI BD20-BD100", "en": "HELI BD20-BD100", "ru": "HELI BD20-BD100" },
+    "shortDesc": {
+      "uz": "2–10 tonnalik G2 seriyali litiy platformali yuk tashuvchi mashinalar",
+      "ru": "Платформенные тягачи серии G2 с литий-ионной батареей грузоподъёмностью 2–10 т",
+      "en": "2–10 t G2 series lithium battery platform trucks"
+    },
+    "fullDesc": {
+      "uz": "2–10 tonnalik G2 seriyali litiy batareyali platformali yuk tashuvchi mashinalar haqida: HELI G2 seriyali litiy batareyali platformali yuk tashuvchi mashinalar yangi avlod ekologik toza texnika bo‘lib, ergonomika va estetika tamoyillariga asoslangan dizayni operator qulayligi, foydalanish osonligi va texnik xizmat ko‘rsatish qulayligini ta’minlaydi. Litiy batareya va AC boshqaruv tizimi uzluksiz tezlanish, yuqori samaradorlik, ishonchli sifat va kuchli tortish quvvatini beradi. Ekspluatatsiya xarajatlari nuqtai nazaridan, litiy forkliftlar butun hayotiy sikl davomida past xarajatlar bilan ajralib turadi; qo‘rg‘oshin-kislota batareyali texnikaga nisbatan ko‘p smenali ishlashda qulay va yashirin xarajatlari past. Yurish tizimi: maxsus drive axle past shovqin va nol chiqindi bilan barqaror ishlashni ta’minlaydi; yetarli yer balandligi yaxshi o‘tuvchanlikni ta’minlaydi; katta uzatish nisbati kuchli tortish va murakkab sharoitlar uchun yuqori ko‘tarilish qobiliyatini beradi. Aqlli dizayn operator va texnika xavfsizligini oshiradi, samaradorlikni ko‘taradi va energiya sarfini kamaytiradi. Boshqaruv tizimi ergonomik joylashtirilgan tormoz va gaz pedallari, sozlanadigan rul ustuni, sovuq sharoitda ham yuqori tormoz samaradorligi bilan ajralib turadi.",
+      "ru": "О платформенных тягачах серии G2 с литий-ионной батареей грузоподъёмностью 2–10 т: Платформенные тягачи HELI серии G2 с литий-ионной батареей являются новой экологически чистой техникой, сочетающей уникальный дизайн, эргономику и эстетику, обеспечивая комфорт оператора, простоту эксплуатации и удобство обслуживания. Литий-ионная батарея и AC-система управления обеспечивают плавное бесступенчатое ускорение, высокую эффективность, надёжность и мощную тягу. В плане эксплуатационных затрат литий-ионные машины имеют более низкую стоимость владения на всём жизненном цикле; по сравнению со свинцово-кислотными моделями они лучше подходят для многосменной работы и имеют меньшие скрытые расходы. Приводная система: специальный ведущий мост для электротехники обеспечивает низкий уровень шума, отсутствие выбросов, стабильную работу и отличную герметичность; достаточный дорожный просвет гарантирует хорошую проходимость; большое передаточное отношение обеспечивает мощную тягу и высокую преодолеваемость подъёмов. Интеллектуальные решения повышают безопасность и производительность и снижают энергопотребление. Система управления включает удобное расположение педалей, регулируемую рулевую колонку и высокую эффективность торможения даже при низких температурах.",
+      "en": "About 2–10 t G2 Series Lithium Battery Platform Trucks: The HELI G2 series lithium battery platform trucks are newly designed environmentally friendly traction equipment that combine ergonomic and aesthetic design concepts, providing operator comfort, ease of use and convenient maintenance. Equipped with a lithium-ion battery and AC control system, the trucks deliver stepless acceleration, high efficiency, reliable quality, comfortable operation and strong traction power. In terms of operating costs, HELI lithium trucks offer lower total cost of ownership over the entire life cycle; compared with lead-acid battery trucks they are better suited for multi-shift operation with lower hidden costs. Drive system: a special drive axle ensures low noise, zero emissions, stable operation and excellent sealing; adequate ground clearance guarantees good passability; a large gear ratio provides powerful traction, strong gradeability and excellent performance in complex working conditions. Advanced intelligent design enhances safety, improves efficiency and reduces energy consumption. The operating system features ergonomically positioned brake and accelerator pedals, a front-and-rear adjustable steering wheel, and excellent braking performance even at low temperatures."
+    },
+    "images": [
+      "assets/products/c7p3.jpg",
+      "assets/products/c7p3.jpg"
     ],
     "variants": ["CPCD10", "CPCD15", "CPCD18"],
 

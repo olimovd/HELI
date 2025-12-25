@@ -207,5 +207,32 @@
   "spec_width": "Ширина",
   "spec_turnRadius": "Радиус разворота",
   "spec_height": "Высота",
-  "spec_tires": "Шины"
+  "spec_tires": "Шины", 
+
+  "nav_automation": "Автоматизация", 
+
+  "automation_title": "Автоматизация склада",
+  "automation_sub": "Интеллектуальные логистические решения для современных складов",
+
+  "automation_intro_title": "Автоматизируйте свою логистику",
+  "automation_intro_text1": "HELI Uzbekistan предлагает комплексные решения по автоматизации складов: AGV погрузчики, AMR роботы, конвейеры и интеллектуальные системы управления.",
+  "automation_intro_text2": "Наши решения снижают расходы, уменьшают влияние человеческого фактора и повышают производительность склада.",
+
+  "automation_solutions_title": "Наши решения по автоматизации",
+
+  "automation_solution_1_title": "AGV и AMR системы",
+  "automation_solution_1_text": "Автономные погрузчики и мобильные роботы для беспилотной логистики",
+
+  "automation_solution_2_title": "Интеграция WMS",
+  "automation_solution_2_text": "Интеграция оборудования с системами управления складом",
+
+  "automation_solution_3_title": "Конвейерные системы",
+  "automation_solution_3_text": "Автоматическая транспортировка, сортировка и обработка грузов",
+
+  "automation_solution_4_title": "Оптимизация процессов",
+  "automation_solution_4_text": "Анализ и реинжиниринг складских процессов на основе данных",
+
+  "automation_cta_title": "Готовы автоматизировать свой склад?",
+  "automation_cta_text": "Закажите консультацию наших инженеров",
+  "automation_cta_btn": "Запросить консультацию"
 }
