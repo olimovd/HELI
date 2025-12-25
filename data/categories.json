@@ -152,23 +152,6 @@
     "products": [901, 902, 903, 904]
   },
 
-  "10": {
-    "id": 10,
-    "slug": "agv-amr",
-    "image": "assets/categories/category10.png",
-    "name": {
-      "uz": "Avtomatlashtirilgan texnika (AGV/AMR)",
-      "en": "Automated Equipment (AGV/AMR)",
-      "ru": "Автоматизированная техника (AGV/AMR)"
-    },
-    "desc": {
-      "uz": "Ombor logistikasida to‘liq avtomatlashtirilgan yechimlar.",
-      "en": "Fully automated solutions for logistics and warehouses.",
-      "ru": "Автоматизированные решения для логистики и складов."
-    },
-    "products": [1001, 1002]
-  },
-
   "11": {
     "id": 11,
     "slug": "telehandlers",
